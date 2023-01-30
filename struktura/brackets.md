@@ -1,62 +1,64 @@
 ---
-описание: Основы кронштейнов
+description: Brackets Basics
 ---
 
-# Кронштейны
+# Brackets
 
-Существует множество классификаций брекетов, но в системе сборки REV DUO есть две основные группы брекетов: **движение** и **конструкция**. Основной отличительной чертой **подвижных кронштейнов** является 9-миллиметровое гнездо подшипника для поддержки [шестигранных валов и подшипников] (https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/) . **Конструкционные кронштейны** — это, по сути, любые кронштейны в системе сборки REV DUO, не имеющие гнезда подшипника. Поскольку термин «строительный кронштейн» охватывает широкий спектр продуктов REV, его можно дополнительно разделить на **конструкционные кронштейны** и **кронштейны привода.**
+There are many classifications that brackets could fall into but in the REV DUO Build System there are two major groupings of brackets: **motion** and **construction**. The major distinguishing feature of **motion brackets** is a 9mm bearing seat to support [Hex Shafts and Bearings](https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/). **Construction brackets** are essentially any bracket in the REV DUO Build System that does not have a bearing seat. Because the term construction bracket encompasses a broad range of REV products it can be further subdivided as **structural brackets** and **actuator brackets.**
 
-**Скобы** действуют как соединители между структурными компонентами. Например, это тот тип кронштейнов, который вы захотите использовать при подключении [экструзии] (https://www.revrobotics.com/ftc/structure/15mm-extrusion/) к [каналу] (https://www. revrobotics.com/competition/ftc/structure/channel/). **Кронштейны привода**, с другой стороны, предназначены для установки и поддержки двигателей и сервоприводов.
+**Structural brackets** act as connectors between structural components. For example, these are the type of brackets you will want to use when connecting [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) to [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/) elements. **Actuator brackets** on the other hand are intended to mount and support motors and servos.
 
-Еще одним ключевым моментом различия брекетов в системе REV DUO Build System является то, что есть как [металлические] (https://www.revrobotics.com/ftc/structure/15mm-metal-brackets/), так и [пластиковые] (https:/ /www.revrobotics.com/ftc/structure/15mm-plastic-brackets/) доступны кронштейны. Многие кронштейны, такие как 15-мм 90-градусный кронштейн ([REV-41-1480](https://www.revrobotics.com/rev-41-1480/))([REV-41-1305](https:/ /www.revrobotics.com/rev-41-1305/)), бывают в металлическом и пластиковом исполнении. Хотя между металлическими и пластиковыми брекетами есть некоторое совпадение, между этими двумя типами брекетов также есть ключевые различия.
+Another key point of bracket distinction in the REV DUO Build System is that there are both [metal](https://www.revrobotics.com/ftc/structure/15mm-metal-brackets/) and [plastic](https://www.revrobotics.com/ftc/structure/15mm-plastic-brackets/) brackets available. Many of the brackets, like the 15mm 90 Degree Bracket ([REV-41-1480](https://www.revrobotics.com/rev-41-1480/))([REV-41-1305](https://www.revrobotics.com/rev-41-1305/)), come in a metal and a plastic version. Though there is some overlap between the metal and plastic brackets, there are also key differences between the two type of brackets.
 
-Прочтите оставшуюся часть этого раздела, чтобы узнать больше о скобках.
+Follow through the rest of this section to learn more about brackets.
 
-### Ключевые термины
+### Key Terms
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M7x8F8lLIeZNRkR2CqD%2F-M7x8I4WyxTSTRVIbYlG%2Fimage .png?alt=media\&token=d13137d0-06bf-4218-8ac7-31a0e1bb7be9)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M7x8F8lLIeZNRkR2CqD%2F-M7x8I4WyxTSTRVIbYlG%2Fimage.png?alt=media\&token=d13137d0-06bf-4218-8ac7-31a0e1bb7be9)
 
-**Выравнивающие ребра:** Выступы на одной стороне кронштейна входят в канал экструзии, чтобы помочь выровнять кронштейн относительно профиля и добавить прочность и жесткость соединениям.
+**Alignment Ribs:** Protrusions on one side of the bracket seat into the extrusion channel to help align the bracket to the extrusion and add strength and rigidity to joints.
 
-**Отверстия для монтажа экструдера:** Монтажные отверстия M3 с шагом 8 мм.
+**Extrusion Mounting Holes:** M3 Mounting holes on an 8mm pitch.
 
-**Гнездо подшипника:** Кронштейны с отверстием диаметром 9 мм можно использовать для сопряжения с любым пластиковым подшипником для поддержки вала.
+**Bearing Seat:** Brackets with a 9mm hole can be used to mate with any of the plastic bearings to support a shaft.
 
-**Схема крепления интерфейса движения:** Круговая схема отверстий M3 на диаметре 16 мм используется для крепления аксессуаров вала REV Robotics.
+**Motion Interface Mounting Pattern:** Circular M3 hole pattern on a 16mm diameter is used to mount to REV Robotics shaft accessories.
 
-{% подсказка стиль = "информация" %}
-_Поскольку варианты использования скобок различаются, различаются и элементы скобок. Вообще говоря, все брекеты имеют шаг 8 мм, но не все брекеты имеют шаблон движения._
-{% окончание%}
+{% hint style="info" %}
+_As bracket use cases vary, so do the elements of the brackets. Generally speaking, all brackets have an 8mm pitch, but not all brackets have the Motion Pattern._
+{% endhint %}
 
-#### Пластиковые скобки VS металлические скобки
+#### Plastic Brackets VS Metal Brackets <a href="#plastic-brackets-vs-metal-brackets" id="plastic-brackets-vs-metal-brackets"></a>
 
-На изображении и определениях во введении выше в качестве примера используется 15-мм подвижный кронштейн ([REV-41-1303](https://www.revrobotics.com/rev-41-1303/)), который представляет собой пластиковый кронштейн. . В таблице ниже приведены основные различия между пластиковыми и металлическими брекетами.
+The image and definitions in the introduction above use the 15mm Motion Bracket ([REV-41-1303](https://www.revrobotics.com/rev-41-1303/)), which is a plastic bracket, as an example. The table below outlines the basic differences between the plastic and metal brackets.
 
-| | Пластиковые скобы | Металлические скобы |
+| ​              | Plastic Brackets | Metal Brackets |
 | -------------- | ---------------- | -------------- |
-| Толщина | 3мм | 2мм |
-| Ребра выравнивания | Да | Нет |
-| Материал | Нейлон (PA66) | 6061 Алюминий |
+| Thickness      | 3mm              | 2mm            |
+| Alignment Ribs | Yes              | No             |
+| Material       | Nylon (PA66)     | 6061 Aluminum  |
 
-## Кронштейны привода&#x20;
+## Actuator Brackets&#x20;
 
-Все кронштейны привода имеют шаг 8 мм для установки на [экструзионный профиль] (https://www.revrobotics.com/ftc/structure/15mm-extrusion/) или [канал] (https://www.revrobotics.com/competition). /ftc/структура/канал/). Шаблон интерфейса меняется в зависимости от конкретного варианта использования. Например, металлический изогнутый кронштейн двигателя HD с шестигранной головкой ([REV-41-1487](https://www.revrobotics.com/rev-41-1487/)) имеет другое соединение, чем металлический изогнутый кронштейн планетарного двигателя ([ REV-41-1563](https://www.revrobotics.com/rev-41-1563/)).
+The actuator brackets all have an 8mm pitch for mounting to [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) or [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/). The interface pattern changes depending on the specific use case bracket. For instance, the Metal Bent HD Hex Motor Bracket ([REV-41-1487](https://www.revrobotics.com/rev-41-1487/)) has a different interface than the Metal Bent Planetary Motor Bracket ([REV-41-1563](https://www.revrobotics.com/rev-41-1563/)).
 
-Большинство монтажных кронштейнов привода представляют собой металлические кронштейны, альтернативы пластиковым нет. В системе сборки REV 15 мм в дополнение к металлическим кронштейнам сервопривода имеется пластиковый кронштейн сервопривода ([REV-41-1319](https://www.revrobotics.com/rev-41-1319/)).&#x20 ;
+Most of the actuator mounting brackets are metal brackets, with no plastic alternative. In the REV 15mm Build System there is a Plastic Servo Bracket ([REV-41-1319](https://www.revrobotics.com/rev-41-1319/)) in addition to the metal servo brackets.&#x20;
 
-Также важно отметить, что двигатель с шестигранным сердечником ([REV-41-1300](https://www.revrobotics.com/rev-41-1300/)) имеет шаблон интерфейса движения и может быть установлен на любой кронштейн. с шаблоном движения.
+It is also important to note that the Core Hex Motor ([REV-41-1300](https://www.revrobotics.com/rev-41-1300/)) has the Motion Interface Pattern and can be mounted to any bracket with the Motion Pattern.
 
-## Сценарии использования скобок
+## Bracket Use Cases
 
-### Кронштейн с переменным углом
+### Variable Angle Bracket
 
-Кронштейн с регулируемым углом наклона ([REV-41-1318](https://www.revrobotics.com/rev-41-1318/)) представляет собой специальный тип строительного кронштейна, который позволяет монтировать вместе 2 элемента профиля в любом месте. угол от 0-180°. Для дополнительной прочности после того, как был установлен идеальный угол, скосите конец профиля под этим углом. Прикрепил профиль к кронштейну через дугу и центральное отверстие. Затем просверлите отверстие вдоль дуги установочной метки так, чтобы она совпадала с прорезью для экструзии, и добавьте еще один болт, чтобы зафиксировать угол.
+The Variable Angle Bracket ([REV-41-1318](https://www.revrobotics.com/rev-41-1318/)) is a special kind of construction bracket which allows 2 pieces of extrusion to be mounted together at any angle from 0-180°. For additional strength, after the ideal angle has been set, miter the end of the extrusion with that angle. Attached the extrusion to the bracket through to arc and center hole. Then drill a hole along the alignment mark arc so that it lines up with the extrusion slot and add another bolt to fix the angle.
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxKlv-8JYA7Mk5JlqC%2F-MkxMPef0rwx5UUkuApz %2FREV-41-1318-bracket%20use%20cases.png?alt=media\&token=3df0cdab-0f9b-4988-962c-d0f3e5879caa)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxKlv-8JYA7Mk5JlqC%2F-MkxMPef0rwx5UUkuApz%2FREV-41-1318-bracket%20use%20cases.png?alt=media\&token=3df0cdab-0f9b-4988-962c-d0f3e5879caa)
 
-### Индексируемый кронштейн движения&#x20;
+### The Indexable Motion Bracket&#x20;
 
-Индексируемый подвижный кронштейн ([REV-41-1313](https://www.revrobotics.com/rev-41-1313/)) — это специализированная версия подвижного кронштейна. Этот кронштейн состоит из двух частей: меньшая часть имеет выравнивающие ребра и надевается на профиль, а большая часть имеет рисунок интерфейса движения и гнездо подшипника. На внутренней поверхности, где эти кронштейны встречаются, имеется тонкий пилообразный узор, который сцепляется, когда они скреплены болтами, чтобы удерживать смещение вала. Чтобы отрегулировать смещение, ослабьте винты и отрегулируйте по мере необходимости. Затяните винты, чтобы полностью зацепить зубы, чтобы зафиксировать брекет.
+The Indexable Motion Bracket ([REV-41-1313](https://www.revrobotics.com/rev-41-1313/)) is a specialized version of the Motion Bracket. This bracket is made up of two pieces: the smaller piece has alignment ribs and fits onto the extrusion, while the larger piece has a motion interface pattern and a bearing seat. On the inside face, where these brackets meet is a fine sawtooth pattern which mesh when they are bolted together to hold the shaft offset. To adjust the offset, loosen the screws and adjust as needed. Tighten the screws to fully engage the teeth to secure the bracket.
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxJJMM4ahh2L0nVvhm%2F-MkxKfY4u0z4ojwa610a%2FREV -41-1313-15mm-Plastic-Indexable-Motion-Bracket\_\_38352.1620333059.png?alt=media\&token=c5b24c64-843b-48be-86b2-1d502325a593)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxJJMM4ahh2L0nVvhm%2F-MkxKfY4u0z4ojwa610a%2FREV-41-1313-15mm-Plastic-Indexable-Motion-Bracket\_\_38352.1620333059.png?alt=media\&token=c5b24c64-843b-48be-86b2-1d502325a593)
+
+
 
