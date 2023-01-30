@@ -6,7 +6,7 @@ description: Corrugated Plastic Sheets Basics
 
 ### Corrugated Plastic Sheets Basics <a href="#corrugated-plastic-sheets-basics" id="corrugated-plastic-sheets-basics"></a>
 
-Corrugatecd plastic sheets are intended for use as a consumable flat stock to make wedges, panels, and more. This plastic is sturdy, lightweight, and easy to cut with hand tools.
+Corrugated plastic sheets are intended for use as a consumable flat stock to make wedges, panels, and more. This plastic is sturdy, lightweight, and easy to cut with hand tools.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8zoMdkzTteUMFd8w\_r%2F-M9-1DPnUUvg2sh-hwWi%2FCorrugated%20Plastic%20Sheet%20\(from%20online\).jpg?alt=media\&token=c0405c1c-28c0-4c39-b8a2-4eddb4bc39ec)
 
