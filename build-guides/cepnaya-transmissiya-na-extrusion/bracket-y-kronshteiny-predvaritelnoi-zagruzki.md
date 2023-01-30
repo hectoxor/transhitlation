@@ -1,0 +1,60 @@
+# Bracket-ы(кронштейны) предварительной загрузки
+
+### Необходимые детали для Bracket-a предварительной загрузки
+
+| **НОМЕР ЧАСТИ**                                         | **ОПИСАНИЕ**                         | **КОЛИЧЕСТВО** |
+| ------------------------------------------------------- | ------------------------------------ | -------------- |
+| [REV-41-1317](https://www.revrobotics.com/rev-41-1317/) | 15MM BEARING PILLOW BLOCK            | 8              |
+| [REV-41-1321](https://www.revrobotics.com/rev-41-1321/) | 15MM PLASTIC LAP CORNER BRACKET      | 16             |
+| [REV-41-1320](https://www.revrobotics.com/rev-41-1320/) | 15MM PLASTIC INSIDE CORNER BRACKET   | 8              |
+| [REV-41-1623](https://www.revrobotics.com/rev-41-1623/) | ULTRAPLANETARY BENT MOUNTING BRACKET | 2              |
+| [REV-41-1624](https://www.revrobotics.com/rev-41-1624/) | ULTRAPLANETARY FLAT MOUNTING BRACKET | 2              |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS              | 104            |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                        | 104            |
+
+### Шаги сборки угловых Bracket-ов предварительной загрузки
+
+{% hint style="warning" %}
+Сторона bracket-a(кронштейна) с “[ребрами жесткости](broken-reference)” должна иметь головку винта с шестигранной головкой.
+{% endhint %}
+
+|                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNx86EB_09X1vrmkWU%2FACD_Pre-Load%20Lap%20Corner.svg?alt=media&#x26;token=03832eed-6f36-4b96-997f-55a39b263f01" alt="" data-size="original"></p><p>​</p>   | Возьмите bracket и пальцем заведите по одному винту с шестигранной головкой и гайке на каждое отверстие.                                                                                              |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNxhkHT6UAqtnYuThm%2FACD_Pre-Loaded%20Lap%20Corner.svg?alt=media&#x26;token=a2268b66-7528-43aa-95de-f73c8924e618" alt="" data-size="original"></p><p>​</p> | <p><strong>BRACKET(КРОНШТЕЙН) ПРЕДВАРИТЕЛЬНОЙ ЗАГРУЗКИ ГОТОВ</strong></p><p>Повторяйте этот шаг до тех пор, пока у вас не будет двенадцати bracket-ов предварительной загрузки <strong></strong> </p> |
+
+### Шаги сборки внутренних угловых Bracket-ов предварительной загрузки&#x20;
+
+{% hint style="warning" %}
+Сторона bracket-a(кронштейна) с “[ребрами жесткости](broken-reference)” должна иметь головку винта с шестигранной головкой.
+{% endhint %}
+
+|                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNXpeKDlZTtYN5LK5J%2FACD_Pre-Load%20Corner.svg?alt=media&#x26;token=75e483e5-03c3-41de-931b-3b9982e779c1" alt="" data-size="original"></p><p>​</p>   | Возьмите bracket и пальцем заведите по одному винту с шестигранной головкой и гайке на каждое отверстие.                                                                                          |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNv_X2QEBoRk6yEPMW%2FACD_Pre-Loaded%20Corner.svg?alt=media&#x26;token=db3df393-dfbc-42aa-aa39-0d2195bcb3aa" alt="" data-size="original"></p><p>​</p> | <p><strong>BRACKET(КРОНШТЕЙН) ПРЕДВАРИТЕЛЬНОЙ ЗАГРУЗКИ ГОТОВ</strong></p><p>Повторяйте этот шаг до тех пор, пока у вас не будет восемь bracket-ов предварительной загрузки <strong></strong> </p> |
+
+### Шаги сборки опорного подушечного блока предварительной загрузки&#x20;
+
+{% hint style="warning" %}
+Сторона bracket-a(кронштейна) с “[ребрами жесткости](broken-reference)” должна иметь головку винта с шестигранной головкой..
+{% endhint %}
+
+|                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNzqXarvcRwKWKsQX8%2FACD_Pre-Load%20Pillow%20Block.svg?alt=media&#x26;token=cc672fd6-3a1b-43fe-baec-6f049ec9e55c" alt="" data-size="original"></p><p>​</p>  | Возьмите bracket и пальцем заведите по одному винту с шестигранной головкой и гайке на каждое отверстие.                                                                                          |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCEN1axcQC8Et-VSY2v%2F-MCENatOdPYdhkS1PbeR%2FACD_Preloaded%20Pillow%20Block.svg?alt=media&#x26;token=89e735da-4d12-43a5-b114-ad9dfb1eeb4d" alt="" data-size="original"></p><p>​</p> | <p><strong>BRACKET(КРОНШТЕЙН) ПРЕДВАРИТЕЛЬНОЙ ЗАГРУЗКИ ГОТОВ</strong></p><p>Повторяйте этот шаг до тех пор, пока у вас не будет восемь bracket-ов предварительной загрузки <strong></strong> </p> |
+
+### Шаги плоского монтажного bracket-a(кронштейна) предварительной загрузки&#x20;
+
+|                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCEN1axcQC8Et-VSY2v%2F-MCENqBkbR1mX0qFn1GW%2FACD_Pre-Load%20Flat%20Motor.svg?alt=media&#x26;token=d7ebbad4-a4c2-4c84-b52e-d6d26757bad3" alt="" data-size="original"></p><p>​</p>   | Возьмите bracket и пальцем заведите по одному винту с шестигранной головкой и гайке на каждое отверстие.                                                                                      |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCEN1axcQC8Et-VSY2v%2F-MCENsl9WR9RnYAvFgi6%2FACD_Pre-Loaded%20Flat%20Motor.svg?alt=media&#x26;token=926ff103-e669-458f-88e4-9fb0c1a83827" alt="" data-size="original"></p><p>​</p> | <p><strong>BRACKET(КРОНШТЕЙН) ПРЕДВАРИТЕЛЬНОЙ ЗАГРУЗКИ ГОТОВ</strong></p><p>Повторяйте этот шаг до тех пор, пока у вас не будет два bracket-а предварительной загрузки <strong></strong> </p> |
+
+### Шаги изогнутого монтажного bracket-a(кронштейна) предварительной загрузки &#x20;
+
+|                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCEN1axcQC8Et-VSY2v%2F-MCEO2r1N7zeTI_1F6VI%2FACD_Pre-Load%20Bent%20Motor.svg?alt=media&#x26;token=15a2bc94-c642-471e-9177-ad1fa9406280" alt="" data-size="original"></p><p>​</p>   | Возьмите bracket и пальцем заведите по одному винту с шестигранной головкой и гайке на каждое отверстие.                                                                                      |
+| <p>​</p><p><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCEN1axcQC8Et-VSY2v%2F-MCEO5TdZNg902z_x7Gz%2FACD_Pre-Loaded%20Bent%20Motor.svg?alt=media&#x26;token=2b74817c-2a8a-4586-b0cd-3956457ddff9" alt="" data-size="original"></p><p>​</p> | <p><strong>BRACKET(КРОНШТЕЙН) ПРЕДВАРИТЕЛЬНОЙ ЗАГРУЗКИ ГОТОВ</strong></p><p>Повторяйте этот шаг до тех пор, пока у вас не будет два bracket-а предварительной загрузки <strong></strong> </p> |
