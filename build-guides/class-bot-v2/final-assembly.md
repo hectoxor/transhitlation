@@ -1,20 +1,21 @@
-# Final Assembly
+# Окончательная сборка
 
-## Final Assembly Parts Required
+## Необходимые детали для окончательной сборки
 
-| **PART NUMBER**                                                              | **DESCRIPTION**            | **QTY.** |
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** | **КОЛИЧЕСТВО** | 
 | ---------------------------------------------------------------------------- | -------------------------- | -------- |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/)                      | M3 X 8MM HEX CAP SCREWS    | 2        |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/)                      | M3 NYLOC NUTS              | 4        |
-| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/)                      | M3 X 16MM HEX CAP SCREWS   | 2        |
-| [REV-31-1387](https://www.revrobotics.com/rev-31-1387/)                      | SWITCH CABLE AND BRACKET   | 1        |
-| [REV-31-1302](https://www.revrobotics.com/rev-31-1302/)                      | 12V SLIM BATTERY           | 1        |
-| [REV-31-1595](https://www.revrobotics.com/rev-31-1595/)                      | REV CONTROL HUB            | 1        |
-| [REV-31-1425](https://www.revrobotics.com/rev-31-1425/)                      | TOUCH SENSOR               | 1        |
-| [REV-31-1408](https://www.revrobotics.com/jst-ph-4-pin-sensor-cable-4-pack/) | JST  PH 4-PIN SENSOR CABLE | 4        |
-| [REV-31-1413](https://www.revrobotics.com/jst-vh-2-pin-motor-cable-4-pack/)  | JST VH 2-PIN MOTOR CABLE   | 4        |
-| [REV-11-1130](https://www.revrobotics.com/rev-11-1130/)                      | 36" PWM CABLE              | 1        |
-| [REV-41-1373](https://www.revrobotics.com/rev-41-1373/)                      | HOOK AND LOOP FASTENER     | 2        |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | ВИНТЫ С ШЕСТИГРАННОЙ ГОЛОВКОЙ M3 X 8 ММ | 2 | |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC ГАЙКИ | 4 |
+| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | ВИНТЫ С ШЕСТИГРАННОЙ ГОЛОВКОЙ M3 X 16 ММ | 2 | |
+| [REV-31-1387](https://www.revrobotics.com/rev-31-1387/)| КАБЕЛЬ ВЫКЛЮЧАТЕЛЯ И КРОНШТЕЙН | 1 | |
+| [REV-31-1302](https://www.revrobotics.com/rev-31-1302/)| 12V ТОНКАЯ БАТАРЕЯ | 1 |
+| [REV-31-1595](https://www.revrobotics.com/rev-31-1595/)| КОНЦЕНТРАТОР УПРАВЛЕНИЯ REV | 1 |
+| [REV-31-1425](https://www.revrobotics.com/rev-31-1425/)| СЕНСОРНЫЙ ДАТЧИК | 1 |
+| [REV-31-1408](https://www.revrobotics.com/jst-ph-4-pin-sensor-cable-4-pack/) | JST PH 4-КОНТАКТНЫЙ КАБЕЛЬ ДАТЧИКА | 4 | |
+| [REV-31-1413](https://www.revrobotics.com/jst-vh-2-pin-motor-cable-4-pack/) | JST VH 2-КОНТАКТНЫЙ КАБЕЛЬ ДВИГАТЕЛЯ | 4 | |
+| [REV-11-1130](https://www.revrobotics.com/rev-11-1130/)| 36" КАБЕЛЬ PWM | 1 | |
+[REV-41-1373](https://www.revrobotics.com/rev-41-1373/)| КРЮЧОК И ПЕТЛЯ КРЕПЛЕНИЯ | 2 |
+
 
 ## Final Assembly&#x20;
 
