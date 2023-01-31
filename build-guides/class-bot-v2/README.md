@@ -1,80 +1,84 @@
-# Class Bot V2
+# Класс Бот V2
 
-This section outlines the steps required to build the REV Class Bot V2. This design is a good starting point for robot design using the REV 15mm Build System. However, modification maybe required to address the specific needs of the challenge being met.
+В этом разделе описываются шаги, необходимые для создания бота REV Class V2. Эта конструкция является хорошей отправной точкой для проектирования роботов с использованием системы сборки REV 15 мм. Однако может потребоваться модификация для удовлетворения конкретных потребностей решаемой задачи.
 
-The assembly of this robot is broken into a few sections. This allows for a team of people to work on different tasks to complete the build quicker. Each section begins with what parts and the quantity of parts needed to complete the steps in that section. A list of required materials for all sections is listed below.
+Сборка этого робота разбита на несколько секций. Это позволяет команде людей работать над разными задачами, чтобы быстрее завершить сборку. Каждый раздел начинается с того, какие детали и в каком количестве необходимы для выполнения шагов в этом разделе. Список необходимых материалов для всех разделов приведен ниже.
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MDKjyl9wVWKLR38B7z5%2F-MDKm\_qtiA1plcDP9wj4%2FSKV3%20-%20Class%20Bot\_Complete.svg?alt=media\&token=ffce86fd-2bd7-47a7-9ab5-81e69a7602af)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MDKjyl9wVWKLR38B7z5%2F-MDKm\_qtiA1plcDP9wj4 %2FSKV3%20-%20Class%20Bot\_Complete.svg?alt=media\&token=ffce86fd-2bd7-47a7-9ab5-81e69a7602af)
 
-### Kit Options
+### Варианты набора
 
-The Class Bot V2 can be built out of the following kits:
+Class Bot V2 можно собрать из следующих комплектов:
 
-#### EDU Kit V2 Base
+#### База комплекта EDU V2
 
-| Part Number                                             | Description | QTY. |
-| ------------------------------------------------------- | ----------- | ---- |
-| [REV-45-2041](https://www.revrobotics.com/rev-45-2041/) | EDU Kit V2  | 1    |
+| Номер детали | Описание | КОЛ-ВО |
+| -------------------------------------------------- | ----------- | ---- |
+| [REV-45-2041](https://www.revrobotics.com/rev-45-2041/) | Комплект EDU V2 | 1 |
 
-#### FTC Starter Kit V3 Base
 
-| Part Number                                             | Description            | QTY. |
-| ------------------------------------------------------- | ---------------------- | ---- |
-| [REV-45-1883](https://www.revrobotics.com/rev-45-1883/) | FTC Starter Kit V3     | 1    |
-| [REV-35-1906](https://www.revrobotics.com/rev-35-1906/) | Control & Power Bundle | 1    |
-| [REV-41-1373](https://www.revrobotics.com/rev-41-1373/) | Hook and Loop Fastener | 1    |
 
-### Full Bill of Materials
+#### Стартовый комплект FTC V3 Base
 
-| **PART NUMBER**                                                              | **DESCRIPTION**                           | **QTY.** |
-| ---------------------------------------------------------------------------- | ----------------------------------------- | -------- |
-| [REV-41-1431](https://www.revrobotics.com/rev-41-1431/)                      | 15MM EXTRUSION - 225MM                    | 8        |
-| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/)                      | 15MM EXTRUSION - 420MM                    | 1        |
-| [REV-41-1430](https://www.revrobotics.com/rev-41-1430/)                      | 15MM EXTRUSION - 150MM - 45° ENDS         | 2        |
-| [REV-41-1348](https://www.revrobotics.com/rev-41-1348/)                      | 5MM X 90MM HEX SHAFT                      | 2        |
-| [REV-41-1349](https://www.revrobotics.com/rev-41-1349/)                      | 5MM X 135MM HEX SHAFT                     | 4        |
-| [REV-41-1324](https://www.revrobotics.com/rev-41-1324/)                      | 3MM SPACER                                | 2        |
-| [REV-41-1323](https://www.revrobotics.com/rev-41-1323/)                      | 15MM SPACER                               | 1        |
-| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/)                      | THROUGH BORE BEARING - LONG               | 10       |
-| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/)                      | SHAFT COLLAR                              | 20       |
-| [REV-41-1190](https://www.revrobotics.com/rev-41-1190/)                      | 90MM OMNI WHEEL                           | 2        |
-| [REV-41-1354](https://www.revrobotics.com/rev-41-1354/)                      | 90MM TRACTION WHEEL                       | 2        |
-| [REV-41-1317](https://www.revrobotics.com/rev-41-1317/)                      | 15MM BEARING PILLOW BLOCK                 | 12       |
-| [REV-41-1320](https://www.revrobotics.com/rev-41-1320/)                      | 15MM PLASTIC INSIDE CORNER BRACKET        | 15       |
-| [REV-41-1307](https://www.revrobotics.com/rev-41-1307/)                      | 15MM PLASTIC 45 DEGREE BRACKET            | 4        |
-| [REV-41-1311](https://www.revrobotics.com/rev-41-1311/)                      | 15MM PLASTIC 120 DEGREE BRACKET           | 3        |
-| [REV-41-1166](https://www.revrobotics.com/rev-41-1166/)                      | BATTERY HOLDER PLATE                      | 2        |
-| [REV-41-1433](https://www.revrobotics.com/rev-41-1433/)                      | 15MM METAL BENT CORE HEX MOTOR BRACKET V2 | 1        |
-| [REV-41-1300](https://www.revrobotics.com/rev-41-1300/)                      | CORE HEX MOTOR                            | 1        |
-| [REV-41-1624](https://www.revrobotics.com/rev-41-1624/)                      | ULTRAPLANETARY FLAT MOUNTING BRACKET      | 2        |
-| [REV-41-1600](https://www.revrobotics.com/rev-41-1600/)                      | ULTRAPLANETARY GEARBOX KIT & HD HEX MOTOR | 2        |
-| [REV-41-1485](https://www.revrobotics.com/rev-41-1485/)                      | 15MM METAL BENT SERVO BRACKET V2          | 1        |
-| [REV-41-1097](https://www.revrobotics.com/rev-41-1097/)                      | SMART ROBOT SERVO                         | 1        |
-| [REV-41-1363](https://www.revrobotics.com/rev-41-1363/)                      | ALUMINUM SERVO HORN                       | 1        |
-| [REV-41-1334](https://www.revrobotics.com/rev-41-1334/)                      | 45 TOOTH PLASTIC GEAR                     | 3        |
-| [REV-41-1336](https://www.revrobotics.com/rev-41-1336/)                      | 72 TOOTH PLASTIC GEAR                     | 2        |
-| [REV-41-1333](https://www.revrobotics.com/rev-41-1333/)                      | 125 TOOTH PLASTIC GEAR                    | 1        |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/)                      | M3 X 8MM HEX CAP SCREWS                   | 150      |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/)                      | M3 NYLOC NUTS                             | 150      |
-| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/)                      | M3 X 16MM HEX CAP SCREWS                  | 15       |
-| [REV-31-1387](https://www.revrobotics.com/rev-31-1387/)                      | SWITCH CABLE AND BRACKET                  | 1        |
-| [REV-31-1302](https://www.revrobotics.com/rev-31-1302/)                      | 12V SLIM BATTERY                          | 1        |
-| [REV-31-1595](https://www.revrobotics.com/rev-31-1595/)                      | REV CONTROL HUB                           | 1        |
-| [REV-31-1425](https://www.revrobotics.com/rev-31-1425/)                      | TOUCH SENSOR                              | 1        |
-| [REV-31-1408](https://www.revrobotics.com/jst-ph-4-pin-sensor-cable-4-pack/) | JST-PH 4-PIN SENSOR CABLE                 | 3        |
-| [REV-31-1413](https://www.revrobotics.com/jst-vh-2-pin-motor-cable-4-pack/)  | JST-VH 2-PIN MOTOR CABLE                  | 3        |
-| [REV-11-1130](https://www.revrobotics.com/rev-11-1130/)                      | 36" PWM CABLE                             | 1        |
-| [REV-41-1373](https://www.revrobotics.com/rev-41-1373/)                      | HOOK AND LOOP FASTENER                    | 1        |
+| Номер детали | Описание | КОЛ-ВО |
+| -------------------------------------------------- | ---------------------- | ---- |
+| [REV-45-1883](https://www.revrobotics.com/rev-45-1883/) | Стартовый комплект FTC V3 | 1 |
+| [REV-35-1906](https://www.revrobotics.com/rev-35-1906/) | Комплект управления и питания | 1 |
+| [REV-41-1373](https://www.revrobotics.com/rev-41-1373/) | Застежка-липучка | 1 |
 
-### Suggested Tools&#x20;
+### Полная спецификация
 
-| **PART NUMBER**                                         | **DESCRIPTION**          |
-| ------------------------------------------------------- | ------------------------ |
-| [REV-41-1119](https://www.revrobotics.com/rev-41-1119/) | 5.5MM NUT DRIVER         |
-| [REV-41-1374](https://www.revrobotics.com/rev-41-1374/) | 5.5MM COMBINATION WRENCH |
-| [REV-41-1376](https://www.revrobotics.com/rev-41-1376/) | 1.5MM ALLEN WRENCH       |
-| [REV-41-1377](https://www.revrobotics.com/rev-41-1377/) | 2MM ALLEN WRENCH         |
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** | **КОЛ-ВО.** |
+| -------------------------------------------------- | ----------------------------------------- | -------- |
+| [REV-41-1431](https://www.revrobotics.com/rev-41-1431/) | ЭКСТРУЗИЯ 15 ММ - 225 ММ | 8 |
+| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/) | ЭКСТРУЗИЯ 15 ММ - 420 ММ | 1 |
+| [REV-41-1430](https://www.revrobotics.com/rev-41-1430/) | ЭКСТРУЗИЯ 15 ММ - 150 ММ - КОНЕЦ 45° | 2 |
+| [REV-41-1348](https://www.revrobotics.com/rev-41-1348/) | ШЕСТИГРАННЫЙ ВАЛ 5MM X 90MM | 2 |
+| [REV-41-1349](https://www.revrobotics.com/rev-41-1349/) | ШЕСТИГРАННЫЙ ВАЛ 5MM X 135MM | 4 |
+| [REV-41-1324](https://www.revrobotics.com/rev-41-1324/) | ПРОСТАВКА 3ММ | 2 |
+| [REV-41-1323](https://www.revrobotics.com/rev-41-1323/) | ПРОСТАВКА 15 ММ | 1 |
+| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | ПОДШИПНИК СКВОЗНОГО ОТВЕРСТИЯ - ДЛИННЫЙ | 10 |
+| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | ВТУЛКА ВАЛА | 20 |
+| [REV-41-1190](https://www.revrobotics.com/rev-41-1190/) | КОЛЕСО OMNI 90 ММ | 2 |
+| [REV-41-1354](https://www.revrobotics.com/rev-41-1354/) | 90-ММ ТЯГОВОЕ КОЛЕСО | 2 |
+| [REV-41-1317](https://www.revrobotics.com/rev-41-1317/) | БЛОК ПОДШИПНИКА 15 ММ | 12 |
+| [REV-41-1320](https://www.revrobotics.com/rev-41-1320/) | 15MM ПЛАСТИКОВЫЙ ВНУТРЕННИЙ УГЛОВОЙ КРОНШТЕЙН | 15 |
+| [REV-41-1307](https://www.revrobotics.com/rev-41-1307/) | 15ММ ПЛАСТИКОВЫЙ КРОНШТЕЙН 45 ГРАДУСОВ | 4 |
+| [REV-41-1311](https://www.revrobotics.com/rev-41-1311/) | 15MM ПЛАСТИКОВЫЙ КРОНШТЕЙН НА 120 ГРАДУСОВ | 3 |
+| [REV-41-1166](https://www.revrobotics.com/rev-41-1166/) | ПЛАСТИНА ДЕРЖАТЕЛЯ БАТАРЕИ | 2 |
+| [REV-41-1433](https://www.revrobotics.com/rev-41-1433/) | 15MM МЕТАЛЛИЧЕСКИЙ КРОНШТЕЙН V2 ДЛЯ ДВИГАТЕЛЯ С ИЗОГНУТЫМ СЕРДЕЧНИКОМ | 1 |
+| [REV-41-1300](https://www.revrobotics.com/rev-41-1300/) | ШЕСТИГРАННЫЙ МОТОР | 1 |
+| [REV-41-1624](https://www.revrobotics.com/rev-41-1624/) | УЛЬТРАПЛАНЕТАРНЫЙ ПЛОСКИЙ МОНТАЖНЫЙ КРОНШТЕЙН | 2 |
+| [REV-41-1600](https://www.revrobotics.com/rev-41-1600/) | КОМПЛЕКТ УЛЬТРАПЛАНЕТАРНОГО РЕДУКТОРА И ДВИГАТЕЛЬ HD HEX | 2 |
+| [REV-41-1485](https://www.revrobotics.com/rev-41-1485/) | 15MM МЕТАЛЛИЧЕСКАЯ КРОНШТЕЙН ДЛЯ СЕРВОПРИВОДА V2 | 1 |
+| [REV-41-1097](https://www.revrobotics.com/rev-41-1097/) | УМНЫЙ РОБОТ-СЕРВО | 1 |
+| [REV-41-1363](https://www.revrobotics.com/rev-41-1363/) | АЛЮМИНИЕВЫЙ СЕРВОПОРНИК | 1 |
+| [REV-41-1334](https://www.revrobotics.com/rev-41-1334/) | 45 ЗУБ ПЛАСТМАССОВАЯ ШЕСТЕРНЯ | 3 |
+| [REV-41-1336](https://www.revrobotics.com/rev-41-1336/) | 72 ЗУБ ПЛАСТМАССОВАЯ ШЕСТЕРНЯ | 2 |
+| [REV-41-1333](https://www.revrobotics.com/rev-41-1333/) | 125 ЗУБ ПЛАСТИКОВАЯ ШЕСТЕРНЯ | 1 |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | ВИНТЫ С ШЕСТИГРАННОЙ КОЛПАЧКОЙ M3 X 8MM | 150 |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | ГАЙКИ M3 NYLOC | 150 |
+| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | ВИНТЫ С ШЕСТИГРАННОЙ КОЛПАЧКОЙ M3 X 16MM | 15 |
+| [REV-31-1387](https://www.revrobotics.com/rev-31-1387/) | КАБЕЛЬ ПЕРЕКЛЮЧАТЕЛЯ И КРОНШТЕЙН | 1 |
+| [REV-31-1302](https://www.revrobotics.com/rev-31-1302/) | АККУМУЛЯТОРНАЯ БАТАРЕЯ 12 В | 1 |
+| [REV-31-1595](https://www.revrobotics.com/rev-31-1595/) | ХАБ УПРАВЛЕНИЯ ОБОРОТАМИ | 1 |
+| [REV-31-1425](https://www.revrobotics.com/rev-31-1425/) | СЕНСОРНЫЙ ДАТЧИК | 1 |
+| [REV-31-1408](https://www.revrobotics.com/jst-ph-4-pin-sensor-cable-4-pack/) | JST-PH 4-КОНТАКТНЫЙ КАБЕЛЬ ДАТЧИКА | 3 |
+| [REV-31-1413](https://www.revrobotics.com/jst-vh-2-pin-motor-cable-4-pack/) | 2-КОНТАКТНЫЙ КАБЕЛЬ ДЛЯ ДВИГАТЕЛЯ JST-VH | 3 |
+| [REV-11-1130](https://www.revrobotics.com/rev-11-1130/) | КАБЕЛЬ ШИМ 36" | 1 |
+| [REV-41-1373](https://www.revrobotics.com/rev-41-1373/) | ЗАСТЕЖКА НА КРЮЧКЕ | 1 |
 
-{% hint style="info" %}
-The quantity of tools needed is dependent on use case.&#x20;
-{% endhint %}
+
+
+### Предлагаемые инструменты&#x20;
+
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** |
+| -------------------------------------------------- | ------------------------ |
+| [REV-41-1119](https://www.revrobotics.com/rev-41-1119/) | ОТВЕРТКА ДЛЯ ГАЕК 5,5 ММ |
+| [REV-41-1374](https://www.revrobotics.com/rev-41-1374/) | КОМБИНИРОВАННЫЙ КЛЮЧ НА 5,5 ММ |
+| [REV-41-1376](https://www.revrobotics.com/rev-41-1376/) | ШЕСТИГРАННЫЙ КЛЮЧ НА 1,5 ММ |
+| [REV-41-1377](https://www.revrobotics.com/rev-41-1377/) | 2ММ ШЕСТИГРАННЫЙ КЛЮЧ |
+
+{% подсказка стиль = "информация" %}
+Количество необходимых инструментов зависит от варианта использования.&#x20;
+{% конец%}
