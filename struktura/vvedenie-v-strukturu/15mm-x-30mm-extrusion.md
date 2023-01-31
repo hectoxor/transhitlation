@@ -1,37 +1,37 @@
 ---
-description: 15mm x 30mm Extrusion Basics
+описание: 15 мм x 30 мм Основа для экструзии
 ---
 
-# 15mm x 30mm Extrusion
+# 15мм x 30мм экструзия
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MBkHpl6tI-0P0Lg_bNo%2F-MBkHv0cdzJI1d3ZFvrA%2F15mm%20x%2030mm%20Extrusion%20Pinout.png?alt=media&#x26;token=df8d5a87-2860-44a4-ba6a-24878ec20f82" alt=""><figcaption></figcaption></figure>
 
-The 15mm x 30mm profile of the [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) has slots on on all four sides that accept standard [M3 hardware](https://www.revrobotics.com/ftc/hardware/fasteners/). Rather than using a T-nut, which is more expensive, slide a M3 hex head screw along the slot and adjust brackets and other build materials as needed. As illustrated in the image above, the ends of the Extrusion also have a 5mm hole **pitch** that can be M3 tappped. The 15mm x 30mm Extrusion has one slot on each 15mm face and 3 slots on each 30mm face, allowing for some additional design flexibility when compared to the standard 15mm extrusion.
+Профиль 15 мм x 30 мм [Extrusion] (https://www.revrobotics.com/ftc/structure/15mm-extrusion/) имеет пазы на всех четырех сторонах, которые принимают стандартный [M3 hardware] (https://www.revrobotics.com/ftc/hardware/fasteners/). Вместо того чтобы использовать Т-образную гайку, которая стоит дороже, вставьте винт с шестигранной головкой M3 в паз и регулируйте кронштейны и другие строительные материалы по мере необходимости. Как показано на рисунке выше, на концах экструзии также имеется 5 мм отверстие **шаг**, в которое можно вставить винт M3. Экструзия 15 мм x 30 мм имеет один паз на каждой 15-миллиметровой грани и 3 паза на каждой 30-миллиметровой грани, что обеспечивает дополнительную гибкость конструкции по сравнению со стандартной 15-миллиметровой экструзией.
 
 {% hint style="info" %}
-_To learn more about extrusion systems versus pitch systems return to the_ [_Structure Page_](broken-reference)_._
+Чтобы узнать больше об экструзионных системах и системах с шагом, перейдите на страницу [_Структура_](broken-reference)_.
 {% endhint %}
 
-### Product Specs
+### Характеристики продукта
 
-* Material: 6063 aluminum, clear or black anodized
-* Height: 15mm
-* Width: 30mm
-* Length: 1m or 420mm
-  * Extrusion can be cut to shorter lengths as needed
+* Материал: 6063 алюминий, прозрачный или черный анодированный
+* Высота: 15 мм
+* Ширина: 30 мм
+* Длина: 1 м или 420 мм
+  * При необходимости экструзия может быть обрезана на более короткие отрезки.
 
-### When to Use?
+### Когда использовать?
 
-The 15mm x 30mm Extrusion is great for areas where more torsional strength is needed in an application than the standard 15mm Extrusion.&#x20;
+Экструзия 15 мм x 30 мм отлично подходит для тех областей, где требуется большая прочность на кручение по сравнению со стандартной 15-миллиметровой экструзией.&#x20;
 
 {% hint style="info" %}
-**Torsional Strength** is a measure of the ability of a material to withstand a twisting load.
+**Прочность на скручивание** - это показатель способности материала выдерживать нагрузку на скручивание.
 
-_To learn more about why torsional strength is helpful to your robot design visit the_ [_constraining motion_](broken-reference) _page_&#x20;
+Чтобы узнать больше о том, почему прочность на скручивание полезна для вашей конструкции робота, посетите_ [_сдерживающее движение_](broken-reference) _page_&#x20;
 {% endhint %}
 
-### How to Use?
+### Как использовать?
 
-The point of the extrusion system is to offer more flexibility in design than would come in a fixed pitch system. The slots in the extrusion allow brackets and other components to be slid along the 15mm Extrusion to an infinite number of positions.&#x20;
+Смысл системы экструзии в том, чтобы обеспечить большую гибкость конструкции, чем при использовании системы с фиксированным шагом. Пазы в экструзии позволяют перемещать кронштейны и другие компоненты вдоль 15-мм экструзии в бесконечное число положений.&#x20;
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M94yXAf-q6v87SEnzqQ%2F-M94znMlvqQj5puBupVE%2Fimage.png?alt=media&#x26;token=a284d43b-2a23-4311-bb70-446792b14cb0" alt=""><figcaption></figcaption></figure>
