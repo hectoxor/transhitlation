@@ -1,25 +1,6 @@
-# Ведомая шестерня в сборе
+# Gear Idler Assembly
 
-### Необходимые детали для сборки ведомой шестерни <a href="#neobkhodimye-detali-dlya-sborki-vedomoi-shesterni" id="neobkhodimye-detali-dlya-sborki-vedomoi-shesterni"></a>
-
-| **НОМЕР ДЕТАЛИ**                                          | **ОПИСАНИЕ**                    | **QTY.** |
-| --------------------------------------------------------- | ------------------------------- | -------- |
-| ​[REV-41-1322](https://www.revrobotics.com/rev-41-1322/)​ | ПОДШИПНИК ЭНДКАПА               | 2        |
-| ​[REV-41-1323](https://www.revrobotics.com/rev-41-1323/)​ | 15MM СПЕЙСЕР                    | 1        |
-| ​[REV-41-1327](https://www.revrobotics.com/rev-41-1327/)​ | ШАФТ КОЛЛАР                     | 1        |
-| ​[REV-41-1336](https://www.revrobotics.com/rev-41-1336/)​ | ПЛАСТИКОВАЯ ШЕСТЕРНЯ НА 72 ЗУБА | 1        |
-| ​[REV-41-1347](https://www.revrobotics.com/rev-41-1347/)​ | 5MM X 75MM ХЕКС ШАФТ            | 1        |
-
-### Шаги сборки ведомой шестерни <a href="#shagi-sborki-vedomoi-shesterni" id="shagi-sborki-vedomoi-shesterni"></a>
-
-| ​                                                                                                                                                                                                                                                                      | ​                                                                                                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILArX7YxWjffUgcjWd%2FAGD-\_GA%20-%20Add%20End%20Cap%20Bearing%201.svg?alt=media\&token=3a3e5747-0d40-4a66-bc09-4eaa340baade)​ | Установите эндкап на хекс шафт 75 мм x 5 мм.                                                                                                                               |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILBVwESFcLHiJAERe5%2FAGD-\_GA%20-%20Add%20Shaft%20Collar.svg?alt=media\&token=e9a222fc-b921-430a-aa9b-f20114046de7)​          | Наденьте шафт коллар вала. Затяните установочный винт.​Примечание: Шафт коллар должен быть заподлицо с подшипником.                                                        |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILB9yZjBq7uLtuyfYl%2FAGD-\_GA%20-%20Add%20Spacer.svg?alt=media\&token=7b28dec8-6728-4853-8b0c-a7701f9c4f06)​                  | Наденьте на шафт 15-миллиметровую спейсер.                                                                                                                                 |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILBpyM0U3CS1o8\_k49%2FAGD-\_GA%20-%20Add%20Gear.svg?alt=media\&token=6281885f-90b6-4a75-a61c-97b7db73eafa)​                   | Наденьте пластиковую шестерню с 72 зубьями на шафт.                                                                                                                        |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILC9ovycUetFX\_xtGJ%2FAGD-\_GA%20-%20End%20Cap%20Bearing%202.svg?alt=media\&token=7f368966-894f-4705-9025-c0347885347b)​      | Установите на шафт эндкап подшипника.​Примечание: меньшая часть подшипника обращена в сторону от шестерни                                                                  |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILCSWQdSy\_bwJH0lit%2FAGD-\_Gear%20Assembly%20Complete.svg?alt=media\&token=aab6a3da-4cef-469a-8d18-194005cc9077)​            | **ВЕДОМАЯ ШЕСТЕРНЯ В СБОРЕ В СБОРЕ.**​Повторяйте описанные выше действия до тех пор, пока не будет собрано **четыре** готовых узла ведомой шестерни. Отложите их на потом. |
+## Gear Idler Assembly Parts Required
 
 | **PART NUMBER**                                         | **DESCRIPTION**       | **QTY.** |
 | ------------------------------------------------------- | --------------------- | -------- |

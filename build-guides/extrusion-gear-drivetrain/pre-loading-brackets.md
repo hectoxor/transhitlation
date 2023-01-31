@@ -1,29 +1,6 @@
-# Кронштейны для предварительной загрузки
+# Pre-Loading Brackets
 
-### Необходимые детали для предварительной загрузки кронштейна
-
-| **НОМЕР ДЕТАЛИ**                                          | **ОПИСАНИЕ**                                        | **QTY.** |
-| --------------------------------------------------------- | --------------------------------------------------- | -------- |
-| ​[REV-41-1317](https://www.revrobotics.com/rev-41-1317/)​ | БЛОК ПОДУШКИ ПОДШИПНИКА 15 ММ                       | 16       |
-| ​[REV-41-1321](https://www.revrobotics.com/rev-41-1321/)​ | 15-МИЛЛИМЕТРОВЫЙ ПЛАСТИКОВЫЙ УГЛОВОЙ КРОНШТЕЙН      | 16       |
-| ​[REV-41-1320](https://www.revrobotics.com/rev-41-1320/)​ | 15 ММ ПЛАСТИКОВЫЙ ВНУТРЕННИЙ УГЛОВОЙ КРОНШТЕЙН      | 8        |
-| ​[REV-41-1313](https://www.revrobotics.com/rev-41-1313/)​ | 15 ММ ПЛАСТИКОВЫЙ СМЕННЫЙ КРОНШТЕЙН ДЛЯ ПЕРЕМЕЩЕНИЯ | 4        |
-| ​[REV-41-1623](https://www.revrobotics.com/rev-41-1623/)​ | УЛЬТРАПЛАНЕТАРНЫЙ ИЗОГНУТЫЙ МОНТАЖНЫЙ КРОНШТЕЙН     | 2        |
-| ​[REV-41-1624](https://www.revrobotics.com/rev-41-1624/)​ | УЛЬТРАПЛАНЕТАРНЫЙ ПЛОСКИЙ МОНТАЖНЫЙ КРОНШТЕЙН       | 2        |
-| ​[REV-41-1359](https://www.revrobotics.com/rev-41-1359/)​ | ВИНТЫ С ХЕКС КАПАМИ M3 X 8 ММ                       | 128      |
-| ​[REV-41-1361](https://www.revrobotics.com/rev-41-1361/)​ | ГАЙКИ M3 NYLOC                                      | 128      |
-
-#### Ступеньки угловых кронштейнов для предварительной укладки внахлестку <a href="#stupenki-uglovykh-kronshteinov-dlya-predvaritelnoi-ukladki-vnakhlestku" id="stupenki-uglovykh-kronshteinov-dlya-predvaritelnoi-ukladki-vnakhlestku"></a>
-
-Сторона кронштейна с "[ribs](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/kronshteiny-dlya-predvaritelnoi-zagruzki)" должна иметь головку винта с шестигранной шляпкой.
-
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNx86EB\_09X1vrmkWU%2FACD\_Pre-Load%20Lap%20Corner.svg?alt=media\&token=03832eed-6f36-4b96-997f-55a39b263f01)​​  | Возьмите кронштейн и закрутите пальцами по одному винту с шестигранной головкой и гайке Nyloc на каждое отверстие.                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MCJO2HP8-0d6P3fQ3Wa%2F-MCNxhkHT6UAqtnYuThm%2FACD\_Pre-Loaded%20Lap%20Corner.svg?alt=media\&token=a2268b66-7528-43aa-95de-f73c8924e618)​​ | **СБОРКА ПРЕДВАРИТЕЛЬНО ЗАГРУЖЕННЫХ КРОНШТЕЙНОВ**​Повторяйте этот шаг до тех пор, пока у вас не будет шестнадцать предварительно загруженных кронштейнов. |
-
-#### Ступени угловых кронштейнов с предварительной загрузкой инсайдера <a href="#stupeni-uglovykh-kronshteinov-s-predvaritelnoi-zagruzkoi-insaidera" id="stupeni-uglovykh-kronshteinov-s-predvaritelnoi-zagruzkoi-insaidera"></a>
-
-The side of the bracket with “[ribs](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/kronshteiny-dlya-predvaritelnoi-zagruzki)” must have the Hex Cap Screw head. Сторона кронштейна с "[ribs](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/kronshteiny-dlya-predvaritelnoi-zagruzki)" должна иметь головку винта с шестигранной шляпкой
+## Bracket Pre-Loading Parts Required
 
 | **PART NUMBER**                                         | **DESCRIPTION**                       | **QTY.** |
 | ------------------------------------------------------- | ------------------------------------- | -------- |

@@ -1,31 +1,6 @@
-# Колесо средней рукоятки в сборе
+# Middle Grip Wheel Assembly
 
-### Необходимые детали для сборки колеса среднего захвата <a href="#neobkhodimye-detali-dlya-sborki-kolesa-srednego-zakhvata" id="neobkhodimye-detali-dlya-sborki-kolesa-srednego-zakhvata"></a>
-
-| **НОМЕР ДЕТАЛИ**                                          | **ОПИСАНИЕ**                               | **QTY.** |
-| --------------------------------------------------------- | ------------------------------------------ | -------- |
-| ​[REV-41-1267](https://www.revrobotics.com/rev-41-1267/)​ | КОЛЕСО ЗАХВАТА 90 ММ                       | 1        |
-| ​[REV-41-1322](https://www.revrobotics.com/rev-41-1322/)​ | ПОДШИПНИК ЭНДКАПА                          | 1        |
-| ​[REV-41-1323](https://www.revrobotics.com/rev-41-1323/)​ | 15MM СПЕЙСЕР                               | 1        |
-| ​[REV-41-1324](https://www.revrobotics.com/rev-41-1324/)​ | 3MM СПЕЙСЕР                                | 2        |
-| ​[REV-41-1327](https://www.revrobotics.com/rev-41-1327/)​ | ШАФТ КОЛЛАР                                | 1        |
-| ​[REV-41-1329](https://www.revrobotics.com/rev-41-1329/)​ | ПОДШИПНИК СО СКВОЗНЫМ ОТВЕРСТИЕМ - ДЛИННЫЙ | 1        |
-| ​[REV-41-1337](https://www.revrobotics.com/rev-41-1337/)​ | ПЛАСТИКОВАЯ ШЕСТЕРНЯ С 90 ЗУБЬЯМИ          | 1        |
-| ​[REV-41-1349](https://www.revrobotics.com/rev-41-1349/)​ | ХЕКС ШАФТ 5 ММ X 135 ММ                    | 1        |
-
-### Шаги сборки колес со средним захватом <a href="#shagi-sborki-koles-so-srednim-zakhvatom" id="shagi-sborki-koles-so-srednim-zakhvatom"></a>
-
-| ​                                                                                                                                                                                                                                                        | ​                                                                                                                                                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI622PFdgIZXcZMOFhT%2FAGD-\_MW%20-%20End%20Cap.svg?alt=media\&token=a9f043d0-c419-4e49-bc2d-184ab8baf9e7)​        | Установите эндкап подшипник на хекс шафт 135 мм x 5 мм.                                                                                                                  |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI61ysk-oyOT7nlvO9k%2FAGD-\_MW%20-%20Spacer.svg?alt=media\&token=323ca50c-74f5-4835-a297-b99d7e4b683c)​           | Наденьте на шафт спейсер 3 мм.                                                                                                                                           |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI61TaDzGQ8-LcqkJJA%2FAGD-\_MW%20-%20Grip%20Wheel.svg?alt=media\&token=f2242596-02a0-4b75-b4be-24470e76116e)​     | Наденьте 90-миллиметровое колесо захвата на шафт.                                                                                                                        |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI61QfduQsR1ZPmyTE4%2FAGD-\_MW%20-%20Gear.svg?alt=media\&token=bfe0d38e-a659-4e32-a341-93e1c1de1537)​             | Наденьте на вал пластиковую шестерню с 90 зубьями.                                                                                                                       |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI61KgC\_skmS2\_rH-03%2FAGD-\_MW%20-%20Spacer%202.svg?alt=media\&token=0aa51a58-4227-41fb-a790-396aedfe0de0)​     | Наденьте на шафт 15-миллиметровую шафт.                                                                                                                                  |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI61DPPUvenARDeBAHT%2FAGD-\_MW%20-%20Spacer%203.svg?alt=media\&token=102b856d-be23-4f20-a23b-0ec5f4ff51ee)​       | Наденьте на шафт спейсер 3 мм.                                                                                                                                           |
-| ​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5vDvDG2YfETnUC39U%2FAGD-\_MW%20-%20Shaft%20Collar.svg?alt=media\&token=81d0bedd-3c79-4c2b-833b-acad83da0fb9)​    | Наденьте шафт коллар. Убедитесь, что шафт коллар находится заподлицо с 3-мм спейсером. Затяните установочный винт.                                                       |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5v9NeB5oS7WCIdo\_5%2FAGD-\_MW%20-%20Long%20Bearing.svg?alt=media\&token=7bfb14d8-ed81-4474-b906-ff682095ac6e)​​ | Наденьте на вал подшипник со сквозным отверстием - длинный.Примечание: более длинная часть подшипника обращена в сторону от шафт коллара.                                |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5uPcN9TfDAHr7Ewva%2FAGD-\_MW%20-%20Complete.svg?alt=media\&token=22e2eb38-8f0c-4612-a233-52a4c5813d3e)​         | **КОЛЕСО СРЕДНЕЙ РУКОЯТКИ В СБОРЕ В СБОРЕ​**Повторяйте описанные выше действия, пока не будет собрано **два** готовых узла колес средней рукоятки. Отложите их на потом. |
+## Middle Grip Wheel Assembly Parts Required
 
 | **PART NUMBER**                                         | **DESCRIPTION**             | **QTY.** |
 | ------------------------------------------------------- | --------------------------- | -------- |

@@ -1,26 +1,6 @@
-# Колесо Omni в сборе
+# Omni Wheel Assembly
 
-### Необходимые детали для сборки колеса Omni <a href="#neobkhodimye-detali-dlya-sborki-kolesa-omni" id="neobkhodimye-detali-dlya-sborki-kolesa-omni"></a>
-
-| **НОМЕР ДЕТАЛИ**                                          | **ОПИСАНИЕ**                      | **QTY.** |
-| --------------------------------------------------------- | --------------------------------- | -------- |
-| ​[REV-41-1190](https://www.revrobotics.com/rev-41-1190/)​ | 90 ММ ОМНИ-КОЛЕСО                 | 1        |
-| ​[REV-41-1322](https://www.revrobotics.com/rev-41-1322/)​ | ПОДШИПНИК ЭНДКАПА                 | 2        |
-| ​[REV-41-1324](https://www.revrobotics.com/rev-41-1324/)​ | 3MM СПЕЙСЕР                       | 2        |
-| ​[REV-41-1337](https://www.revrobotics.com/rev-41-1337/)​ | ПЛАСТИКОВАЯ ШЕСТЕРНЯ С 90 ЗУБЬЯМИ | 1        |
-| ​[REV-41-1347](https://www.revrobotics.com/rev-41-1347/)​ | ХЕКС ШАФТ 5 ММ X 75 ММ            | 1        |
-
-### Шаги сборки колес Omni <a href="#shagi-sborki-koles-omni" id="shagi-sborki-koles-omni"></a>
-
-| ​                                                                                                                                                                                                                                                              | ​                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MHwkzAHlPtxx8ZdoSQt%2F-MHwnojQvJ1fVsB7qpBK%2FAdd%20Through%20Bore%201.svg?alt=media\&token=37a7e462-8c25-4389-9e3e-e9d0e4e9492a)​               | Установите эндкап подшипник на хекс шафт 75 мм x 5 мм.                                                                                                            |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MHwkzAHlPtxx8ZdoSQt%2F-MHwloWjPmOLgkL3pWoD%2FAdd%20Spacer%201.svg?alt=media\&token=a018fd2b-11e4-44ad-81b5-f52dea3ccb2b)​                      | Наденьте на шафт спейсер 3 мм.                                                                                                                                    |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MHwkzAHlPtxx8ZdoSQt%2F-MHwnQkO-PMrtBidBlmW%2FAGD\_BW%20-%20Add%20Spacer%202.svg?alt=media\&token=b1f7bbb0-32bc-47a1-932b-1b6bf36a7194)​        | Наденьте на шафт спейсер 3 мм.                                                                                                                                    |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5sSMtuYF05tIXv5\_R%2FAGD-\_OW%20-%20add%20ow.svg?alt=media\&token=d956876f-55a1-441d-9ae3-3bc32e9ad61e)​​             | ​Наденьте на вал 90-мм колесо Omni Колесо.                                                                                                                        |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5soIB1UDPvpY-u62u%2FAGD-\_OW%20-%20add%20gear.svg?alt=media\&token=a2be4a36-dfd4-4ad4-98b3-5a3b6f56993b)​             | Наденьте на шафт пластиковую шестерню с 90 зубьями.                                                                                                               |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5t6\_NdZtwhAx-kojH%2FAGD-\_OW%20-%20add%202nd%20End%20Cap.svg?alt=media\&token=311cc592-113a-4471-9840-3b229583b18b)​ | Установите на вал эндкап подшипник.​Примечание: меньшая часть подшипника обращена в сторону от шестерни                                                           |
-| ​​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MI4ysTFi9NBVobBOLUW%2F-MI5gwGk9tCwUPS2NWKs%2FAGD-\_OW%20-%20Complete.svg?alt=media\&token=876f7d39-96a2-4089-8d11-5095cdd63265)​               | **КОЛЕСО OMNI В СБОРЕ В КОМПЛЕКТЕ.**​Повторяйте описанные выше действия до тех пор, пока не будет собрано **два** готовых узла омни-колеса. Отложите их на потом. |
+## Omni Wheel Assembly Parts Required
 
 | **PART NUMBER**                                         | **DESCRIPTION**       | **QTY.** |
 | ------------------------------------------------------- | --------------------- | -------- |
