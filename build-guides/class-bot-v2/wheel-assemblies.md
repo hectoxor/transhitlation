@@ -1,14 +1,15 @@
-# Wheel Assemblies
+# Сборка колес
 
-## Wheel Assembly Parts Required
+## Необходимые детали для сборки колеса
 
-| **PART NUMBER**                                         | **DESCRIPTION**             | **QTY.** |
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** | **КОЛИЧЕСТВО** |
 | ------------------------------------------------------- | --------------------------- | -------- |
-| [REV-41-1349](https://www.revrobotics.com/rev-41-1349/) | 5MM X 135MM HEX SHAFT       | 4        |
-| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | THROUGH BORE BEARING - LONG | 8        |
-| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | SHAFT COLLAR                | 12       |
-| [REV-41-1190](https://www.revrobotics.com/rev-41-1190/) | 90MM OMNI WHEEL             | 2        |
-| [REV-41-1354](https://www.revrobotics.com/rev-41-1354/) | 90MM TRACTION WHEEL         | 2        |
+| [REV-41-1349](https://www.revrobotics.com/rev-41-1349/) | 5 ММ X 135 ММ ШЕСТИГРАННЫЙ ВАЛ | 4 | |
+| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | ПОДШИПНИК СО СКВОЗНЫМ ОТВЕРСТИЕМ - ДЛИННЫЙ | 8 | |
+| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | ВОРОТНИК ВАЛА | 12 |
+| [REV-41-1190](https://www.revrobotics.com/rev-41-1190/) | 90-ММ ОМНИ-КОЛЕСО | 2 | |
+| [REV-41-1354](https://www.revrobotics.com/rev-41-1354/) | 90-ММ ТЯГОВОЕ КОЛЕСО | 2 |
+
 
 ## Traction Wheel Assembly&#x20;
 
