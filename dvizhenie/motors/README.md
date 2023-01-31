@@ -1,18 +1,21 @@
 ---
 описание: Основы моторики
+description: Основы моторов
 ---
 
 # Моторы
 
-Электродвигатели являются основной силовой установкой большинства роботов. В системе REV DUO Build System есть два типа двигателей: Core Hex Motor ([REV-41-1300](https://www.revrobotics.com/rev-41-1300/)) и HD Hex Motor ([REV-41-1301](https://www.revrobotics.com/rev-41-1301/)). Оба двигателя представляют собой щеточные двигатели постоянного тока. На изображении ниже показаны общие элементы щеточного двигателя постоянного тока.&#x20;
+Электродвигатели являются основной силовой установкой большинства роботов. В системе REV DUO Build System есть два типа двигателей: Core Hex Motor ([REV-41-1300](https://www.revrobotics.com/rev-41-1300/)) и HD Hex Motor ([REV-41-1301](https://www.revrobotics.com/rev-41-1301/)). Оба двигателя представляют собой щеточные двигатели постоянного тока. На изображении ниже показаны общие элементы щеточного двигателя постоянного тока.
 
 #### Элементы щеточного двигателя постоянного тока
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlMn7b3u0xtE-Zr%2F1.png?generation=1590609462403887&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlMn7b3u0xtE-Zr%2F1.png?generation=1590609462403887&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+
+.
 
 Щеточные двигатели постоянного тока без редуктора могут иметь КПД \~80%, то есть, если двигатель потребляет 60 Вт мощности, то \~48 Вт будет превращено в механическую энергию, а \~12 Вт - в тепловую. После добавления коробки передач общий КПД системы снижается.
 
-### Ключевые метрики&#x20;
+### Ключевые метрики
 
 Щеточные двигатели постоянного тока могут быть описаны некоторыми ключевыми показателями:
 
@@ -29,7 +32,7 @@
 **Свободная скорость** - это **угловая скорость**, с которой двигатель будет вращаться при питании от **рабочего напряжения** с нулевой нагрузкой на выходном валу двигателя. Это число оборотов - самая быстрая **угловая скорость**, с которой двигатель когда-либо будет вращаться. Когда двигатель находится под нагрузкой, его **угловая скорость** уменьшается.
 
 {% hint style="info" %}
-Узнайте больше об угловой скорости в разделе_ [_Основные понятия_](broken-reference) _section_.
+Узнайте больше об угловой скорости в разделе\_ [_Основные понятия_](broken-reference/) _section_.
 {% endhint %}
 {% endtab %}
 
@@ -46,7 +49,7 @@
 
 График производительности щеточного двигателя постоянного тока может быть использован для оценки производительности двигателя. В большинстве случаев ампераж, единица измерения тока, является самым простым значением для поиска, поскольку он может быть сообщен концентратором управления REV ([REV-31-1595](https://www.revrobotics.com/rev-31-1595/)) и концентратором расширения ([REV-31-1153](https://www.revrobotics.com/rev-31-1153/)).
 
-### Предотвращение преждевременного выхода электродвигателя из строя&#x20;
+### Предотвращение преждевременного выхода электродвигателя из строя
 
 Для того чтобы электродвигатель прослужил как можно дольше, следует помнить о нескольких правилах:
 
@@ -59,22 +62,24 @@
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxSTCiBXSImLUpgg3a%2F-MkxTx7rWGPS61t1vhRb%2Fwaste%20power%20chart%20-%20motor%20guide%20preventing%20premature%20motor%20failure.png?alt=media&#x26;token=8ffd06bb-070e-4bce-b30a-46f7074f0663" alt=""><figcaption></figcaption></figure>
 
-* ** Плохо закрепленный выходной вал**, большинство выходных валов двигателей не рассчитаны на большие силы тяги или силы, нормальные к валу. Когда ожидается нагрузка в этих направлениях, необходимо использовать подшипники для поддержки оси.
+* \*\* Плохо закрепленный выходной вал\*\*, большинство выходных валов двигателей не рассчитаны на большие силы тяги или силы, нормальные к валу. Когда ожидается нагрузка в этих направлениях, необходимо использовать подшипники для поддержки оси.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlSbdgM5CBTcLsw%2F7.png?generation=1590609462320338&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlSbdgM5CBTcLsw%2F7.png?generation=1590609462320338&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+
+.
 
 {% hint style="info" %}
-Чтобы узнать больше о том, как правильно поддерживать движение, посетите_ [_поддержка движения_](broken-reference) _page_.
+Чтобы узнать больше о том, как правильно поддерживать движение, посетите\_ [_поддержка движения_](broken-reference/) _page_.
 {% endhint %}
 
 ## Технические характеристики двигателей REV
 
-Двигатели REV DUO Robotics бывают двух типов, [HD Hex Motors](broken-reference) и [Core Hex Motors](broken-reference). Все двигатели REV DUO имеют шестигранный вал или внутреннюю шестигранную муфту в качестве выхода из редуктора. Шестигранный вал чрезвычайно надежен при передаче крутящего момента, не завися от установочных винтов, которые могут ослабнуть или быть недостаточно затянуты. Двигатели REV DUO также включают в себя замковые разъемы с ключом как для питания двигателя, так и для встроенного энкодера.&#x20;
+Двигатели REV DUO Robotics бывают двух типов, [HD Hex Motors](broken-reference/) и [Core Hex Motors](broken-reference/). Все двигатели REV DUO имеют шестигранный вал или внутреннюю шестигранную муфту в качестве выхода из редуктора. Шестигранный вал чрезвычайно надежен при передаче крутящего момента, не завися от установочных винтов, которые могут ослабнуть или быть недостаточно затянуты. Двигатели REV DUO также включают в себя замковые разъемы с ключом как для питания двигателя, так и для встроенного энкодера.
 
 {% hint style="info" %}
 Более подробную информацию о энкодере см. в Руководстве по системе управления.
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8N2tQzyjYft6IXAWR3%2FScreenshot%20(4).png?alt=media&#x26;token=bed0b70d-86d8-4ffa-8a99-d94f8f7053ef"alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8N2tQzyjYft6IXAWR3%2FScreenshot%20(4).png?alt=media&#x26;token=bed0b70d-86d8-4ffa-8a99-d94f8f7053ef" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlWc2lieDE0X1Fg%2F11.png?generation=1590609462333072&#x26;alt=media"alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlWc2lieDE0X1Fg%2F11.png?generation=1590609462333072&#x26;alt=media" alt=""><figcaption></figcaption></figure>

@@ -29,7 +29,7 @@
 * [Колеса](dvizhenie/kolesa.md)
 * [Линейное движение](dvizhenie/lineinoe-dvizhenie.md)
 * [Выбор привода](dvizhenie/vybor-privoda.md)
-* [Motors](dvizhenie/motors/README.md)
+* [Моторы](dvizhenie/motors/README.md)
   * [HD Hex Motor](dvizhenie/motors/hd-hex-motor.md)
   * [Core Hex Motor](dvizhenie/motors/core-hex-motor.md)
 * [Сервоприводы](dvizhenie/servos/README.md)
