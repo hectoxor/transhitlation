@@ -7,7 +7,7 @@
   * [15mm x 30mm Extrusion](struktura/vvedenie-v-strukturu/15mm-x-30mm-extrusion.md)
   * [15mm x 45mm C Channel](struktura/vvedenie-v-strukturu/15mm-x-45mm-c-channel.md)
   * [45mm x 45mm U Channel](struktura/vvedenie-v-strukturu/45mm-x-45mm-u-channel.md)
-  * [Flat Plate](struktura/vvedenie-v-strukturu/flat-plate.md)
+  * [Плоская пластина](struktura/vvedenie-v-strukturu/flat-plate.md)
   * [Плоское крепление](struktura/vvedenie-v-strukturu/ploskoe-kreplenie.md)
   * [L-образное крепление](struktura/vvedenie-v-strukturu/l-obraznoe-kreplenie.md)
 * [Brackets](struktura/brackets.md)
