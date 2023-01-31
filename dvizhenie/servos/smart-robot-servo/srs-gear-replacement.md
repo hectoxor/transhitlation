@@ -1,17 +1,17 @@
-# SRS Gear Replacement
+# Замена шестеренок SRS
 
-The Smart Robot Servo is a metal-geared servo with the ability to replace the metal-gears it they become damaged during use. Damage to the gear set can occur if the servo receives a shock load to the system. This guide explains the process of removing and replacing the gears in the REV Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) using the Replacement Gear Set ([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)).
+Сервопривод Smart Robot Servo - это сервопривод с металлическими шестернями, которые можно заменить, если они повредятся в процессе эксплуатации. Повреждение зубчатой передачи может произойти, если сервопривод получит ударную нагрузку на систему. В данном руководстве описывается процесс снятия и замены шестерен в сервоприводе REV Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) с помощью сменного набора шестерен ([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)).
 
-### **TOOLS NEEDED**
+### **НЕОБХОДИМЫЕ ИНСТРУМЕНТЫ**
 
-To replace the gear set in the Smart Robot Servo you will need the following items:
+Для замены комплекта шестерен в сервоприводе Smart Robot Servo вам понадобятся следующие предметы:
 
-* Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) – QTY 1
-* Replacement Gear Set ([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)) – QTY 1
-* Phillips Head Screwdriver (PH0) – QTY 1
+* Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) - 1 шт.
+* Сменный комплект шестеренок ([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)) - QTY 1
+* Крестовая отвертка (PH0) - QTY 1
 
 {% hint style="danger" %}
-The replacement gears are shipped un-greased. They need grease to run smoothly, so make sure the is enough grease in the gearbox, and if not, add equivalent of \~1/4” diameter sphere of grease to gears in the gearbox.
+Сменные шестерни поставляются без смазки. Для плавной работы им необходима смазка, поэтому убедитесь, что в редукторе достаточно смазки, а если нет, добавьте эквивалент \~1/4" диаметра шара смазки на шестерни в редукторе.
 {% endhint %}
 
 ### Replacing the Gears Walkthrough
