@@ -163,11 +163,11 @@ $$
 | <p>90 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1337/">REV-41-1337</a></p>  | <p>2.72 in</p><p>69.0 mm</p> | <p>2.66 in</p><p>67.5 mm</p>  |
 | <p>125 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1333/">REV-41-1333</a></p> | <p>3.75 in</p><p>93.5 mm</p> | <p>3.69 in</p><p>93.75 mm</p> |
 
-The **Motion Interface Pattern** is a circular M3 hole pattern on a 16mm diameter that interfaces with certain REV Brackets and the UltraPlanetary 5mm Hex Output ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
+Шаблон интерфейса движения представляет собой круглую схему отверстий M3 диаметром 16 мм, которая взаимодействует с некоторыми кронштейнами REV и шестигранным выходом UltraPlanetary 5 мм. ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
 
 <figure><img src="https:/2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/H9K1InCLC1ZxIkdPJt31/uploads/ureXI1imjuSxXXgyeVuQ/gitbook%20drawing%20vector.%20png" alt=""><figcaption></figcaption></figure>
 
-The 15 tooth and 30 tooth plastic gears do not have a motion pattern due to size constraints. However, they share the same 0.75 module as the other acetal gears. The table below provides the outer diameter and pitch diameter of these gears.
+Пластиковые шестерни с 15 зубьями и 30 зубьями не имеют схемы движения из-за ограничений по размеру. Однако они имеют тот же модуль 0,75, что и другие шестерни из ацеталя. В таблице ниже указаны наружный диаметр и средний диаметр этих шестерен.
 
 |                                                                                                      | Внешний диаметр А            | Делительный диаметр B        |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------- |
