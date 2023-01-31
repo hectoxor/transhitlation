@@ -22,9 +22,9 @@ REV Servo Power Module ([REV-11-1144](https://www.revrobotics.com/rev-11-1144/))
 | **Size** | 3.6” x 1.52” x 0.81” |
 | **Weight** | 2.0oz/57g |
 
-## How to Use&#x20;
+## Как использовать&#x20;
 
-### Electrical Connections
+### Электрические соеденения
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8VuTXTeaMyPtvVrNSd%2F-M8WMcrpi_Pd87PP76iS%2F4.png?generation=1590771487272705&#x26;alt=media" alt=""><figcaption></figcaption></figure>
 
