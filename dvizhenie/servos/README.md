@@ -16,18 +16,8 @@ description: Основы сервоприводов
 
 Сервоадаптеры REV Robotics подходят для сервоприводов со шлицем 25T, таких как REV Robotics Smart Robot Servo. В дополнение к разнообразным рожкам для сервоприводов, которые поставляются с сервоприводом Smart Robot Servo, есть еще четыре пользовательских сервоадаптера, которые упрощают использование сервоприводов с REV 15mm Building System.
 
-**Servo Gear Adapters** convert a 25T servo into 15 tooth Delrin gear which is compatible with the other REV Robotics Plastic Gears.&#x20;
+Servo Gear Adapters преобразуют сервопривод 25T в 15-зубую шестерню из Delrin, которая совместима с другими пластиковыми шестернями REV Robotics. Адаптеры вала сервопривода преобразуют выходной вал сервопривода со шлицем 25T в внутреннее шестигранное гнездо 5 мм. Этот адаптер можно использовать для прямого привода шестигранного вала. Алюминиевые рожки сервоприводов имеют резьбовые отверстия, которые могут быть напрямую установлены на любые шестерни, колеса или звездочки REV Robotics с шаблоном движения. Алюминиевые двойные серворуки (REV-41-1820) имеют два резьбовых отверстия, которые могут быть непосредственно установлены на любой экструзионный профиль, швеллер или кронштейны REV Robotics.
 
-**Servo Shaft Adapters** convert a 25T spline servo output shaft into a female 5mm hex socket.  This adapter can be used to drive a hex shaft directly.
+**Сервоприводы с концентратором управления и концентратором расширения**
 
-**Aluminum Servo Horns** have a tapped hole pattern that can be directly mounted to any of the REV Robotics gears, wheels, or sprockets with the Motion Pattern.
-
-**Aluminum Double Servo Arms** ([REV-41-1820](https://www.revrobotics.com/rev-41-1820/)) **** have two tapped holes that can be directly mounted to any of the REV Robotics extrusion, channel, or brackets.&#x20;
-
-## Servos with the Control Hub and Expansion Hub
-
-Teams should be aware of the number of servo motors they attach to each Hub. The Control Hub ([REV-31-1595](https://www.revrobotics.com/rev-31-1595/)) and Expansion Hub ([REV-31-1153](https://www.revrobotics.com/rev-31-1153/)) only can handle 5 Amps through all 6 servo ports. The maximum current a servo will draw is 2.0 Amps, called the stall current. A servo will draw the stall current when it is applying the maximum force, but it is not moving. For example, a servo can stall when a mechanism needs to hold something or a heavy object blocked the path of the servo motion.&#x20;
-
-Normally servos do not draw the maximum current, but teams do not know what might happen during matches. To protect against overdrawing the current on the Hub, only attach 2 servos to a Control Hub or Expansion Hub. Teams can safely use 4 servos: 2 servos on the Control Hub and 2 servos on the Expansion Hub.
-
-If more power is required, consider using the REV Servo Power Module ([REV-11-1144](https://www.revrobotics.com/rev-11-1144/)). It is a 6V 90W power injector that enables the use of high-power RC servos in applications where a robot controller cannot provide adequate power.
+Команды должны помнить о количестве сервомоторов, которые они подключают к каждому концентратору. Концентратор управления (REV-31-1595) и концентратор расширения (REV-31-1153) выдерживают только 5 Ампер через все 6 сервопортов. Максимальный ток, потребляемый сервоприводом, составляет 2,0 Ампера и называется током срыва. Сервопривод потребляет ток срыва, когда он прикладывает максимальное усилие, но не движется. Например, сервопривод может заглохнуть, когда механизм должен что-то удержать или тяжелый предмет заблокировал путь движения сервопривода. Обычно сервоприводы не потребляют максимальный ток, но команды не знают, что может произойти во время матчей. Чтобы защитить концентратор от перегрузки по току, подключайте только 2 сервопривода к концентратору управления или концентратору расширения. Команды могут безопасно использовать 4 сервопривода: 2 сервопривода на концентраторе управления и 2 сервопривода на концентраторе расширения. Если требуется большая мощность, рассмотрите возможность использования модуля питания сервоприводов REV (REV-11-1144). Это инжектор питания 6 В 90 Вт, который позволяет использовать мощные RC-сервоприводы в приложениях, где контроллер робота не может обеспечить достаточную мощность.
