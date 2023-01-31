@@ -1,159 +1,161 @@
-# Gears
+#Шестерни
 
-## Gear Basics&#x20;
+## Основы зубчатых передач&#x20;
 
-Gears have teeth that mesh with other gears in order to transmit torque. Gears can be used to change the speed, torque (turning force), or direction of a motor’s original output. For gears to be compatible with each other, the meshing teeth must have the same shape (size and pitch).
+Зубчатые колеса имеют зубья, которые входят в зацепление с другими зубьями для передачи крутящего момента. Шестерни могут использоваться для изменения скорости, крутящего момента (вращающего усилия) или направления исходного выхода двигателя. Чтобы шестерни были совместимы друг с другом, зацепляющиеся зубья должны иметь одинаковую форму (размер и шаг).
 
 {% hint style="info" %}
-Gears offer more flexibility in transforming motion than sprockets and chain because there are a larger variety of gear sizes available.
+Шестерни обеспечивают большую гибкость в преобразовании движения, чем звездочки и цепи, поскольку существует большее разнообразие размеров шестерен.
 {% endhint %}
 
-There are many different types of gears; one of the simplest and most commonly used is a **spur gear**, and that is the gear type used in the REV DUO Build System. **Spur gears** consist of a disk with straight teeth projecting radially (outward from the center) and these gears will only mesh correctly with other gears if they are on parallel shafts.
+Существует множество различных типов зубчатых колес; одним из самых простых и наиболее часто используемых является ** цилиндрическая зубчатая передача**, и именно этот тип передачи используется в системе REV DUO Build System. Шестерни **спиральной передачи** состоят из диска с прямыми зубьями, выступающими радиально (наружу от центра), и эти шестерни будут правильно зацепляться с другими шестернями, только если они находятся на параллельных валах.
 
-### Anatomy of a Spur Gear
+### Анатомия цилиндрической зубчатой передачи
 
-Common and important features of a spur gear are highlighted in the image below.&#x20;
+Общие и важные характеристики цилиндрической передачи показаны на рисунке ниже.&#x20;
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Da37nO8IlnZIM%2F1.png?generation=1591822059637529&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Da37nO8IlnZIM%2F1.png?generation=1591822059637529&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
 {% tabs %}
-{% tab title="Number of Teeth" %}
-_**Number of Teeth (N)**_ is the total count of the number of teeth (projections) around the whole circumference of a gear. For gears with very few or very large teeth it is easy to simply count the number of teeth. However, for gears with a higher number of teeth, or when the teeth are smaller, attempting to count the teeth is not very practical or accurate.&#x20;
+{% tab title="Количество зубов" %}
+_**Число зубьев (N)**_ - это общее количество зубьев (выступов) по всей окружности шестерни. Для шестерен с очень малым или очень большим количеством зубьев легко просто подсчитать количество зубьев. Однако для шестерен с большим числом зубьев или когда зубья меньше, попытка подсчета зубьев не очень практична и не точна.&#x20;
 {% endtab %}
 
-{% tab title="Module" %}
-_**Module (M)**_ represents the amount of **pitch diameter** in mm per tooth. Gears with a higher **module** will have bigger teeth. **Module (M)** can be calculated using some combination of pitch diameter (PD), number of teeth(N), or outside diameter(OD).&#x20;
+{% tab title="Модуль" %}
+_**Модуль (М)**_ представляет собой величину **диаметра шага** в мм на зуб. Шестерни с более высоким **модулем** будут иметь более крупные зубья. **Модуль (М)** можно рассчитать, используя некоторую комбинацию диаметра шага (PD), числа зубьев (N) или наружного диаметра (OD).&#x20;
 
-Equations for calculating module:&#x20;
+Уравнения для расчета модуля:&#x20;
 
 * $$M = PD/ N$$&#x20;
-* $$M = OD/(  N + 2)$$&#x20;
+* $$M = OD/( N + 2)$$&#x20;
 
-**To help with calculations:** REV Plastic Gears have a 0.75 module, while REV Metal Gears have a 0.8 module.
+**Для помощи в расчетах:** Пластиковые шестерни REV имеют модуль 0,75, а металлические шестерни REV имеют модуль 0,8.
 {% endtab %}
 
-{% tab title="Pitch Diameter " %}
-_**Pitch Diameter (PD)**_ is the imaginary circle that mates with any other gear’s pitch diameter when the gears are properly spaced. The pitch diameter will always be smaller than the outside diameter of a gear.
+{% tab title="Диаметр шага" %}
+Диаметр шага (PD)**_ - это воображаемая окружность, которая сопрягается с диаметром шага любой другой шестерни при правильном расположении шестерен. Диаметр шага всегда меньше внешнего диаметра шестерни.
 
-When creating simplified models for gears, first create a circle with the **pitch diameter** for each gear used in the system then constrain the circles tangent (just barely touching) to each other. **Pitch Diameter (PD)** can be calculated using some combination of module(M), number of teeth (N), or outside diameter (OD).
+При создании упрощенных моделей зубчатых колес сначала создайте окружность с **диаметром шага** для каждого зубчатого колеса, используемого в системе, затем ограничьте окружности по касательной (едва касаясь) друг к другу. **Диаметр шага (PD)** можно рассчитать, используя некоторую комбинацию модуля (M), числа зубьев (N) или наружного диаметра (OD).
 
-![](broken-reference)
+![] (broken-reference)
 
-Equations for calculating pitch diameter:&#x20;
+Уравнения для расчета диаметра шага:&#x20;
 
 * $$PD = M ×N$$&#x20;
 * $$PD = (OD × N) / (N + 2)$$&#x20;
 * $$PD = OD -2M$$&#x20;
 {% endtab %}
 
-{% tab title="Outside Diameter " %}
-_**Outside Diameter**_ _**(OD)**_ is the true outside diameter of a gear. The **outside diameter** will always be larger than the **pitch diameter**. The **outside diameter** should be used when checking for interference when placing gears very close to other structures. **Outside Diameter (OD)** can be calculated using the formula below.
+{% tab title="Наружный диаметр" %}
+_**Внешний диаметр**_ _**(OD)**_ - это истинный внешний диаметр шестерни. Наружный диаметр **всегда больше диаметра **шага**. Значение **наружного диаметра** следует использовать при проверке на наличие помех при размещении шестерен в непосредственной близости от других конструкций. **Внешний диаметр (OD)** можно рассчитать по приведенной ниже формуле.
 
-Equations for outside diameter:&#x20;
+Уравнения для наружного диаметра:&#x20;
 
 * $$OD = ( N+2) × M$$&#x20;
 {% endtab %}
 {% endtabs %}
 
-### Product Specifications&#x20;
+### Технические характеристики продукта&#x20;
 
-The REV DUO Build System includes both [Metal](https://www.revrobotics.com/competition/ftc/motion/rotary-motion/gears/metal-0-8-mod-gears/) and [Plastic ](https://www.revrobotics.com/competition/ftc/motion/rotary-motion/gears/metal-0-8-mod-gears/)Gears. The table below covers some of the basic specifications for the different types of gears.&#x20;
+Система сборки REV DUO включает в себя как [металлические](https://www.revrobotics.com/competition/ftc/motion/rotary-motion/gears/metal-0-8-mod-gears/), так и [пластиковые ](https://www.revrobotics.com/competition/ftc/motion/rotary-motion/gears/metal-0-8-mod-gears/)шестерни. В таблице ниже приведены основные технические характеристики различных типов шестеренок.&#x20;
 
-|                    | Plastic             | Metal             |
+| | Пластик | Металл |
 | ------------------ | ------------------- | ----------------- |
-| **Module**         | 0.75                | 0.8               |
-| **Pressure Angle** | 20°                 | 20°               |
-| **Material**       | Acetal (Delrin/POM) | 7075-T6 Aluminum† |
-| **Thickness**      | 15mm                | 5mm               |
+| **Модуль** | 0.75 | 0.8 | |
+| **Угол прижима** | 20° | 20° | 20° | |
+| **Материал** | Ацеталь (Delrin/POM) | 7075-T6 Aluminum† | |
+| **Толщина** | 15 мм | 5 мм | |
 
 {% hint style="info" %}
-_† The majority of Metal Gears in the REV DUO Build System are made using aluminum. There are three exceptions. The 12 Tooth and 28 Tooth Gears are made out of Sintered Steel. The 12 Tooth Pinion Gear is made out of Machined Brass._
+_† Большинство металлических шестеренок в системе REV DUO Build System изготовлены из алюминия. Есть три исключения. Шестерни с 12 и 28 зубьями изготовлены из спеченной стали. Шестерня с 12 зубьями изготовлена из обработанной латуни.
 {% endhint %}
 
-Both the Metal and Plastic Gears are compatible with [M3 hardware](https://www.revrobotics.com/ftc/hardware/fasteners/) with a 8mm pitch.&#x20;
+Как металлические, так и пластиковые шестерни совместимы с [M3 hardware](https://www.revrobotics.com/ftc/hardware/fasteners/) с шагом 8 мм.&#x20;
 
-#### Plastic Gears&#x20;
 
-All REV DUO Plastic Gears have a M3 bolt hole mounting pattern that is on an 8mm pitch. This makes it easy to directly mount REV Robotics [Brackets](https://www.revrobotics.com/ftc/structure/) and [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) to gears. The webbed design, combined with a wide face width and small tooth profile, increases the gear strength without adding significant weight. REV Robotics Plastic Gears are designed to fit a 5mm hex shaft which eliminates the need for special hubs and setscrews.
+#### Пластиковые шестерни&#x20;
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Pahn4-ljhLxFF%2F13.png?generation=1591822059712508&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+Все пластиковые шестерни REV DUO имеют крепежное отверстие под болт M3 с шагом 8 мм. Это облегчает непосредственное крепление к шестерням [кронштейнов] (https://www.revrobotics.com/ftc/structure/) и [экструзии] (https://www.revrobotics.com/ftc/structure/15mm-extrusion/) REV Robotics. Вестибулярная конструкция в сочетании с большой шириной торца и малым профилем зубьев увеличивает прочность шестерни без значительного увеличения веса. Пластиковые шестерни REV Robotics разработаны для установки на 5 мм шестигранный вал, что устраняет необходимость в специальных втулках и установочных винтах.
+
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Pahn4-ljhLxFF%2F13.png?generation=1591822059712508&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
 {% hint style="danger" %}
-**REV Metal Gears are NOT compatible with REV Plastic Gears.** Gears from other building systems may have a very similar tooth profile but are not an exact match. It may be possible to use the two gears systems together successfully in some situations, but it is not recommended.
+**Металлические шестерни REV НЕ совместимы с пластиковыми шестернями REV.** Шестерни других строительных систем могут иметь очень похожий профиль зубьев, но не являются точным соответствием. В некоторых ситуациях возможно успешное совместное использование двух систем зубчатых колес, но это не рекомендуется.
 {% endhint %}
 
-#### Metal Gears
+#### Металлические шестерни
 
-Metal Gears are designed to work with [REV 5mm Hex Shafts](https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/) in high-load applications. REV DUO Metal Gears also have a M3 hole pattern, but this pattern focuses on allowing gears to be doubled up for additional strength. In general, the REV DUO Metal Gears have a higher yield strength than the REV DUO Plastic Gears, especially when the metal gears are doubled up. Thickness of the gear teeth, known as face width, is a core component of gear strength.&#x20;
+Металлические шестерни предназначены для работы с [REV 5mm Hex Shafts](https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/) в условиях высоких нагрузок. Металлические шестерни REV DUO также имеют шаблон отверстий M3, но этот шаблон ориентирован на то, чтобы шестерни можно было удваивать для дополнительной прочности. В целом, металлические шестерни REV DUO имеют более высокий предел текучести, чем пластиковые шестерни REV DUO, особенно когда металлические шестерни сдвоены. Толщина зубьев шестерни, известная как ширина торца, является основным компонентом прочности шестерни.&#x20;
 
 {% hint style="info" %}
-The face of the REV DUO Metal Gears displays the gears tooth count to help with calculations!
+На лицевой стороне металлической шестерни REV DUO указано количество зубьев шестерни для облегчения расчетов!
 {% endhint %}
 
-All REV DUO Metal Gears are narrower than plastic gears, allowing for compact drivetrains and gearboxes within the same 15mm width as the Extrusion and Punch Tube ([REV-41-1453](https://www.revrobotics.com/rev-41-1453/)).&#x20;
+Все металлические шестерни REV DUO более узкие, чем пластмассовые, что позволяет создавать компактные трансмиссии и редукторы в пределах той же ширины 15 мм, что и трубка для экструзии и пуансона ([REV-41-1453](https://www.revrobotics.com/rev-41-1453/)).&#x20;
 
-## Using Gears as a Powertrain&#x20;
+## Использование зубчатых колес в качестве трансмиссии&#x20;
 
-Meshing two or more gears together is known as a **gear train**. Selecting the gears in the gear train as larger or smaller relative to the input gear can either increase the output **speed**, or increase the output **torque** but the **total power** is not affected.
+Зацепление двух или более шестерен вместе известно как **шестеренчатая передача**. Выбирая шестерни в зубчатой передаче больше или меньше относительно входной шестерни, можно либо увеличить выходную **скорость**, либо увеличить выходной **крутящий момент**, но на **общую мощность** это не влияет.
 
 {% hint style="info" %}
-_Physics concepts, like speed and power, have a lot of applications in the REV 15mm Build System. Click here to learn more about them._&#x20;
+Физические понятия, такие как скорость и мощность, имеют множество применений в REV 15mm Build System. Нажмите здесь, чтобы узнать о них больше._&#x20;
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9Zg_T1krecrlLn0n8a%2F-M9ZlOwZcPzzbfio3rVx%2Fimage.png?alt=media&#x26;token=c94ad051-24c9-4544-a71a-7dafd53c369b" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9Zg_T1krecrlLn0n8a%2F-M9ZlOwZcPzzbfio3rVx%2Fimage. png?alt=media&#x26;token=c94ad051-24c9-4544-a71a-7dafd53c369b" alt=""><figcaption></figcaption></figure>
 
-A **gear ratio** is the ratio of the sizes of two gears. For instance, in the image below, the **input gear** is a 15 tooth gear and the output gear is a 72 tooth gear. So, the **gear ratio** is 72T:15T. The **ratio** in size from the input (driving) gear to the output (driven) gear determines if the output is faster (less torque) or has more torque (slower). The gear ratio is proportional to the speed and torque changes between them.
+Передаточное число ** - это отношение размеров двух шестерен. Например, на рисунке ниже **входная шестерня** - это шестерня с 15 зубьями, а выходная - с 72 зубьями. Таким образом, **передаточное отношение** составляет 72T:15T. От **отношения** размеров входной (ведущей) шестерни к выходной (ведомой) шестерне зависит, будет ли выходная шестерня быстрее (меньше крутящий момент) или будет иметь больший крутящий момент (медленнее). Передаточное отношение пропорционально изменению скорости и крутящего момента между ними.
 
 {% hint style="info" %}
-_To learn more about gear ratios and how they affect speed and torque check out the_[ _Gear Ratio_ ](broken-reference)_section_&#x20;
+Чтобы узнать больше о передаточных числах и о том, как они влияют на скорость и крутящий момент, ознакомьтесь с разделом_[ _Передаточное отношение_ ](broken-reference)_section_&#x20;
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9Zm_nDCSZRRbIsBVPX%2F-M9Zv0I3Rjynk31Eeerb%2Fimage.png?alt=media&#x26;token=c16473b1-849c-4132-89e7-3cc389c786fa" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9Zm_nDCSZRRbIsBVPX%2F-M9Zv0I3Rjynk31Eeerb%2Fimage. png?alt=media&#x26;token=c16473b1-849c-4132-89e7-3cc389c786fa" alt=""><figcaption></figcaption></figure>
 
-In the image above, the 15 tooth input gear is rotating clockwise. As the input gear rotates, it pushes down on the output gear where the teeth are meshed. This action transmits the motion to the output gear, but forces the output gear to rotate in the opposite direction of the input gear.&#x20;
+На изображении выше входная шестерня с 15 зубьями вращается по часовой стрелке. Когда входная шестерня вращается, она давит на выходную шестерню в месте зацепления зубьев. Это действие передает движение на выходную шестерню, но заставляет ее вращаться в направлении, противоположном входной шестерне.&#x20;
 
 {% hint style="info" %}
-_One way to change change the direction of rotation in a gear train is to add **idlers**. **Idlers** sit between the input and output gear in a gear train and can help you manipulate the rotation of the output gear. To learn more about idlers check out the_[ _Idler_](broken-reference) _section_&#x20;
+Один из способов изменить направление вращения в зубчатой передаче - добавить **идлеры**. **Ведомые шестерни** располагаются между входной и выходной шестернями зубчатой передачи и могут помочь вам управлять вращением выходной шестерни. Чтобы узнать больше о ведомых роликах, ознакомьтесь с разделом_[ _Idler_](broken-reference) _section_&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
-If you are using gears to transmit motion over long distances, like in a drivetrain, please check out the[ Gear Train](broken-reference) section to understand more about how to properly employ that sort of mechanism.&#x20;
+Если вы используете зубчатые колеса для передачи движения на большие расстояния, например, в трансмиссии, ознакомьтесь с разделом "Зубчатая передача" (broken-reference), чтобы понять, как правильно использовать такой механизм.&#x20;
 {% endhint %}
 
-## How to Use REV  DUO Gears?
+## Как использовать шестерни REV DUO?
 
-As mentioned in the [Specifications ](broken-reference)section, DUO Gears work with the 5mm Hex Shaft to drive motion along a a gear train. To learn more about using Hex Shafts and proper motion support and constraint visit the pages linked below:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Как упоминалось в разделе [Спецификации ](broken-reference), шестерни DUO работают с 5 мм шестигранным валом для передачи движения по зубчатой передаче. Чтобы узнать больше об использовании шестигранных валов и правильной поддержке и ограничении движения, посетите страницы, ссылки на которые приведены ниже:
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
+[Сломанная ссылка](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-### Gear Spacing&#x20;
+### Расстояние между шестернями&#x20;
 
-In order for gears to work effectively, and not become damaged, it’s important that the **center-to-center distance** is correctly adjusted. The gears in DETAIL A, of the figure below, may work under very light load, but they will certainly not work and will skip under any significant loading. The gears in that example are too far apart and so the teeth of each gear barely contact each other. The gears in DETAIL B are correctly spaced and will provide smooth and reliable operation.
+Для того чтобы шестерни работали эффективно и не повреждались, важно правильно отрегулировать **межцентровое расстояние**. Шестерни в ПРИМЕРЕ А на рисунке ниже могут работать при очень небольшой нагрузке, но они точно не будут работать и будут проскакивать при любой значительной нагрузке. Шестерни в этом примере расположены слишком далеко друг от друга, поэтому зубья каждой шестерни едва соприкасаются друг с другом. Шестерни в ПРИМЕРЕ B расположены правильно и обеспечивают плавную и надежную работу.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9_EIVj36TXLkG6buP6%2F-M9_LMrZk5oLsWbT9-CE%2Fimage.png?alt=media&#x26;token=674b5835-8166-4d64-8434-20404acfd72d" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9_EIVj36TXLkG6buP6%2F-M9_LMrZk5oLsWbT9-CE%2Fimage. png?alt=media&#x26;token=674b5835-8166-4d64-8434-20404acfd72d" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-_To learn more about calculating center-to-center distance for Gears visit the_ [_Spacing and Center to Center Distance_](broken-reference) _section_&#x20;
+Чтобы узнать больше о расчете межцентрового расстояния для шестерен, посетите раздел_ [_Расстояние и межцентровое расстояние_](broken-reference) _section_&#x20;
 {% endhint %}
 
-### Gear Alignment Mark
+### Знак центровки зубчатых колес
 
-Sometimes in a design it may be desirable to stack together multiples of the same gear on a shaft to increase the load carrying capacity of the gears. In the case where the number of teeth on the gear is not divisible by six, because of how they are oriented when put onto the hex shaft, the teeth may not be aligned between the two gears. To ensure all of the gears are clocked the same way, use the alignment shaft notch to put all the gears on the shaft with the same orientation.
+Иногда в конструкции может потребоваться скомпоновать несколько одинаковых шестерен на валу, чтобы увеличить несущую способность шестерен. В случае, когда число зубьев на шестерне не делится на шесть, из-за того, как они ориентированы при надевании на шестигранный вал, зубья могут быть не выровнены между двумя шестернями. Для того чтобы все шестерни были установлены одинаково, используйте выемку на валу для центровки, чтобы установить все шестерни на вал с одинаковой ориентацией.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3R6QGRqB1YMa7z%2F15.png?generation=1591822059652653&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3R6QGRqB1YMa7z%2F15.png?generation=1591822059652653&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3QFi2GCh80_247%2F14.png?generation=1591822059617958&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3QFi2GCh80_247%2F14.png?generation=1591822059617958&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
-Being aware of the alignment mark will ensure all of the gear teeth are aligned on the shaft. The figure below is an example of a basic robot arm which may have to lift a heavy load. Using two gears to lift the arm doubles the material interfacing with the hex shaft and will allow the arm to perform with heavier loads.
+Знание метки центровки обеспечит выравнивание всех зубьев шестерни на валу. На рисунке ниже показан пример базового манипулятора робота, которому, возможно, придется поднимать тяжелый груз. Использование двух шестерен для подъема руки удваивает количество материала, взаимодействующего с шестигранным валом, и позволяет руке работать с более тяжелыми грузами.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3SjHNz3sVEuRD3%2F16.png?generation=1591822059682956&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3SjHNz3sVEuRD3%2F16.png?generation=1591822059682956&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
+
