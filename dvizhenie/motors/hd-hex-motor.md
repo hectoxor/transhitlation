@@ -6,7 +6,7 @@
 
 HD Hex Motor ([REV-41-1301](https://www.revrobotics.com/rev-41-1301/)) имеет встроенный энкодер и питание, которые подключаются прямо к концентратору управления REV ([REV-31-1595](https://www.revrobotics.com/rev-31-1595/)) и концентратору расширения ([REV-31-1153](https://www.revrobotics.com/rev-31-1153/)). Варианты редукторов имеют выход 5 мм Hex или муфту, что позволяет легко подключать шестерни, звездочки, колеса и т.д. Энкодер и кабели питания всегда входят в комплект поставки двигателя. По размерам и мощности HD Hex Motor аналогичен другим щеточным двигателям 550 класса, но имеет более удобные варианты вывода и разъемы.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M95GzREAfvShYd-fr7k%2F-M95JnKjgsxv73CPT0aB%2FMini%20Chart%20HD%20Hex. png?alt=media&#x26;token=58f8a82e-21a1-4539-87cf-f253e9357881" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M95GzREAfvShYd-fr7k%2F-M95JnKjgsxv73CPT0aB%2FMini%20Chart%20HD%20Hex.png?alt=media&#x26;token=58f8a82e-21a1-4539-87cf-f253e9357881"alt=""><figcaption></figcaption></figure>
 
 
 
@@ -22,7 +22,7 @@ HD Hex Motor соответствует гибкости конструкции 
 
 HD Hex Motor использует 2-контактный разъем JST-VH для питания двигателя и 4-контактный JST-PH для обратной связи со встроенным энкодером. Более подробную информацию об использовании кабелей и разъемов, входящих в комплект HD Hex Motor, см. в [REV Control System - Cable and Connectors documentation](https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors). На рисунке ниже показана распиновка разъемов питания двигателя и энкодера.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M_M8cPZpdT88Tye8xPn%2F-M_MCcUszaBq8eeo9Rmp%2FHD%20Hex%20Motor_Encoder%20Pinout1_Export. svg?alt=media&#x26;token=b7cf4b6d-d8aa-407c-bf6d-609253e815cf" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M_M8cPZpdT88Tye8xPn%2F-M_MCcUszaBq8eeo9Rmp%2FHD%20Hex%20Motor_Encoder%20Pinout1_Export.svg?alt=media&#x26;token=b7cf4b6d-d8aa-407c-bf6d-609253e815cf"alt=""><figcaption></figcaption></figure>
 
 ## HD Hex Motor (без редуктора)
 
