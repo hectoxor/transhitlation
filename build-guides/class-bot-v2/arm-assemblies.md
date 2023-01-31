@@ -1,20 +1,19 @@
-# Arm Assemblies
+# Сборка кронштейна
 
-## Arm Assembly Parts Required
+## Необходимые детали для сборки рычага
 
-| **PART NUMBER**                                         | **DESCRIPTION**                    | **QTY.** |
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** | **КОЛИЧЕСТВО** | 
 | ------------------------------------------------------- | ---------------------------------- | -------- |
-| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/) | 15MM EXTRUSION - 420MM             | 1        |
-| [REV-41-1320](https://www.revrobotics.com/rev-41-1320/) | 15MM PLASTIC INSIDE CORNER BRACKET | 1        |
-| [REV-41-1311](https://www.revrobotics.com/rev-41-1311/) | 15MM PLASTIC 120 DEGREE BRACKET    | 3        |
-| [REV-41-1485](https://www.revrobotics.com/rev-41-1485/) | 15MM METAL BENT SERVO BRACKET V2   | 1        |
-| [REV-41-1097](https://www.revrobotics.com/rev-41-1097/) | SMART ROBOT SERVO                  | 1        |
-| [REV-41-1363](https://www.revrobotics.com/rev-41-1363/) | ALUMINUM SERVO HORN                | 1        |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS            | 8        |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                      | 10       |
-| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | M3 X 16MM HEX CAP SCREWS           | 4        |
-| ****                                                    | **ASSEMBLIES**                     |          |
-| [ASSEMBLY 1.6](broken-reference)                        | PRE-LOADED BENT SERVO BRACKET      | 1        |
+| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/) | 15 ММ ЭКСТРУЗИЯ - 420 ММ | 1 |
+| [REV-41-1320](https://www.revrobotics.com/rev-41-1320/) | 15ММ ПЛАСТИКОВЫЙ ВНУТРЕННИЙ УГЛОВОЙ КРОНШТЕЙН | 1 |
+| [REV-41-1311](https://www.revrobotics.com/rev-41-1311/) | 15ММ ПЛАСТИКОВЫЙ КРОНШТЕЙН 120 ГРАДУСОВ | 3 | |
+| [REV-41-1485](https://www.revrobotics.com/rev-41-1485/) | 15ММ МЕТАЛЛИЧЕСКИЙ ИЗОГНУТЫЙ КРОНШТЕЙН ДЛЯ СЕРВОПРИВОДА V2 | 1 | |
+| [REV-41-1097](https://www.revrobotics.com/rev-41-1097/) | СЕРВОПРИВОД УМНОГО РОБОТА | 1 |
+| [REV-41-1363](https://www.revrobotics.com/rev-41-1363/) | АЛЮМИНИЕВЫЙ РОЖОК ДЛЯ СЕРВОПРИВОДА | 1 | |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | ВИНТЫ С ШЕСТИГРАННОЙ ГОЛОВКОЙ M3 X 8 ММ | 8 | |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC ГАЙКИ | 10 | |
+| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | M3 X 16MM HEX CAP SCREWS | 4 | |
+| [СБОРКА 1.6](broken-reference) | ПРЕДЗАГРУЗОЧНАЯ ПОДСТАВКА ГНУТОГО СЕРВОпривода | 1 | |
 
 ## Servo Claw Assembly
 
