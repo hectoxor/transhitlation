@@ -16,22 +16,6 @@ REV DUO Build System имеет два главных структурных к�
 
 Ознакомьтесь со страницами ниже чтобы узнать больше о компонентах REV DUO.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ### Extended Motion Pattern&#x20;
 
 В отличии от 15-и миллиметровой Extrusion, прочие компоненты REV DUO имеют фиксированный шаг. [Structural brackets](broken-reference) have M3 holes on an 8mm pitch. While [Motion Brackets](broken-reference) have the Motion Pattern, a circular M3 hole pattern on a 16mm diameter is used to mount to REV Robotics shaft accessories.&#x20;

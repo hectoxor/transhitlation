@@ -4,8 +4,6 @@ description: Базовое оборудование M3
 
 # Оборудование M3
 
-
-
 Система сборки REV DUO использует [Оборудование M3](https://www.revrobotics.com/ftc/hardware/fasteners/) для соединения или крепления кронштейнов и конструкции вместе на роботе. Для различных применений требуются винты разной длины. При креплении кронштейна к экструзии обычно требуются более короткие винты. Используйте более длинные винты для соединения компонентов системы управления и других более толстых материалов.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MBdaAEM_fx2eAmY_r3b%2F-MBdecpvUjZ0yPGnieHq%2FM3_Nut_Nyloc_Nut_Hex_Head_Screw.png?alt=media&#x26;token=c9c22723-35b9-4ad9-9525-584301d881c8" alt=""><figcaption></figcaption></figure>
@@ -18,19 +16,19 @@ description: Базовое оборудование M3
 
 Мы включаем все инструменты, необходимые для использования деталей, в стартовый комплект FTC. Найдите минутку, чтобы определить инструменты, приведенные ниже:
 
-* 5.5мм Nut Driver ([REV-41-1119](https://www.revrobotics.com/rev-41-1119/))
-* 5.5ммCombination Wrench ([REV-41-1374](https://www.revrobotics.com/rev-41-1374/))
-* Allen Wrench Pack (1.5мм ([REV-41-1376](https://www.revrobotics.com/rev-41-1376/)), 2мм ([REV-41-1377](https://www.revrobotics.com/rev-41-1377/)), and 2.5мм Allen Wrenches)&#x20;
-* \#25 Chain Tool ([REV-41-1442](https://www.revrobotics.com/rev-41-1442/))
+* 5.5мм отвертка ([REV-41-1119](https://www.revrobotics.com/rev-41-1119/))
+* 5.5мм ключ ([REV-41-1374](https://www.revrobotics.com/rev-41-1374/))
+* [Пак шестигранников](https://www.revrobotics.com/rev-45-1882/) (1.5мм ([REV-41-1376](https://www.revrobotics.com/rev-41-1376/)), 2мм ([REV-41-1377](https://www.revrobotics.com/rev-41-1377/)), и 2.5мм)&#x20;
+* \#25 Инструмент для цепей ([REV-41-1442](https://www.revrobotics.com/rev-41-1442/))
 
 Поскольку роботы становятся все более сложными, на веб-сайте REV доступны дополнительные инструменты, оборудование и крепежные детали:
 
-* 5.5мм Ratcheting Combination Wrench ([REV-49-1711](https://www.revrobotics.com/rev-49-1711/))&#x20;
-* 5mm Hex Broach ([REV-41-1367](https://www.revrobotics.com/rev-41-1367/)) for making hex-shaped holes&#x20;
-* Metric Step Drill ([REV-49-1455](https://www.revrobotics.com/rev-49-1455/)) for drilling holes of different sizes
-* Zip Ties ([REV-41-1161](https://www.revrobotics.com/rev-41-1161/))
-* Hook and Loop Fastener ([REV-41-1373](https://www.revrobotics.com/rev-41-1373/))&#x20;
-* Variety of replacement screws, and additional screw lengths
+* 5.5мм ключ с храповым механизмом ([REV-49-1711](https://www.revrobotics.com/rev-49-1711/))&#x20;
+* 5mm шестигранная протяжка ([REV-41-1367](https://www.revrobotics.com/rev-41-1367/)) для создания шестигранных отверстий, размера М3  &#x20;
+* Метрическое ступенчатое сверло ([REV-49-1455](https://www.revrobotics.com/rev-49-1455/)) для сверления отверстий различных размеров
+* Стяжки ([REV-41-1161](https://www.revrobotics.com/rev-41-1161/))
+* Застежка с крючком и петлей([REV-41-1373](https://www.revrobotics.com/rev-41-1373/))&#x20;
+* Разнообразные сменные винты и дополнительные винты разной длины
 
 ### Винты с Т-образным пазом
 
