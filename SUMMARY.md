@@ -35,10 +35,10 @@
   * [HD Hex Motor](dvizhenie/motors/hd-hex-motor.md)
   * [Core Hex Motor](dvizhenie/motors/core-hex-motor.md)
 * [Сервоприводы](dvizhenie/servos/README.md)
-  * [Smart Robot Servo](dvizhenie/servos/smart-robot-servo/README.md)
-    * [SRS Gear Replacement](dvizhenie/servos/smart-robot-servo/srs-gear-replacement.md)
+  * [Умный робот-сервопривод](dvizhenie/servos/smart-robot-servo/README.md)
+    * [Замена шестерни SRS](dvizhenie/servos/smart-robot-servo/srs-gear-replacement.md)
   * [SRS Programmer](dvizhenie/servos/srs-programmer.md)
-  * [Servo Power Module](dvizhenie/servos/servo-power-module.md)
+  * [Силовой модуль сервопривода](dvizhenie/servos/servo-power-module.md)
 * [Ремни ГРМ и шкивы](dvizhenie/timing-belts-and-pulleys.md)
 
 ## Build Guides
