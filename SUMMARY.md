@@ -1,8 +1,10 @@
 # Table of contents
 
+* [REV DUO](README.md)
+
 ## Структура
 
-* [Введение в Структуру](README.md)
+* [Введение в Структуру](<README (1).md>)
   * [15мм Extrusion](struktura/vvedenie-v-strukturu/15mm-extrusion.md)
   * [15мм x 30мм Extrusion](struktura/vvedenie-v-strukturu/15mm-x-30mm-extrusion.md)
   * [15мм x 45мм C Channel](struktura/vvedenie-v-strukturu/15mm-x-45mm-c-channel.md)
