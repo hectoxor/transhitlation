@@ -12,7 +12,7 @@ _**Speed**_ is the measure of how fast an object is moving. The speed of an obje
 {% tab title="Torque" %}
 _**Torque**_ is roughly the measure of the turning force on an object like a sprocket or a wheel. Mathematically, torque is defined as the rate of change of the angular momentum of an object. A common example of torque is a wrench attached to a bolt produces a torque to tighten or loosen it. Torque is commonly expressed in N⋅m or in⋅lbs.
 
-When torque is turning an object, like a sprocket, the sprocket will create a straight line (linear) force at the point where the teeth contact the chain. The magnitude of the torque created is the product of the rotational force applied and the length of the lever arm, which in the case of a sprocket, is half of the pitch diameter (the radius).
+Когда крутящий момент вращает объект, например, звездочку, звездочка создает прямолинейную (линейную) силу в месте контакта зубьев с цепью. Величина создаваемого крутящего момента равна произведению приложенной силы вращения и длины плеча рычага, которая в случае со звездочкой равна половине диаметра шага (радиуса).
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9ZGlVpJ2\_dYVZwzOHf%2F-M9ZHmV80zbgk\_SSkFEy%2F10.png?generation=1591894290071791\&alt=media)
 
@@ -20,112 +20,111 @@ When torque is turning an object, like a sprocket, the sprocket will create a st
 {% endtab %}
 
 {% tab title="Power" %}
-_**Power (P)**_ is the rate of work over time. The concept of power includes both a physical change and a time period which the change occurs. This is distinct from the concept of work which only measures a physical change. It takes the same amount of work to carry a brick up a mountain whether you walk or run, but running takes more power because the work is done in a shorter amount of time. The SI unit for power is the watt(W) which is the same as one joule per second (J/s).
+Мощность (P)**_ - это скорость совершения работы за определенное время. Понятие мощности включает в себя как физическое изменение, так и период времени, в течение которого происходит изменение. Это отличается от понятия работы, которое измеряет только физическое изменение. Для переноса кирпича в гору требуется одинаковое количество работы, независимо от того, идете вы или бежите, но при беге затрачивается больше энергии, поскольку работа выполняется за более короткий промежуток времени. Единицей СИ для мощности является ватт (Вт), который равен одному джоулю в секунду (Дж/с).
 
-Often in competition robotics the total power is fixed by the motors and the batteries available. The maximum speed at which an arm can lift a certain load is dictated by the maximum system power.
+Часто в соревновательной робототехнике общая мощность определяется двигателями и доступными батареями. Максимальная скорость, с которой рука может поднять определенный груз, диктуется максимальной мощностью системы.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9ZGlVpJ2\_dYVZwzOHf%2F-M9ZHmV9OsxxeJtF-rKb%2F11.png?generation=1591894290000695\&alt=media)
 {% endtab %}
 {% endtabs %}
 
-## Chain Drive
+## Цепной привод
 
-By selecting sprockets with different sizes relative to the input sprocket varies the output speed and the output torque. Total power is not effected through these changes.
+Выбирая звездочки разного размера относительно входной звездочки, можно варьировать выходную скорость и выходной крутящий момент. На общую мощность эти изменения не влияют.
 
-Sprocket and chain is a very efficient way to transmit torque over long distances. Modest **reductions** can be accomplished using sprockets and chain, but gears typically provide a more space efficient solution for higher ratio reductions.
+Звездочка и цепь - очень эффективный способ передачи крутящего момента на большие расстояния. С помощью звездочек и цепи можно добиться умеренных **уменьшений**, но шестерни обычно обеспечивают более компактное решение для больших уменьшений передаточного отношения.
 
-### Sprocket Ratio&#x20;
+### Соотношение звездочек&#x20;
 
-When a larger sprocket drives a smaller one, for one rotation of the larger sprocket the smaller sprocket must complete more revolutions so the output will be faster than the input. If the situation is reversed and a smaller sprocket drives a larger output sprocket, then for one rotation of the input the output will complete less than one revolution resulting in a speed decrease from the input. The **ratio** of the sizes of the two sprockets is proportional to the speed and torque changes between them.
+Когда большая звездочка приводит в движение меньшую, за один оборот большей звездочки меньшая звездочка должна совершить больше оборотов, поэтому выход будет быстрее входа. Если ситуация обратная и меньшая звездочка приводит в движение большую выходную звездочку, то за один оборот входной звездочки выходная совершает меньше оборотов, что приводит к снижению скорости по сравнению с входной. Соотношение **размеров двух звездочек пропорционально изменению скорости и крутящего момента между ними.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9e5k5YA2NdApp\_96e-%2F-M9e6hv0hdA97FKNN2E1%2Fimage.png?alt=media\&token=b7dec48d-8396-45ec-a199-96215cb9a967)
 
-The **ratio** in size from the input (driving) sprocket to the output (driven) sprocket determines if the output is faster (less torque) or has more torque (slower). To calculate exactly how the sprocket size ratio effects the relationship from input to output use the ratio of the number of teeth between the two sprockets.
+Соотношение** размеров входной (ведущей) и выходной (ведомой) звездочек определяет, будет ли выходная быстрее (меньший крутящий момент) или с большим крутящим моментом (медленнее). Чтобы точно рассчитать, как соотношение размеров звездочек влияет на соотношение между входным и выходным звеньями, используйте соотношение количества зубьев между двумя звездочками.
 
-In the image below, the ratio of the number of teeth from the input sprocket to the output sprocket is 20T:15T which means the input needs to turn 1.3 rotations for the output to complete one rotation
+На рисунке ниже соотношение числа зубьев входной и выходной звездочек составляет 20T:15T, что означает, что входная звездочка должна совершить 1,3 оборота, чтобы выходная совершила один оборот.
 
 $$
 20T/15T=1.320T/15T =1.3
 $$
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlBc0FwJnSQAJoJGTWG%2F-MlBeMBUjifHD3LVtn9z%2Fgoogle%20docs%2015T20T.png?alt=media\&token=f6cf40ef-9031-41db-a9d1-1766eece0d29)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlBc0FwJnSQAJoJGTWG%2F-MlBeMBUjifHD3LVtn9z%2Fgoogle%20docs%2015T20T. png?alt=media\&token=f6cf40ef-9031-41db-a9d1-1766eece0d29)
 
 ### Idlers&#x20;
 
-Now lets add a 15 tooth **idler** sprocket into the example on the outside of the chain loop. An **idler** sprocket is any sprocket meshed with the chain which does not drive any shaft or do any work. **Idlers** do not change the system reduction which remains 20T:15T.
-
+Теперь добавим в пример 15-зубую звездочку **идлера** с внешней стороны цепной петли. Звездочка **идлера** - это любая звездочка в зацеплении с цепью, которая не приводит в движение вал и не выполняет никакой работы. Звездочки **идлеры** не изменяют редукцию системы, которая остается 20T:15T.
 {% hint style="warning" %}
-Regardless of the number or size of idler sprockets, only the input and output sprocket determine the reduction. &#x20;
+Независимо от количества или размера ведомых звездочек, только входная и выходная звездочки определяют редукцию. &#x20;
 {% endhint %}
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlCOLD9yV77RAn9zLz3%2F-MlCPp\_UtOIbUOYtCdRP%2F15T20T%20w%20idler.png?alt=media\&token=3c5e416f-cb65-49a1-a2ae-42c7e9a10a6b)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlCOLD9yV77RAn9zLz3%2F-MlCPp\_UtOIbUOYtCdRP%2F15T20T%20w%20idler. png?alt=media\&token=3c5e416f-cb65-49a1-a2ae-42c7e9a10a6b)
 
-All sprockets on the same side of a chain have the same rotation. The driving and driven sprocket are inside the chain and are rotating counter clockwise while the idler sprocket is outside of the chain loop and is rotating clockwise. This property is useful sometime when it is desirable to have two shafts powered from the same source, but with opposite rotations. Common examples of this on robots are intakes and dual wheeled shooters.
+Все звездочки на одной стороне цепи имеют одинаковое вращение. Ведущая и ведомая звездочки находятся внутри цепи и вращаются против часовой стрелки, а ведомая звездочка находится вне контура цепи и вращается по часовой стрелке. Это свойство полезно в тех случаях, когда желательно иметь два вала, питающихся от одного источника, но с противоположным вращением. Частыми примерами этого на роботах являются водозаборники и двухколесные стрелки.
 
-Idlers can be used to tension chain or increase the amount of chain wrap around a sprocket. From the figure below, all power transmission sprockets should have chain wrapped approximately 180° around the circumference of the sprocket. This amount of wrap is necessary so that there are sufficient teeth engaged with the chain to transmit the torque. Too little wrap (<120°) and the chain will skip under heavy load, while excessive wrap (>200°) can decrease system efficiency. The sprocket outside of the chain is noted with a warning because it has a chain wrap of <90°. If this sprocket is an idler, then it is unpowered and minimal chain wrap is acceptable, however if this sprocket will be driving a shaft which is doing work, this amount of wrap would be insufficient.
+Идлитеры могут использоваться для натяжения цепи или увеличения степени обхвата цепи вокруг звездочки. Как видно из рисунка ниже, все звездочки трансмиссии должны иметь цепь, обернутую примерно на 180° по окружности звездочки. Такое количество витков необходимо для того, чтобы зубья цепи были в зацеплении с цепью и передавали крутящий момент. Слишком малый навив (<120°) может привести к проскальзыванию цепи под большой нагрузкой, а чрезмерный навив (>200°) может снизить эффективность системы. Звездочка, расположенная вне цепи, отмечена предупреждением, так как имеет обхват цепи <90°. Если эта звездочка является ведомой, то она не приводится в движение, и минимальный заворот цепи допустим, однако если эта звездочка будет приводить в движение вал, выполняющий работу, то такой заворот будет недостаточным.
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlBc0FwJnSQAJoJGTWG%2F-MlBf0rOcHj4jUHrcQB5%2Fgoogle%20doc%2015T20T%20sprocket%20w%20idler%20wrap.png?alt=media\&token=9bbbfb5d-011d-4ecc-afe8-ad58a46cab21)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MlBc0FwJnSQAJoJGTWG%2F-MlBf0rOcHj4jUHrcQB5%2Fgoogle%20doc%2015T20T%20sprocket%20w%20idler%20wrap. png?alt=media\&token=9bbbfb5d-011d-4ecc-afe8-ad58a46cab21)
 
-Sprocket and chain is an efficient way to transmit torque long distances in a robot. A common example of this is a sprocket and chain drivetrain. In this example the sprockets on the ends are linked to the drive wheels and the center sprocket would be driven by a motor (not shown). Because the driving and driven sprockets are all inside the chain, they all have the same rotation direction. The smaller sprockets on the outside of the chain loop are used to increase the amount of chain wrap on the center driving sprocket.
+Звездочка и цепь - это эффективный способ передачи крутящего момента на большие расстояния в роботе. Распространенным примером этого является трансмиссия со звездочками и цепью. В этом примере звездочки на концах связаны с ведущими колесами, а центральная звездочка приводится в движение двигателем (не показан). Поскольку ведущая и ведомая звездочки находятся внутри цепи, все они имеют одинаковое направление вращения. Меньшие звездочки, расположенные снаружи петли цепи, используются для увеличения степени наматывания цепи на центральную ведущую звездочку.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9ZGlVpJ2\_dYVZwzOHf%2F-M9ZHmVEbTScXZQkgyNa%2F16.png?generation=1591894290030737\&alt=media)
 
-### Compound Gearing
+### Составная передача
 
-Some designs may require more reduction than is practical in a single stage. The ratio from the smallest sprocket available to the largest is 54:15, so if a greater reduction then 3.6x is required, multiple reduction stages can be used in the same mechanism which is called a compound gear reduction. There are multiple gear or sprocket pairs in a compound reduction with each pair linked by a shared axle. When using sprockets and chain in a multi stage reduction, it’s very common to use gears for the first stage and then use sprockets and chain for the last stage. The figure below is an example of a two-stage reduction using all gears, but one of the pairs could be replaced with sprockets and chain. The driving gear (input) of each pair is highlighted in orange.
+В некоторых конструкциях может потребоваться большее понижение, чем это возможно на одной ступени. Соотношение от самой маленькой звездочки до самой большой составляет 54:15, поэтому если требуется большее уменьшение, чем 3,6x, можно использовать несколько ступеней уменьшения в одном механизме, что называется комбинированной передачей. В составном редукторе имеется несколько пар шестерен или звездочек, каждая из которых соединена общей осью. При использовании звездочек и цепи в многоступенчатой редукции очень часто для первой ступени используются шестерни, а для последней - звездочки и цепь. На рисунке ниже приведен пример двухступенчатой редукции с использованием всех шестерен, но одна из пар может быть заменена на звездочки и цепь. Ведущая шестерня (вход) каждой пары выделена оранжевым цветом.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9ZGlVpJ2\_dYVZwzOHf%2F-M9ZHmVFLUMo9On7Vbus%2F17.png?generation=1591894290049157\&alt=media)
 
-Reduction is calculated the same for gears and sprockets based on the ratio of the number of teeth. To calculate the total reduction of a compound reduction, identify the reduction of each stage and then multiply each reduction together.
+Сокращение рассчитывается одинаково для зубчатых колес и звездочек на основе соотношения количества зубьев. Чтобы рассчитать общее уменьшение составной редукции, определите уменьшение каждой ступени, а затем умножьте каждое уменьшение вместе.
 
 $$
 \text{CR}=\text{R}_1×\text{R}_2 ×\text{…} ×\text{R}_n
 $$
 
-**Where:**
+**Где:**
 
-* CR is the total Compound Reduction
-* Rn is the total reduction of each stage
+* CR - общее сокращение соединений
+* Rn - общее сокращение каждой стадии.
 
-Using the image above as an example the compound reduction is 12:1.
+На примере приведенного выше изображения уменьшение соединения составляет 12:1.
 
 $$
-\text{CR}=\text{R}_1×   \text{R}_2 =\frac{60}{30}× \frac{90}{15}=2 ×6=12
+\text{CR}=\text{R}_1× \text{R}_2 =\frac{60}{30}× \frac{90}{15}=2 ×6=12
 $$
 
-For any gear system there are a limited number of gear and sprocket sizes available so in addition to being able to create greater reductions using compound reductions it is also possible to create a wider range of reduction values or the same reduction of a single stage, but with smaller diameter motion components.
+Для любой зубчатой системы существует ограниченное число размеров шестерен и звездочек, поэтому, помимо возможности создания больших редукций с помощью составных редукций, можно также создать более широкий диапазон значений редукции или такую же редукцию одной ступени, но с компонентами движения меньшего диаметра.
 
 {% hint style="info" %}
-Each additional compound stage will result in a decrease in efficiency of the system.&#x20;
+Каждая дополнительная составная ступень приводит к снижению эффективности системы.&#x20;
 {% endhint %}
 
 ### Spacing and Center to Center Distances <a href="#spacing-and-center-to-center-distances" id="spacing-and-center-to-center-distances"></a>
 
-When REV Robotics Sprockets are used in conjunction with the [slots ](https://docs.revrobotics.com/duo-build/building-materials/structure/15mm-extrusion)on [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) or [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/), the **center to center distance** between axles is completely adjustable. Slide and retighten the shaft mounting plates anywhere along the slots to adjust chain tension. This system allows any combination of compatible REV Robotics Sprocket to be used together, allowing for a high level of flexibility. When adjusting the reduction of a system, just a single sprocket can be replaced reducing the amount of reassembly time.
+При использовании звездочек REV Robotics в сочетании с [пазами ](https://docs.revrobotics.com/duo-build/building-materials/structure/15mm-extrusion) на [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) или [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/), **межцентровое расстояние** между осями полностью регулируется. Для регулировки натяжения цепи сдвиньте и затяните монтажные пластины вала в любом месте вдоль пазов. Эта система позволяет использовать вместе любую комбинацию совместимых звездочек REV Robotics, обеспечивая высокий уровень гибкости. При регулировке уменьшения скорости системы можно заменить только одну звездочку, что сокращает время сборки.
 
-When using the pitch featured on the [Extended Motion Pattern](broken-reference) a similar level of flexibility can be achieved in sprocket spacing by using Tensioning Bushings ([REV-41-1702](https://www.revrobotics.com/rev-41-1702/)) with M3 Standoffs ([REV-41-1492](https://www.revrobotics.com/rev-41-1492/)).&#x20;
+При использовании шага, представленного в [Extended Motion Pattern] (broken-reference), аналогичный уровень гибкости может быть достигнут в расстоянии между звездочками за счет использования натяжных втулок ([REV-41-1702](https://www.revrobotics.com/rev-41-1702/)) со стойками M3 ([REV-41-1492](https://www.revrobotics.com/rev-41-1492/)).&#x20;
 
-### Spacing
+### Расстояние между звездочками
 
-In order for sprockets to work effectively, it’s important that the **center-to-center distance** is correctly adjusted. The sprocket and chain example with the red 'X;, in the image below, may work under very light loads, but they will certainly not work and will skip under any significant loading. The sprockets in this example are too close together so chain is loose enough that it can skip on the sprocket teeth. The sprockets, with the green check mark, are correctly spaced which will provide smooth reliable operation.
+Для эффективной работы звездочек важно, чтобы **межцентровое расстояние** было правильно отрегулировано. Пример звездочки и цепи с красным "X;" на изображении ниже может работать при очень небольших нагрузках, но они точно не будут работать и будут проскакивать при любой значительной нагрузке. Звездочки в этом примере расположены слишком близко друг к другу, поэтому цепь ослаблена настолько, что может проскакивать по зубьям звездочек. Звездочки с зеленым флажком расположены правильно, что обеспечит плавную и надежную работу.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9e5k5YA2NdApp\_96e-%2F-M9e6pADnUy4uJezA5i2%2Fimage.png?alt=media\&token=0380b0ee-8f92-4b51-b835-8dd4b1618f64)
 
-**To correctly space REV Robotics Sprockets along slots, use the following procedure:**
+**Для правильной установки звездочек REV Robotics по пазам используйте следующую процедуру:**.
 
-1. Securely fix the axle of either the input or output sprocket. In the case of a gear train with multiple idlers or a compound reduction, consider which axle makes the most sense to fix such as the very first input gear or the very last gear.
-2. Starting with the fixed axle, then identify all the driving and driven sprockets for any sprockets on that axle. One by one loosen these axles, slide them until the chain is tensioned and then retighten the axle mounts.
-3. Continue the procedure from Step 2 for each fixed axle until all the chains are tight and all the axles have been retightened.
+1. Надежно зафиксируйте ось входной или выходной звездочки. В случае зубчатой передачи с несколькими ведомыми шестернями или составной редукцией, подумайте, какую ось имеет смысл закрепить, например, самую первую входную шестерню или самую последнюю.
+2. Начиная с неподвижной оси, определите все ведущие и ведомые звездочки для всех звездочек на этой оси. По очереди ослабьте эти оси, сдвиньте их до натяжения цепи, а затем снова затяните крепления осей.
+3. Продолжайте процедуру из Шага 2 для каждой неподвижной оси, пока все цепи не будут натянуты и все оси не будут затянуты.
 
 {% hint style="warning" %}
 The process highlighted above works with the slots but the process with the Extended Motion Pattern may require center to center distance calculations.
 {% endhint %}
 
-#### Center to Center Distance <a href="#center-to-center-distance" id="center-to-center-distance"></a>
+#### Расстояние от центра до центра <a href="#center-to-center-distance" id="center-to-center-distance"></a>
 
-It is possible to mathematically calculate the number of links needed between two sprockets or the correct center to center distances for two sprockets for a given chain length. These methods are appropriate for robot planning purposes, but assembling your robot using these measurement is typically impractical. The details of these calculations are included for completeness, but most modern CAD packages or numerous free online calculators can also generate the correct values.
+Можно математически рассчитать количество звеньев, необходимых между двумя звездочками, или правильное межосевое расстояние для двух звездочек при заданной длине цепи. Эти методы подходят для целей планирования робота, но сборка робота с использованием этих измерений, как правило, непрактична. Детали этих расчетов включены для полноты картины, но большинство современных CAD-пакетов или многочисленные бесплатные онлайн-калькуляторы также могут генерировать правильные значения.
 
-**Center to center distance in inches**
+**Расстояние от центра до центра в дюймах**
 
 #### &#x20;
 
@@ -133,27 +132,27 @@ $$
 \text{CDC} = \frac{P}{8}\left[2L - (N+n) + \sqrt{(2L-(N+n))^2-\frac{8}{\pi^2}\times(N - n)^2} \right]
 $$
 
-#### &#x20;Chain length in pitches&#x20;
+#### &#x20;Длина цепи в шагах&#x20;
 
 $$
 L = \frac{2C}{P} + \frac{N+n}{2} + \frac{P(\frac{N -n}{2\pi})^2}{C}
 $$
 
-**Where:**
+**Где:**
 
-* C= Center to Center Distance
-* L= Chain Length in Pitches
-* P= Pitch of Chain&#x20;
-* N= Number of Teeth on Large Sprocket&#x20;
-* n= Number of Teeth on Small Sprocket
+* C= Расстояние от центра до центра
+* L= Длина цепи в питчах
+* P= Шаг цепи&#x20;
+* N= Количество зубьев на большой звездочке&#x20;
+* n= Количество зубьев на малой звездочке.
 
-**Calculate center to center distance**
+**Расчет межосевого расстояния**
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9eAZB3t38Bz4vk7zNy%2F-M9eBod8srE8BGJvT3Zz%2Fimage.png?alt=media\&token=ef648720-7ed0-4e3a-a442-f98f061d50ea)
 
-Calculate center to center distance using the '[center to center distance in inches'](broken-reference) formula and the chain drive example in the above image.&#x20;
+Рассчитайте расстояние от центра до центра, используя формулу '[расстояние от центра до центра в дюймах'] (broken-reference) и пример цепной передачи на изображении выше.&#x20;
 
-**Where:**
+**Где:**
 
 * L = 48&#x20;
 * P = 0.25
@@ -161,16 +160,16 @@ Calculate center to center distance using the '[center to center distance in inc
 * n = 15
 
 $$
-\text{CDC} = \frac{0.25}{8}\left[2(48) - (20+15) + \sqrt{(2(48)-(20+15))^2-\frac{8}{\pi^2}\times(20 - 15)^2} \right]\newline= \frac{0.25}{8}\left[ 96 - 35 +\sqrt{(96-35)^2 - \frac{8}{\pi^2} \times (5)^2} \right]\newline=\frac{0.25}{8} \left[ 61 + \sqrt{(61)^2 - \frac{8}{\pi^2}\times25}\right]\newline = \frac{0.25}{8}\left[ 61 + \sqrt{3721 - \frac{200}{\pi^2}}\right]\newline\frac{0.25}{8}\left[61+\sqrt{3721-20.24642}\right]\newline = 0.03125\left[61+60.833\right]\newline = 3.807
+\text{CDC} = \frac{0.25}{8}\left[2(48) - (20+15) + \sqrt{(2(48)-(20+15))^2-\frac{8}{\pi^2}\times(20 - 15)^2} \right]\newline= \frac{0.25}{8}\left[ 96 - 35 +\sqrt{(96-35)^2 - \frac{8}{\pi^2}\times (5)^2} \right]\newline=\frac{0.25}{8} \left[ 61 + \sqrt{(61)^2 - \frac{8}{\pi^2}\times25}\right]\newline = \frac{0.25}{8}\left[ 61 + \sqrt{3721 - \frac{200}{\pi^2}}\right]\newline\frac{0. 25}{8}\left[61+\sqrt{3721-20.24642}\right]\newline = 0.03125\left[61+60.833\right]\newline = 3.807
 $$
 
-After running calculations, the center to center distance for the example is **3.807 inches**
+После проведения расчетов расстояние от центра до центра для примера составляет **3,807 дюйма**.
 
-#### Calculate chain length
+#### Рассчитайте длину цепи
 
-In most design cases the chain length is not known ahead of time, but the two sprockets in the reduction and an approximate center-to-center distance to fit the reduction is known. For this example, a 20:15 reduction is needed, and the whole solution must fit in a space of five inches or less.
+В большинстве случаев длина цепи заранее неизвестна, но известны две звездочки в редукторе и приблизительное межцентровое расстояние, необходимое для установки редуктора. Для этого примера необходимо сокращение 20:15, и весь раствор должен умещаться на пространстве не более пяти дюймов.
 
-In this example the whole solutions must fit into a five-inch space, so in addition to the center to center distance, the chain clearance radius for both sprockets must be accounted for. Use [Sprocket Measurement Details](broken-reference) to look up the chain clearance diameter (A) for both the 15 tooth and 20 tooth sprocket and subtract the radius of each from the total given solution size to get the maximum center to center distance available.
+В этом примере все решения должны умещаться на пятидюймовом пространстве, поэтому в дополнение к межцентровому расстоянию необходимо учитывать радиус зазора цепи для обеих звездочек. Используйте [Подробности измерения звездочки](пунктирная ссылка), чтобы найти диаметр зазора цепи (A) как для 15-зубчатой, так и для 20-зубчатой звездочки, и вычтите радиус каждой из общего заданного размера решения, чтобы получить максимальное расстояние между центрами. доступный.
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9ZGlVpJ2\_dYVZwzOHf%2F-M9ZHmVJ-5VEvhikU9Bh%2F21.png?generation=1591894290026103\&alt=media)
 
@@ -178,7 +177,7 @@ $$
 \text{Maximum CDC} = \text{Total Solution Width} - \text{Clearance Radius 1}-\text{Clearance Radius 2}
 $$
 
-**Where:**
+**Где:**
 
 $$
 \text{Total Solution Width} = 5  \text {inches}\newline\text{Clearance Radius 1}\,=15T_{chain\, clearance\, diameter(A)} = 1.45\,\text{inches}\newline\text{Clearance Radius 2} =20T_{chain\, clearance\, diameter(A)} = 1.85\,\text{inches}
@@ -188,9 +187,9 @@ $$
 \text{Maximum CDC Available} = 5 - \frac{1.45}{2} - \frac{1.85}{2}\newline\text{Maximum CDC Available} = 3.35 \text{inches}
 $$
 
-Using the center to center distance of 3.371 inches as the maximum spacing for this reduction to fit into a five-inch space, solve the [chain length in pitches equation](broken-reference).
+Используя расстояние от центра до центра в 3,371 дюйма в качестве максимального интервала для этого уменьшения, чтобы вписаться в пространство в пять дюймов, решите уравнение длины цепи в шагах.
 
-**Where:**
+**Где:**
 
 * C= 3.35
 * P= 0.25
@@ -201,11 +200,10 @@ $$
 L =\left[ \frac{2(3.35)}{0.25} \right]+\left[ \frac{20+15}{2}\right] + \left[\frac{0.25(\frac{20 -15}{2\pi})^2}{3.35}\right]\\L = \left[\frac{6.7}{0.25}\right] +\left[\frac{35}{2}\right]+ \left[\frac{0.25(\frac{5}{2\pi})^2}{3.35}\right]\\L = 26.8 + 17.5 + \left[\frac{0.25(0.796)^2}{3.35}\right]\newline L = 44.3 + \left[\frac{0.25\times 0.634}{3.35} \right]\\L = 44.3 + \frac{0.1585}{3.35}\\ L = 44.347
 $$
 
-Since it is **not possible to have a fraction of a pitch length in the chain, the number obtained by solving the formula must be rounded to a whole even number**. In this example because the center to center distance used was the maximum allowed, the exact pitch length should be rounded down to 44 to meet the design requirements.
+Поскольку в цепочке **не может быть доли длины шага, число, полученное в результате решения формулы, необходимо округлить до целого четного числа**. В этом примере, поскольку используемое расстояние от центра до центра было максимально допустимым, точную длину шага следует округлить до 44, чтобы удовлетворить проектным требованиям.
 
-Now that the maximum even pitch lengths in the chain has been calculated, this value can be plugged back into [center to center distance formula](broken-reference) to find the exact center to center distance using a 44 link chain:
-
-**Where:**&#x20;
+Теперь, когда рассчитаны максимальные равные длины шага в цепи, это значение можно снова подставить в формулу расстояния от центра до центра, чтобы найти точное расстояние от центра до центра, используя цепочку из 44 звеньев:
+**Где:**&#x20;
 
 * L = 44&#x20;
 * P = 0.25
@@ -218,38 +216,38 @@ $$
 
 For a 15T:20T reduction the longest chain which will fit in under 5-inches using a 44 link chain which gives a center-to-center distance is 3.307 inches and the total solution width of 4.957 inches.
 
-### Sprocket Measurements
+### Размеры звездочки
 
-| ​                                                                                                                 | Chain Clearance Diameter A    | Pitch Diameter B             |
+| ​ | Chain Clearance Diameter A | Pitch Diameter B |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------------- |
-| <p>15 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1339/">REV-41-1339</a></p><p>​</p> | <p>1.45 in</p><p>36.9 mm</p>  | <p>1.2 in</p><p>30.5 mm</p>  |
-| <p>20 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1340/">REV-41-1340</a></p><p>​</p> | <p>1.85 in</p><p>46.9 mm</p>  | <p>1.6 in</p><p>40.6 mm</p>  |
-| <p>26 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1342/">REV-41-1342</a></p><p>​</p> | <p>2.32 in</p><p>59.0 mm</p>  | <p>2.07 in</p><p>52.7 mm</p> |
-| <p>40 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1343/">REV-41-1343</a></p><p>​</p> | <p>3.43 in</p><p>87.3 mm</p>  | <p>3.19 in</p><p>80.9 mm</p> |
+| <p>15 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1339/">REV-41-1339</a></p><p>​</p> | <p>1.45 in</p><p>36.9 mm</p> | <p>1.2 in</p><p>30.5 mm</p> |
+| <p>20 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1340/">REV-41-1340</a></p><p>​</p> | <p>1.85 in</p><p>46.9 mm</p> | <p>1.6 in</p><p>40.6 mm</p> |
+| <p>26 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1342/">REV-41-1342</a></p><p>​</p> | <p>2.32 in</p><p>59.0 mm</p> | <p>2.07 in</p><p>52.7 mm</p> |
+| <p>40 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1343/">REV-41-1343</a></p><p>​</p> | <p>3.43 in</p><p>87.3 mm</p> | <p>3.19 in</p><p>80.9 mm</p> |
 | <p>54 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1341/">REV-41-1341</a></p><p>​</p> | <p>4.55 in</p><p>115.6 mm</p> | <p>4.3 in</p><p>109.2 mm</p> |
 
-The **Motion Interface Pattern** is a circular M3 hole pattern on a 16mm diameter that interfaces with certain REV Brackets and the UltraPlanetary 5mm Hex Output ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
+**Шаблон интерфейса движения** представляет собой круглую схему отверстий M3 диаметром 16 мм, которая взаимодействует с некоторыми кронштейнами REV и шестигранным выходом UltraPlanetary 5 мм.([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2Fd9OXGb5QaDpyQru9iFXG%2Fgitbook%20vector.png?alt=media\&token=50fd1efa-73ae-457d-ad81-7dfe3fea8cd6)
 
-The 10 tooth #25 sprocket does not have a motion pattern due to size constraints. However, the 10 Tooth Sprocket shares features of the other Plastic Sprockets, like compatibility with #25 Chain. The table below provides the outer diameter and pitch diameter of the 10 Tooth Sprocket.
+10-зубая звездочка №25 не имеет схемы движения из-за ограничений по размеру. Тем не менее, звездочка с 10 зубьями имеет общие черты с другими пластиковыми звездочками, например совместимость с цепью №25. В таблице ниже указаны наружный диаметр и средний диаметр звездочки с 10 зубьями.
 
-|                                                                                                     | Chain Clearance Diameter A   | Pitch Diameter B             |
+| | Диаметр зазора цепи A | Диаметр шага B | | Наружный диаметр.
 | --------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------- |
 | <p>10 Tooth Sprocket</p><p>​<a href="https://www.revrobotics.com/rev-41-1338/">REV-41-1338</a>​</p> | <p>0.95 in</p><p>24.1 mm</p> | <p>0.80 in</p><p>20.2 mm</p> |
 
-#### Metal Sprockets&#x20;
+#### Металлические звездочки&#x20;
 
-| ​                                                                                                                 | Chain Clearance Diameter A   | Pitch Diameter B             |
+| ​ | Диаметр зазора цепи A | Делительный диаметр B |
 | ----------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------- |
-| <p>15 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1717/">REV-41-1717</a></p><p>​</p> | <p>1.45 in</p><p>36.9 mm</p> | <p>1.2 in</p><p>30.5 mm</p>  |
-| <p>20 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1720/">REV-41-1720</a></p><p>​</p> | <p>1.85 in</p><p>46.9 mm</p> | <p>1.6 in</p><p>40.6 mm</p>  |
-| <p>26 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1342/">REV-41-1342</a></p><p>​</p> | <p>2.32 in</p><p>59.0 mm</p> | <p>2.07 in</p><p>52.7 mm</p> |
-| <p>32 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1722/">REV-41-1722</a></p><p>​</p> | 2.80 in 87.3 mm              | <p>2.55 in</p><p>64.8 mm</p> |
-| <p>40 Tooth Sprocket</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1723/">REV-41-1723</a></p><p>​</p> | <p>3.43 in</p><p>87.3 mm</p> | <p>3.19 in</p><p>80.9 mm</p> |
+| <p>15 Зубная звездочка</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1717/">REV-41-1717</a></p><p>​</p> | <p>1.45 in</p><p>36.9 mm</p> | <p>1.2 in</p><p>30.5 mm</p> |
+| <p>20 Зубная звездочка</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1720/">REV-41-1720</a></p><p>​</p> | <p>1.85 in</p><p>46.9 mm</p> | <p>1.6 in</p><p>40.6 mm</p> |
+| <p>26 Зубная звездочка</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1342/">REV-41-1342</a></p><p>​</p> | <p>2.32 in</p><p>59.0 mm</p> | <p>2.07 in</p><p>52.7 mm</p> |
+| <p>32 Зубная звездочка</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1722/">REV-41-1722</a></p><p>​</p> | 2.80 in 87.3 mm | <p>2.55 in</p><p>64.8 mm</p> |
+| <p>40Зубная звездочка</p><p>​</p><p><a href="https://www.revrobotics.com/rev-41-1723/">REV-41-1723</a></p><p>​</p> | <p>3.43 in</p><p>87.3 mm</p> | <p>3.19 in</p><p>80.9 mm</p> |
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2F956AkEl5zdHetnFMdEUB%2Fgitbook%20vector%20\(1\).png?alt=media\&token=56c80772-677c-4d1c-a996-03111b6c540d)
 
 {% hint style="info" %}
-The 10 Tooth Metal #25 Sprocket ([REV-41-1716](https://www.revrobotics.com/rev-41-1716/)) while still being #25 Chain compatible differs from the other metal sprockets significantly. See the [drawing ](https://www.revrobotics.com/content/docs/REV-41-1716-DR.pdf)for relevant information for the 10 Tooth Metal #25 Sprocket.&#x20;
+10-зубая металлическая звездочка #25([REV-41-1716](https://www.revrobotics.com/rev-41-1716/)), несмотря на совместимость с цепью #25, существенно отличается от других металлических звездочек. Смотрите [чертеж](https://www.revrobotics.com/content/docs/REV-41-1716-DR.pdf) для получения соответствующей информации для 10-зубой металлической звездочки #25.&#x20;
 {% endhint %}
