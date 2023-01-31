@@ -10,7 +10,7 @@
   * [Плоская пластина](struktura/vvedenie-v-strukturu/flat-plate.md)
   * [Плоское крепление](struktura/vvedenie-v-strukturu/ploskoe-kreplenie.md)
   * [L-образное крепление](struktura/vvedenie-v-strukturu/l-obraznoe-kreplenie.md)
-* [Brackets](struktura/brackets.md)
+* [Кронштейны](struktura/brackets.md)
 * [Гофрированные пластиковые пластины](struktura/corrugated-plastic-sheets.md)
 * [Оборудование M3](struktura/oborudovanie-m3.md)
 
@@ -37,7 +37,7 @@
     * [SRS Gear Replacement](dvizhenie/servos/smart-robot-servo/srs-gear-replacement.md)
   * [SRS Programmer](dvizhenie/servos/srs-programmer.md)
   * [Servo Power Module](dvizhenie/servos/servo-power-module.md)
-* [Timing Belts and Pulleys](dvizhenie/timing-belts-and-pulleys.md)
+* [Ремни ГРМ и шкивы](dvizhenie/timing-belts-and-pulleys.md)
 
 ## Build Guides
 

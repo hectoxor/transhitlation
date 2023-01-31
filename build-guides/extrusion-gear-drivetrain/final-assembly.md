@@ -1,6 +1,27 @@
-# Final Assembly
+# Финальная Сборка
 
-## Final Assembly Parts Required
+### Необходимые детали для финальной сборки <a href="#neobkhodimye-detali-dlya-finalnoi-sborki" id="neobkhodimye-detali-dlya-finalnoi-sborki"></a>
+
+| **НОМЕР ДЕТАЛИ**                                                                                                                                                                        | **ОПИСАНИЕ**                                               | **QTY.** |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | -------- |
+| ​[REV-41-1432](https://www.revrobotics.com/rev-41-1432/)​                                                                                                                               | 15MM ЭКСТРУЖИОН - 420MM                                    | 4        |
+| ​                                                                                                                                                                                       | **В СБОРЕ**                                                | ​        |
+| ​[ASSEMBLY 1-1](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​ | УГЛОВОЙ КРОНШТЕЙН ДЛЯ КОЛЕНЕЙ С ПРЕДВАРИТЕЛЬНЫМ НАТЯЖЕНИЕМ | 16       |
+| ​[ASSEMBLY 1-3](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​ | БЛОК ПОДУШЕК ПОДШИПНИКА С ПРЕДВАРИТЕЛЬНЫМ НАТЯГОМ          | 16       |
+| ​[ASSEMBLY 1-4](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​ | ПРЕДВАРИТЕЛЬНО НАГРУЖЕННЫЙ СМЕННЫЙ ПОДВИЖНЫЙ КРОНШТЕЙН     | 4        |
+| ​[ASSEMBLY 2](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​   | ОМНИ-КОЛЕСО В СБОРЕ                                        | 2        |
+| ​[ASSEMBLY 3](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​   | КОЛЕСО СРЕДНЕЙ РУКОЯТКИ В СБОРЕ                            | 2        |
+| ​[ASSEMBLY 4](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​   | КОЛЕСО ПЕРЕДНЕЙ РУКОЯТКИ В СБОРЕ                           | 2        |
+| ​[ASSEMBLY 5](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​   | ВЕДОМАЯ ШЕСТЕРНЯ В СБОРЕ                                   | 4        |
+| ​[ASSEMBLY 6](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)​   | ВНУТРЕННЯЯ РАМА ШАССИ                                      | 1        |
+
+### Этапы окончательной сборки <a href="#etapy-okonchatelnoi-sborki" id="etapy-okonchatelnoi-sborki"></a>
+
+**ВНИМАНИЕ!** Следующие шаги включают в себя зацепление шестерен, чтобы собрать силовой агрегат. Если вы не знаете, как правильно расставить шестерни, обратитесь к нашей статье "Расстановка шестерен" ([Gear Spacing](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/Sos6byfsl9HRK0BfdZSt/\~/changes/YarwCuYVWTecCthghtgw/build-guides/zubchataya-peredacha-ekstruzhiona/finalnaya-sborka)).
+
+| ​                                                                                                                                                                                                                                                           | ​                                                                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ​![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MIKRb6cnLw4D9Aen9ic%2FAGD-\_BB%20-%20Side%20Lap%20Corner.svg?alt=media\&token=8244c3f7-bd97-4b3a-aaa8-73df3503ce88)​ | Установите два предварительно загруженных угловых кронштейна с нахлестом на внутреннюю раму шасси, как показано на рисунке. Затяните гайки Nylock до упора.Примечание: Края угловых кронштейнов должны быть заподлицо с концом экстружион. |
 
 | PART NUMBER                                             | **DESCRIPTION**                     | **QTY.** |
 | ------------------------------------------------------- | ----------------------------------- | -------- |
