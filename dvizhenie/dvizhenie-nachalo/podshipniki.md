@@ -1,5 +1,5 @@
 ---
-description: Bearings basics
+description: Основы подшипников
 ---
 
 # Подшипники
