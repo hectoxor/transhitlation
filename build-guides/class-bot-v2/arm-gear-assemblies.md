@@ -1,22 +1,21 @@
-# Arm Gear Assemblies
+# Сборка редуктора рычага
 
-## Arm Gear Assembly Parts Required
+## Необходимые детали для сборки редуктора рычага
 
-| **PART NUMBER**                                         | **DESCRIPTION**                           | **QTY.** |
+| **НОМЕР ДЕТАЛИ** | **ОПИСАНИЕ** | **КОЛИЧЕСТВО** |
 | ------------------------------------------------------- | ----------------------------------------- | -------- |
-| [REV-41-1348](https://www.revrobotics.com/rev-41-1348/) | 5MM X 90MM HEX SHAFT                      | 2        |
-| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | THROUGH BORE BEARING - LONG               | 2        |
-| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | SHAFT COLLAR                              | 6        |
-| [REV-41-1323](https://www.revrobotics.com/rev-41-1323/) | 15MM SPACER                               | 1        |
-| [REV-41-1300](https://www.revrobotics.com/rev-41-1300/) | CORE HEX MOTOR                            | 1        |
-| [REV-41-1334](https://www.revrobotics.com/rev-41-1334/) | 45 TOOTH PLASTIC GEAR                     | 1        |
-| [REV-41-1333](https://www.revrobotics.com/rev-41-1333/) | 125 TOOTH PLASTIC GEAR                    | 1        |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS                   | 4        |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                             | 2        |
-| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | M3 X 16MM HEX CAP SCREWS                  | 2        |
-|                                                         | ASSEMBLIES                                |          |
-| [ASSEMBLY 1.3](broken-reference)                        | PRE-LOADED BEARING PILLOW BLOCK           | 2        |
-| [ASSEMBLY 1.5](broken-reference)                        | PRE-LOADED BENT CORE HEX MOTOR BRACKET V2 | 1        |
+| [REV-41-1348](https://www.revrobotics.com/rev-41-1348/) | 5 ММ X 90 ММ ШЕСТИГРАННЫЙ ВАЛ | 2 | |
+| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | ПОДШИПНИК СО СКВОЗНЫМ ОТВЕРСТИЕМ - ДЛИННЫЙ | 2 | |
+| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/)| ВОРОТНИК ВАЛА | 6 |
+| [REV-41-1323](https://www.revrobotics.com/rev-41-1323/)| 15-ММ ПРОСТАВКА | 1 | |
+| [REV-41-1300](https://www.revrobotics.com/rev-41-1300/) | ШЕСТИГРАННЫЙ ДВИГАТЕЛЬ | 1 |
+| [REV-41-1334](https://www.revrobotics.com/rev-41-1334/) | 45-ЗУБАЯ ПЛАСТИКОВАЯ ШЕСТЕРНЯ | 1 |
+| [REV-41-1333](https://www.revrobotics.com/rev-41-1333/) | 125-ЗУБАЯ ПЛАСТИКОВАЯ ШЕСТЕРНЯ | 1 |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | ВИНТЫ С ШЕСТИГРАННОЙ ГОЛОВКОЙ M3 X 8 ММ | 4 | |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC ГАЙКИ | 2 | |
+| [REV-41-1360](https://www.revrobotics.com/rev-41-1360/) | ВИНТЫ С ШЕСТИГРАННОЙ ГОЛОВКОЙ M3 X 16 ММ | 2 | |
+| [СБОРКА 1.3](broken-reference) | Предварительно загруженный блок подшипников | 2 | |
+| [СБОРКА 1.5](broken-reference) | ПРЕДЗАГРУЗОЧНЫЙ БЛОК ПОДШИПНИКА С ГНУТЫМ КОРОТКИМ ШЕСТИГРАННИКОМ V2 | 1 | |
 
 ## Core Hex Motor Assembly
 
