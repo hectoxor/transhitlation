@@ -28,13 +28,13 @@ REV Servo Power Module ([REV-11-1144](https://www.revrobotics.com/rev-11-1144/))
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8VuTXTeaMyPtvVrNSd%2F-M8WMcrpi_Pd87PP76iS%2F4.png?generation=1590771487272705&#x26;alt=media" alt=""><figcaption></figcaption></figure>
 
-The Servo Power Module has two screw terminals for 12V power input. It is recommended to use ring or fork terminals designed for #6 or M3 screw terminals.
+Модуль питания сервопривода имеет две винтовые клеммы для ввода питания 12 В. Рекомендуется использовать кольцевые или вилочные клеммы, предназначенные для винтовых клемм #6 или M3.
 
-Using an appropriate wire gauge, 18 AWG or larger, tightly crimp either a ring or fork terminal on the wire. Insert the crimped terminal into the screw terminal and tighten the screw.
+Используя провод соответствующего калибра, 18 AWG или больше, плотно обжмите кольцевую или вилочную клемму на проводе. Вставьте обжимную клемму в винтовую клемму и затяните винт.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8VuTXTeaMyPtvVrNSd%2F-M8WMcrqMsXUzLIElogM%2F5.png?generation=1590771487662184&#x26;alt=media" alt=""><figcaption></figcaption></figure>
 
-The input and output channels accept standard 3-wire 0.1” pitch servo/PWM cables. Please refer to the figure above or the case markings for proper orientation.
+Входные и выходные каналы принимают стандартные 3-проводные кабели серво/ШИМ с шагом 0,1 дюйма. Для правильной ориентации обратитесь к рисунку выше или к маркировке на корпусе.
 
 ### Светодиодные индикаторы состояния
 
