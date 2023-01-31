@@ -2,11 +2,11 @@
 
 ## Требуемые детали для предварительной загрузки кронштейна
 
-| **PART NUMBER**                                         | **DESCRIPTION**                | **QTY.** |
-| ------------------------------------------------------- | ------------------------------ | -------- |
-| [REV-41-1305](https://www.revrobotics.com/rev-41-1305/) | 15MM PLASTIC 90 DEGREE BRACKET | 12       |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS        | 60       |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                  | 60       |
+| **Номер**                                               | **Описание**                   | **Кол-во** |
+| ------------------------------------------------------- | ------------------------------ | ---------- |
+| [REV-41-1305](https://www.revrobotics.com/rev-41-1305/) | 15MM PLASTIC 90 DEGREE BRACKET | 12         |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS        | 60         |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                  | 60         |
 
 ## Этапы сборки кронштейнов предварительной загрузки
 
@@ -15,19 +15,19 @@
 | ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-Me21SsF\_t2zGUUP\_RI3%2F-Me5nM5SBaMQkdzoHk\_0%2FCDTv3\_Pre-Loading%20Bracket.svg?alt=media\&token=c001e71e-f8bc-424b-a5c8-9744c700bb97) | <p>Возьмите скобу и вручную закрутите по одному винту с шестигранной головкой и гайке Nyloc на каждое отверстие.</p><p>Примечание. Сторона кронштейна с «ребрами» должна иметь винт с шестигранной головкой.</p> |
 | ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-Me21SsF\_t2zGUUP\_RI3%2F-Me5m4t\_7RT8O5CoypiN%2FCDTv3\_Loaded.svg?alt=media\&token=2c7acc63-06b4-44d7-b741-3dde05158dcd)                | <p>ПРЕДВАРИТЕЛЬНО НАГРУЗЕННЫЙ КРОНШТЕЙН COMPELTE </p><p>Повторяйте этот шаг, пока у вас не будет двенадцать предварительно загруженных скобок.</p>                                                               |
 
-### Final Assembly Parts Needed
+### Нужные Материалы
 
-| **PART NUMBER**                                         | **DESCRIPTION**               | **QTY.** |
-| ------------------------------------------------------- | ----------------------------- | -------- |
-| [REV-41-1767](https://www.revrobotics.com/rev-41-1767/) | 45MM X 15MM C CHANNEL - 248MM | 1        |
-| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/) | 15MM EXTRUSION - 420MM        | 2        |
-| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | THROUGH BORE BEARING - LONG   | 4        |
-| [REV-41-1324](https://www.revrobotics.com/rev-41-1324/) | 3MM SPACER                    | 4        |
-| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | SHAFT COLLAR                  | 6        |
-|                                                         | **ASSEMBLIES**                |          |
-| [ASSEMBLY 3](broken-reference)                          | MECANUM WHEEL ASSEMBLY        | 4        |
-| [ASSEMBLY 7](broken-reference)                          | DRIVE RAIL ASSEMBLY           | 2        |
-| [ASSEMBLY 8](broken-reference)                          | PRE-LOADED BRACKET            | 12       |
+| **Номер**                                               | **Описание**                  | **Кол-во** |
+| ------------------------------------------------------- | ----------------------------- | ---------- |
+| [REV-41-1767](https://www.revrobotics.com/rev-41-1767/) | 45MM X 15MM C CHANNEL - 248MM | 1          |
+| [REV-41-1432](https://www.revrobotics.com/rev-41-1432/) | 15MM EXTRUSION - 420MM        | 2          |
+| [REV-41-1329](https://www.revrobotics.com/rev-41-1329/) | THROUGH BORE BEARING - LONG   | 4          |
+| [REV-41-1324](https://www.revrobotics.com/rev-41-1324/) | 3MM SPACER                    | 4          |
+| [REV-41-1327](https://www.revrobotics.com/rev-41-1327/) | SHAFT COLLAR                  | 6          |
+|                                                         | **ASSEMBLIES**                |            |
+| [ASSEMBLY 3](broken-reference)                          | MECANUM WHEEL ASSEMBLY        | 4          |
+| [ASSEMBLY 7](broken-reference)                          | DRIVE RAIL ASSEMBLY           | 2          |
+| [ASSEMBLY 8](broken-reference)                          | PRE-LOADED BRACKET            | 12         |
 
 ## Заключительные шаги сборки
 

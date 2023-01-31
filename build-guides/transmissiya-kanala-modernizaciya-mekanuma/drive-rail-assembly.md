@@ -2,20 +2,20 @@
 
 ## Требуемые детали приводной рейки
 
-| **PART NUMBER**                                         | **DESCRIPTION**               | **QTY.** |
-| ------------------------------------------------------- | ----------------------------- | -------- |
-| [REV-41-1762](https://www.revrobotics.com/rev-41-1762/) | 45MM X 15MM C CHANNEL - 408MM | 2        |
-| [REV-41-1687](https://www.revrobotics.com/rev-41-1687/) | U CHANNEL ENDCAP              | 2        |
-| [REV-41-1492](https://www.revrobotics.com/rev-41-1492/) | M3 STANDOFF - 40MM            | 2        |
-| [REV-41-1702](https://www.revrobotics.com/rev-41-1702/) | TENSIONING BUSHING - 39MM     | 2        |
-| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS       | 24       |
-| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                 | 8        |
-|                                                         | **ASSEMBILIES**               |          |
-| [ASSEMBLY 1](broken-reference)                          | 90MM SINGLE SPROCKET ASSEMBLY | 1        |
-| [ASSEMBLY 2](broken-reference)                          | 75MM SINGLE SPROCKET ASSEMBLY | 1        |
-| [ASSEMBLY 4](broken-reference)                          | DRIVE SHAFT ASSEMBLY          | 1        |
-| [ASSEMBLY 5](broken-reference)                          | ULTRAPLANETARY ASSEMBLY       | 2        |
-| [ASSEMBLY 6](broken-reference)                          | 56 LINK #25 CHAIN LOOP\*      | 1        |
+| **Номер**                                               | **Описание**                  | **Кол-во** |
+| ------------------------------------------------------- | ----------------------------- | ---------- |
+| [REV-41-1762](https://www.revrobotics.com/rev-41-1762/) | 45MM X 15MM C CHANNEL - 408MM | 2          |
+| [REV-41-1687](https://www.revrobotics.com/rev-41-1687/) | U CHANNEL ENDCAP              | 2          |
+| [REV-41-1492](https://www.revrobotics.com/rev-41-1492/) | M3 STANDOFF - 40MM            | 2          |
+| [REV-41-1702](https://www.revrobotics.com/rev-41-1702/) | TENSIONING BUSHING - 39MM     | 2          |
+| [REV-41-1359](https://www.revrobotics.com/rev-41-1359/) | M3 X 8MM HEX CAP SCREWS       | 24         |
+| [REV-41-1361](https://www.revrobotics.com/rev-41-1361/) | M3 NYLOC NUTS                 | 8          |
+|                                                         | **ASSEMBILIES**               |            |
+| [ASSEMBLY 1](broken-reference)                          | 90MM SINGLE SPROCKET ASSEMBLY | 1          |
+| [ASSEMBLY 2](broken-reference)                          | 75MM SINGLE SPROCKET ASSEMBLY | 1          |
+| [ASSEMBLY 4](broken-reference)                          | DRIVE SHAFT ASSEMBLY          | 1          |
+| [ASSEMBLY 5](broken-reference)                          | ULTRAPLANETARY ASSEMBLY       | 2          |
+| [ASSEMBLY 6](broken-reference)                          | 56 LINK #25 CHAIN LOOP\*      | 1          |
 
 ## Этапы сборки приводной рейки
 
