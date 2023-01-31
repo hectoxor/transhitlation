@@ -46,7 +46,6 @@
 * [Набор Системы Линейного Перемещения](build-guides/nabor-sistemy-lineinogo-peremesheniya/README.md)
   * [Трехступенчатый Каскадный Лифт](build-guides/nabor-sistemy-lineinogo-peremesheniya/trekhstupenchatyi-kaskadnyi-lift.md)
   * [Трехступенчатый лифт непрервыного действия](build-guides/nabor-sistemy-lineinogo-peremesheniya/trekhstupenchatyi-lift-neprervynogo-deistviya.md)
-  * [Page 1](build-guides/nabor-sistemy-lineinogo-peremesheniya/page-1.md)
 * [Канальная трансмиссия](build-guides/kanalnaya-transmissiya/README.md)
   * [Сборка единичного Sprocket Shaft-a](build-guides/kanalnaya-transmissiya/sborka-edinichnogo-sprocket-shaft-a.md)
   * [Сборка двойного Sprocket Shaft-a](build-guides/kanalnaya-transmissiya/sborka-dvoinogo-sprocket-shaft-a.md)
