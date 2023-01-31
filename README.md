@@ -36,20 +36,8 @@ REV DUO Build System имеет два главных структурных к�
 
 В отличии от 15-и миллиметровой Extrusion, прочие компоненты REV DUO имеют фиксированный шаг. [Structural brackets](broken-reference) have M3 holes on an 8mm pitch. While [Motion Brackets](broken-reference) have the Motion Pattern, a circular M3 hole pattern on a 16mm diameter is used to mount to REV Robotics shaft accessories.&#x20;
 
-[C Channel](broken-reference), [U Channel](broken-reference), and [Flat Plate](broken-reference) feature the Extended Motion Pattern, a modified circular M3 hole Motion Pattern on a 32mm diameter. This repeats down the length of channel to mount bearings, shafts, brackets, and more.
+Канал C, канал U и плоская пластина имеют расширенную схему движения, модифицированную схему движения с круглым отверстием M3 на диаметре 32 мм. Это повторяется по всей длине канала для установки подшипников, валов, кронштейнов и т. д.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FkgmGYol4aZrcqSC8WltV%2FScreenshot%202022-05-27%20135659.png?alt=media&#x26;token=b0fb2b2e-a4dc-48f7-a359-fb7d53c115e7" alt=""><figcaption></figcaption></figure>
 
-The Extended Motion Pattern starts with M3 holes on an 8mm pitch down the center of the Channel. Each of the holes on the center line pitch forms the "base" for an equilateral triangle with 8mm sides that extends outward towards the edges of the Channel. Every 16mm a center hole is opened up to become a 9mm bearing seat to attach shafts and bearings.&#x20;
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Расширенный шаблон движения начинается с отверстий M3 с шагом 8 мм по центру канала. Каждое из отверстий на шаге центральной линии образует «основу» для равностороннего треугольника со сторонами 8 мм, который простирается наружу к краям канала. Через каждые 16 мм открывается центральное отверстие, которое становится гнездом для подшипника диаметром 9 мм для крепления валов и подшипников.
