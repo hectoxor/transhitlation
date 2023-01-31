@@ -1,139 +1,138 @@
 # Advanced Gears
 
-## Gear Physics&#x20;
+## Физика зубчатых передач&#x20;
 
-Gears are one common way to transmit power and change the output torque or speed of a mechanical system. Understanding these basic concepts is required to make optimized design decisions which consider the trade-off between torque and speed for a system with a given power.&#x20;
+Зубчатые передачи являются одним из распространенных способов передачи энергии и изменения выходного крутящего момента или скорости механической системы. Понимание этих основных понятий необходимо для принятия оптимизированных проектных решений, учитывающих компромисс между крутящим моментом и скоростью для системы с заданной мощностью.&#x20;
 
 {% tabs %}
-{% tab title="Speed" %}
-_**Speed**_ is the measure of how fast an object is moving. The **speed** of an object is how far it will travel in a given amount of time. For rotating parts like gears and wheels, **speed** is expressed in how many revolutions are made in a given amount of time. Under ideal conditions, the rotation of a wheel is converted into linear **speed** and can be calculated by multiplying the diameter of the wheel by the rotations for a given time. The SI unit for **speed** is meters per second (m/s), but **speed** is also commonly expressed in feet per second (ft/s).
+{% tab title="Скорость" %}
+Скорость**_ - это мера того, насколько быстро движется объект. Скорость** объекта - это расстояние, которое он пройдет за определенный промежуток времени. Для вращающихся частей, таких как шестерни и колеса, **скорость** выражается в том, сколько оборотов совершается за определенный промежуток времени. В идеальных условиях вращение колеса преобразуется в линейную **скорость** и может быть рассчитана путем умножения диаметра колеса на количество оборотов за определенное время. Единицей СИ для **скорости** являются метры в секунду (м/с), но **скорость** также обычно выражается в футах в секунду (фут/с).
 {% endtab %}
 
-{% tab title="Torque" %}
-_**Torque**_ is roughly the measure of the turning force on an object like a gear or a wheel. Mathematically, **torque** is defined as the rate of change of the angular momentum of an object. This can also be stated as a force that acts normal (at 90 degrees) to a radial lever arm which causes the object to rotate. A common example of torque is the use of a wrench in order to tighten or loosen a bolt. In that example, using a longer wrench can produce more **torque** on the bolt than using a shorter wrench. **Torque** is commonly expressed in N⋅m or in⋅lbs.
+{% tab title="Крутящий момент" %}
+Крутящий момент**_ - это грубая мера силы, действующей на объект, такой как шестерня или колесо. Математически **крутящий момент** определяется как скорость изменения углового момента объекта. Это также можно выразить как силу, действующую нормально (под углом 90 градусов) к радиальному плечу рычага, которая заставляет объект вращаться. Обычным примером крутящего момента является использование гаечного ключа для затягивания или ослабления болта. В этом примере использование более длинного ключа может создать больший **крутящий момент** на болте, чем использование более короткого ключа. **Крутящий момент** обычно выражается в Н⋅м или в⋅lbs.
 
-When **torque** is turning an object like a spur gear, the gear will create a straight line (linear) force at the point where the teeth contact the other gear. The magnitude of the **torque** created is the product of the rotational force applied and the length of the lever arm ,which in the case of a gear, is half of the pitch diameter (the radius).
+Когда **крутящий момент** вращает такой объект, как цилиндрическая шестерня, шестерня создает прямолинейную (линейную) силу в точке, где зубья соприкасаются с другой шестерней. Величина создаваемого **крутящего момента** равна произведению приложенной силы вращения и длины плеча рычага, которая в случае шестерни равна половине диаметра шага (радиуса).
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3F-Eol6F880wQ6%2F3.png?generation=1591822059614315&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3F-Eol6F880wQ6%2F3.png?generation=1591822059614315&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 {% endtab %}
 
 {% tab title="Power" %}
-_**Power (P)**_ is the rate of work over time. The concept of **power** includes both a physical change and a time period in which the change occurs. This is different from the concept of work which only measures a physical change. The difference in these two concepts is that it takes the same amount of work to carry a brick up a mountain whether you walk or run, but running takes more **power** because the work is done in a shorter amount of time. The SI unit for **power** is the Watt (W) which is equivalent to one joule per second (J/s).
+Мощность (P)**_ - это скорость выполнения работы за определенное время. Понятие **мощность** включает в себя как физическое изменение, так и период времени, в течение которого происходит изменение. Это отличается от понятия работы, которое измеряет только физическое изменение. Разница в этих двух понятиях заключается в том, что для переноса кирпича в гору требуется одинаковое количество работы, независимо от того, идете вы или бежите, но при беге затрачивается больше **энергии**, поскольку работа выполняется за более короткий промежуток времени. Единицей СИ для **мощности** является ватт (Вт), который эквивалентен одному джоулю в секунду (Дж/с).
 
-In competitive robotics, the total amount of available power is determined by the motors and batteries allowed to be used. The maximum speed at which an arm can lift a certain load is dictated by the maximum system **power**.
+В соревновательной робототехнике общее количество доступной мощности определяется разрешенными к использованию двигателями и батареями. Максимальная скорость, с которой рука может поднимать определенный груз, определяется максимальной мощностью системы **.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Gdxl1mD4Ln3l_%2F4.png?generation=1591822059587497&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Gdxl1mD4Ln3l_%2F4.png?generation=1591822059587497&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 {% endtab %}
 {% endtabs %}
 
 
 
-## Gear Train
+## Зубчатая передача
 
-Meshing two or more gears together is known as a **gear train**. Selecting the gears in the gear train as larger or smaller relative to the input gear can either increase the output speed or increase the output torque, but the total power is not affected.
+Зацепление двух или более шестерен вместе называется **шестеренчатой передачей**. Выбирая шестерни в зубчатой передаче больше или меньше относительно входной шестерни, можно либо увеличить выходную скорость, либо увеличить выходной крутящий момент, но на общую мощность это не влияет.
 
-### Gear Ratio&#x20;
+### Передаточное отношение&#x20;
 
-When a larger gear drives a smaller one, for one rotation of the larger gear the small gear must complete more revolutions - so the output will be faster than the input. If the situation is reversed, and aa smaller gear drives a larger output gear, then for one rotation of the input the output will complete less than one revolution – so the output will be slower than the input. The **ratio** of the sizes of the two gears is proportional to the speed and torque changes between them.
+Когда большая шестерня приводит в движение меньшую, за один оборот большей шестерни маленькая шестерня должна совершить больше оборотов - таким образом, выход будет быстрее, чем вход. Если ситуация обратная, и меньшая шестерня приводит в движение большую выходную шестерню, то за один оборот входной шестерни выходная совершает меньше одного оборота - таким образом, выход будет медленнее входной. Соотношение **размеров двух шестерен пропорционально изменению скорости и крутящего момента между ними.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3HmI-qLC_QjeRt%2F5.png?generation=1591822059640128&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3HmI-qLC_QjeRt%2F5.png?generation=1591822059640128&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
-The **ratio** in size from the input (driving) gear to the output (driven) gear determines if the output is faster (less torque) or has more torque (slower). To calculate exactly how the **gear ratio** effects the relationship from input to output, find the ratio for the number of teeth between the two gears. In the image below, the ratio of the number of teeth from the input gear to the output gear is 72T:15T which means the input needs to turn 4.8 rotations for the output to complete one rotation.
+Соотношение **размера от входной (ведущей) шестерни к выходной (ведомой) определяет, будет ли выходная шестерня быстрее (меньше крутящий момент) или будет иметь больший крутящий момент (медленнее). Чтобы точно рассчитать, как **передаточное число** влияет на соотношение между входной и выходной передачей, найдите соотношение количества зубьев между двумя передачами. На рисунке ниже соотношение количества зубьев на входной и выходной шестернях составляет 72T:15T, что означает, что входная шестерня должна сделать 4,8 оборота, чтобы выходная совершила один оборот.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3IUfdh1DwB4qkU%2F6.png?generation=1591822059603756&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3IUfdh1DwB4qkU%2F6.png?generation=1591822059603756&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
 ### Idlers&#x20;
 
-What happens when a 45 tooth **idler** gear is inserted into the gear example? An **idler gear** is any intermediate (between input and output) gear which does not drive any output (work) shaft. Idler gears are used to transmit torque over longer distances than would be practical by using just a single pair of gears. Idler gears are also used to reverse the direction of the rotation of the final gear.
+Что произойдет, если вставить в пример шестерню **идлера** с 45 зубьями? Передача **идлер** - это любая промежуточная (между входным и выходным) передача, которая не приводит в движение выходной (рабочий) вал. Ведомая шестерня используется для передачи крутящего момента на большие расстояния, чем это возможно при использовании одной пары шестерен. Ведомая шестерня также используется для изменения направления вращения конечной передачи.
 
-Regardless of the number or size of idler gears in the chain, only the first and last gear determine the reduction. Since idler gears do not change the gear **reduction**, the reduction in the example remains 72:15, but the direction of the output stage is now reversed from the previous example.
+Независимо от количества и размера ведомых шестерен в цепи, только первая и последняя шестерни определяют степень передачи. Так как ведомые шестерни не изменяют **передаточное число**, передача в примере остается 72:15, но направление вращения выходной ступени теперь обратное, чем в предыдущем примере.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3JyWpCpxFLipZ5%2F7.png?generation=1591822059637619&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3JyWpCpxFLipZ5%2F7.png?generation=1591822059637619&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
-Idler gears are a good way to transmit power across distances in your robot. A common example of this is an all gear drivetrain. In this example the gears on the end are linked to the drive wheels and one of the center gears would be driven by a motor (not shown). The orange arrows indicate the relative rotation of each of the gears showing that the two wheels are mechanically linked and will always rotate in the same direction.
+Зубчатые передачи являются хорошим способом передачи энергии на расстояние в вашем роботе. Обычный пример - трансмиссия со всеми шестернями. В этом примере шестерни на концах связаны с ведущими колесами, а одна из центральных шестерен приводится в движение двигателем (не показан). Оранжевые стрелки указывают на относительное вращение каждой из шестерен, показывая, что два колеса механически связаны и всегда будут вращаться в одном направлении.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3KsHGFxB45-orY%2F8.png?generation=1591822059641968&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3KsHGFxB45-orY%2F8.png?generation=1591822059641968&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
-Because idler gears reverse the direction of rotation, it is important to pay attention to the number of gears in the drivetrain. In the picture below there is an even number of gears, and because of this the wheels will always spin in the opposite direction.&#x20;
+Поскольку ведомые шестерни изменяют направление вращения, важно обратить внимание на количество шестерен в трансмиссии. На рисунке ниже четное количество шестерен, и поэтому колеса всегда будут вращаться в противоположном направлении.&#x20;
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3LBmXg8vVT1eVi%2F9.png?generation=1591822059645404&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3LBmXg8vVT1eVi%2F9.png?generation=1591822059645404&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
 ### Compound Gearing&#x20;
 
-Some designs may require more **reduction** than is practical in a single stage.  The ratio from the smallest gear available to the largest in the REV 15mm Build System is 125:15, so if a greater reduction then 8.3 is required, multiple reduction stages can be used in the same mechanism, this is called a **compound gear reduction**.  There are multiple gear pairs in a compound reduction with each pair of gears linked by a shared axle. Below is an example of a two-stage reduction. The driving gear (input) of each pair is highlighted in orange.&#x20;
+В некоторых конструкциях может потребоваться большее **понижение**, чем это возможно в рамках одной ступени.  Соотношение от самой маленькой шестерни до самой большой в REV 15mm Build System составляет 125:15, поэтому если требуется большее снижение, чем 8,3, в одном механизме можно использовать несколько ступеней снижения, это называется **компаунд-редукция**.  В составном редукторе имеется несколько пар шестерен, каждая пара шестерен соединена общей осью. Ниже приведен пример двухступенчатого редуктора. Ведущая шестерня (входная) каждой пары выделена оранжевым цветом.&#x20;
 
 {% hint style="info" %}
-**Reduction** is the concept lowering input speed to reduce overall output speed.&#x20;
+**Редукция** - это концепция снижения входной скорости для уменьшения общей выходной скорости.&#x20;
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FckErANYIlGHDmpgKxfRR%2FAdvanced-Gears-compound%20reduction.png?alt=media&#x26;token=0359b58f-c9ba-4b73-a267-33c4a2a4ed46" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FckErANYIlGHDmpgKxfRR%2FAdvanced-Gears-compound%20reduction. png?alt=media&#x26;token=0359b58f-c9ba-4b73-a267-33c4a2a4ed46" alt=""><figcaption></figcaption></figure>
 
-To calculate the total reduction of a compound reduction, identify the reduction of each stage and then multiply each reduction together. &#x20;
+Чтобы рассчитать общее сокращение составного сокращения, определите сокращение каждой стадии, а затем умножьте каждое сокращение вместе. &#x20;
 
 $$
 \text{CR}=\text{R}_1×\text{R}_2 ×\text{…} ×\text{R}_n
 $$
 
-**Where:**
+**Где:**
 
-* CR is the total Compound Reduction&#x20;
-* Rn is the total reduction of each stage
+* CR - общее сокращение соединений&#x20;
+* Rn - общее сокращение каждой стадии.
 
-Using the image above as an example the compound reduction is 12:1.
+На примере приведенного выше изображения уменьшение соединения составляет 12:1.
 
 $$
-\text{CR}=\text{R}_1×   \text{R}_2 =\frac{60}{30}× \frac{90}{15}=2 ×6=12
+\text{CR}=\text{R}_1× \text{R}_2 =\frac{60}{30}× \frac{90}{15}=2 ×6=12
 $$
 
-For any gear system there are a limited number of gear sizes available, so in addition to being able to create greater reductions using compound reductions it is also possible to create a wider range of reduction values, or the same reduction of a single stage, but with smaller diameter gears.
+Для любой зубчатой системы существует ограниченное число размеров шестерен, поэтому, помимо возможности создания больших понижений с помощью составных понижений, можно также создать более широкий диапазон значений понижения, или такое же понижение одной ступени, но с шестернями меньшего диаметра.
 
-## Spacing and Center to Center Distance&#x20;
+## Расстояние между шестернями и расстояние от центра до центра&#x20;
 
-When [REV Robotics Gears](https://www.revrobotics.com/ftc/motion/gears-sprockets-chain/gears/) are used in conjunction with the [slots](broken-reference) on [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) or [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/), the **center to center distance** between axles is completely adjustable. Slide and re-tighten the shaft mounting plates anywhere along the slots to mesh gears together. This system allows any combination of compatible REV Robotics Gears to be used together, allowing for a high level of flexibility. When adjusting the reduction of a system, just a single gear can be replaced, reducing the amount of reassembly time.
+При использовании [REV Robotics Gears](https://www.revrobotics.com/ftc/motion/gears-sprockets-chain/gears/) в сочетании с [пазами](broken-reference) на [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) или [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/), расстояние **от центра до центра** между осями полностью регулируется. Сдвиньте и снова затяните монтажные пластины валов в любом месте вдоль пазов, чтобы зацеплять шестерни друг с другом. Эта система позволяет использовать вместе любую комбинацию совместимых шестерен REV Robotics, обеспечивая высокий уровень гибкости. При регулировке понижения передачи в системе можно заменить только одну шестерню, что сокращает время сборки.
 
 {% hint style="danger" %}
-Any combination of gear sizes can be used together. However, REV Plastic Gears and Metal Gears should NOT be used in conjunction with each other.&#x20;
+Любая комбинация размеров шестерен может быть использована вместе. Однако пластиковые шестерни REV и металлические шестерни НЕ должны использоваться вместе друг с другом.&#x20;
 {% endhint %}
+При использовании шага, предусмотренного в [Extended Motion Pattern] (broken-reference), не будет такого же уровня гибкости для расстояния между шестернями. Гибкость можно сохранить, используя комбинацию пазов и шаблона, что дает больше вариантов зацепления. Если используется только шаблон, то расчет межосевого расстояния будет более распространенным.&#x20;
 
-When using the pitch featured on the [Extended Motion Pattern](broken-reference) there will not be the same level of flexibility for gear spacing. Flexibility can be maintained by using a combination of the slots and the pattern, which allows more gear options. If just the pattern is being used then center to center distance calculations will be more prevalent.&#x20;
+### Расстояние между зубьями&#x20;
 
-### Spacing&#x20;
+Для того чтобы шестерни работали эффективно и не повреждались, важно, чтобы **межцентровое расстояние** было правильно отрегулировано. Шестерни в ПРИМЕРЕ А на рисунке ниже могут работать при очень небольшой нагрузке, но они точно не будут работать и будут проскакивать при любой значительной нагрузке. Шестерни в этом примере расположены слишком далеко друг от друга, поэтому зубья каждой шестерни едва соприкасаются друг с другом. Шестерни в ПРИМЕРЕ B расположены правильно и обеспечивают плавную и надежную работу.
 
-In order for gears to work effectively, and not become damaged, it’s important that the **center-to-center distance** is correctly adjusted. The gears in DETAIL A ,of the figure below, may work under very light load, but they will certainly not work and will skip under any significant loading. The gears in that example are too far apart and so the teeth of each gear barely contact each other. The gears in DETAIL B are correctly spaced and will provide smooth and reliable operation.
-
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Ocby0zcpWrm2E%2F12.png?generation=1591822059621780&#x26;alt=media" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M9UyJQ58gxmBWnvU4aJ%2F-M9UzF3Ocby0zcpWrm2E%2F12.png?generation=1591822059621780&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
 
 
-**To correctly space REV Robotics Gears along slots, use the following procedure:**
 
-1. Securely fix the axle of either the input or output gear. In the case of a gear train with multiple idlers or a compound reduction, consider which axle makes the most sense to fix, such as the very first input gear or the very last gear.
-2. Starting with the fixed axle, identify all the driving and driven gears for any gears on that axle. One by one, loosen these axles and slide them until the teeth of both gears are fully engaged and parallel. Re-tighten the axle mounts.
-3. Continue the procedure from Step 2 for each fixed axle until all the gears are tightly meshed and all the axles have been re-tightened.
+**Для правильного размещения шестеренок REV Robotics по пазам используйте следующую процедуру:**.
+
+1. Надежно закрепите ось входной или выходной шестерни. В случае зубчатой передачи с несколькими ведомыми шестернями или составной редукцией, подумайте, какую ось имеет смысл закрепить, например, самую первую входную шестерню или самую последнюю.
+2. Начиная с неподвижной оси, определите все ведущие и ведомые шестерни для любой передачи на этой оси. По очереди ослабьте эти оси и сдвигайте их до тех пор, пока зубья обеих шестерен не войдут в зацепление и не станут параллельными. Снова затяните крепления осей.
+3. Продолжайте процедуру из Шага 2 для каждой неподвижной оси, пока все шестерни не войдут в зацепление и все оси не будут затянуты.
 
 {% hint style="warning" %}
-When using a gear train in conjunction with the Extended Motion Pattern, only certain combinations of gears will work.&#x20;
+При использовании зубчатой передачи в сочетании с расширенной схемой движения будут работать только определенные комбинации передач.&#x20;
 {% endhint %}
 
-### Center to Center Distance
+### Межосевое расстояние
 
 {% hint style="info" %}
-_To learn more about pitch diameter return to the top level_ [_Gear page_](broken-reference)_._
+Чтобы узнать больше о диаметре шага, вернитесь на верхний уровень_ [_Страница_шестерни_](broken-reference)_._
 {% endhint %}
 
-The gear spacing adjustment procedure above is sufficient in cases where the slot system is being used. To mathematically calculate the correct center to center distance use the [Gear Measurements](broken-reference) section to determine the pitch diameter (PD) of both gears.
+Приведенная выше процедура регулировки расстояния между шестернями достаточна в тех случаях, когда используется система шлицев. To mathematically calculate the correct center to center distance use the [Gear Measurements](broken-reference) section to determine the pitch diameter (PD) of both gears.
 
 $$
 \text{CCD} = \frac{\text{PD}_1}{2}+ \frac{\text{PD}_2}{2}
 $$
 
-**Where:**
+**где:**
 
-* CCD is the Center to Center Distance&#x20;
-* PD1 is the pitch diameter for gear one&#x20;
-* PD2 is the pitch diameter for gear two&#x20;
+* CCD - межцентровое расстояние&#x20;
+* PD1 - диаметр шага для первой передачи&#x20;
+* PD2 - диаметр шага для второй шестерни&#x20;
 
-Using the example in the figure with the 60 tooth and 72 tooth gears, the correct center to center distance calculation for a 72T:60T gear ratio is 49.5 mm.
+Используя пример на рисунке с шестернями с 60 и 72 зубьями, правильный расчет межосевого расстояния для передаточного отношения 72T:60T составляет 49,5 мм.
 
 $$
 72\!:\!60 ~\text{CCD} = \frac{45mm}{2} +\frac{54mm}{2}= 49.5mm
@@ -143,19 +142,20 @@ $$
 
 #### Plastic Gear Measurements
 
-|                                                                                                | Outside Diameter A            | Pitch Diameter B               |
+| | Outside Diameter A | Pitch Diameter B |
 | ---------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------------ |
-| <p>15 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1331/">REV-41-1331</a></p>  | <p>0.5 in</p><p>12.7 mm</p>   | <p>0.44 in </p><p>11.25 mm</p> |
-| <p>30 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1332/">REV-41-1332</a></p>  | <p>0.95 in </p><p>24.0 mm</p> | <p>0.89 in</p><p>22.5 mm</p>   |
-| <p>45 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1335/">REV-41-1334</a></p>  | <p>1.39 in</p><p>35.3 mm</p>  | <p>1.33 in</p><p>33.75 mm</p>  |
-| <p>60 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1335/">REV-41-1335</a></p>  | <p>1.83 in</p><p>46.5 mm</p>  | <p>1.77 in</p><p>45.0 mm</p>   |
-| <p>72 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1336/">REV-41-1336</a></p>  | <p>2.19 in</p><p>55.5 mm</p>  | <p>2.13 in</p><p>54 mm</p>     |
-| <p>90 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1337/">REV-41-1337</a></p>  | <p>2.72 in</p><p>69.0 mm</p>  | <p>2.66 in </p><p>67.5 mm</p>  |
+| <p>15 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1331/">REV-41-1331</a></p> | <p>0.5 in</p><p>12.7 mm</p> | <p>0.44 in </p><p>11.25 mm</p> |
+| <p>30 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1332/">REV-41-1332</a></p> | <p>0.95 in </p><p>24.0 mm</p> | <p>0.89 in</p><p>22.5 mm</p> |
+| <p>45 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1335/">REV-41-1334</a></p> | <p>1.39 in</p><p>35.3 mm</p> | <p>1.33 in</p><p>33.75 mm</p> |
+| <p>60 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1335/">REV-41-1335</a></p> | <p>1.83 in</p><p>46.5 mm</p> | <p>1.77 in</p><p>45.0 mm</p> |
+| <p>72 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1336/">REV-41-1336</a></p> | <p>2.19 in</p><p>55.5 mm</p> | <p>2.13 in</p><p>54 mm</p> |
+| <p>90 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1337/">REV-41-1337</a></p> | <p>2.72 in</p><p>69.0 mm</p> | <p>2.66 in </p><p>67.5 mm</p> |
 | <p>125 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1333/">REV-41-1333</a></p> | <p>3.75 in </p><p>93.5 mm</p> | <p>3.69 in </p><p>93.75 mm</p> |
 
 The **Motion Interface Pattern** is a circular M3 hole pattern on a 16mm diameter that interfaces with certain REV Brackets and the UltraPlanetary 5mm Hex Output ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FureXI1imjuSxXXgyeVuQ%2Fgitbook%20drawing%20vector.png?alt=media&#x26;token=f0c818b3-5292-4417-bfd4-1ff4636cbf54" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FureXI1imjuSxXXgyeVuQ%2Fgitbook%20drawing%20vector. png?alt=media&#x26;token=f0c818b3-5292-4417-bfd4-1ff4636cbf54" alt=""><figcaption></figcaption></figure>
+
 
 The 15 tooth and 30 tooth plastic gears do not have a motion pattern due to size constraints. However, they share the same 0.75 module as the other acetal gears. The table below provides the outer diameter and pitch diameter of these gears.&#x20;
 
@@ -164,26 +164,26 @@ The 15 tooth and 30 tooth plastic gears do not have a motion pattern due to size
 | <p>15 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1331/">REV-41-1331</a></p> | <p>0.5 in</p><p>12.7 mm</p>   | <p>0.35 in</p><p>9 mm</p>    |
 | <p>30 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1332/">REV-41-1332</a></p> | <p>0.95 in </p><p>24.0 mm</p> | <p>0.89 in</p><p>22.5 mm</p> |
 
-#### &#x20;Metal Gear Measurements
+#### &#x20;Измерения металлических зубчатых колес
 
 |                                                                                               | Outside Diameter A            | Pitch Diameter B             |
 | --------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------------- |
-| <p>42 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1664/">REV-41-1664</a></p> | <p>1.39 in</p><p>35.2 mm</p>  | <p>1.32 in</p><p>33.6 mm</p> |
-| <p>56 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1663/">REV-41-1663</a></p> | <p>1.83 in </p><p>46.4 mm</p> | <p>1.73 in</p><p>44.0 mm</p> |
-| <p>70 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1662/">REV-41-1662</a></p> | <p>2.27 in</p><p>57.6 mm</p>  | <p>2.20 in</p><p>56.0 mm</p> |
-| <p>86 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1661/">REV-41-1661</a></p> | <p>2.77 in</p><p>70.3 mm</p>  | <p>2.71 in</p><p>68.8 mm</p> |
+| <p>42 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1664/">REV-41-1664</a></p> | <p>1.39 in</p><p>35.2 mm</p>  | <p>1.32 in</p><p>33.6 mm</p> |
+| <p>56 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1663/">REV-41-1663</a></p> | <p>1.83 in </p><p>46.4 mm</p> | <p>1.73 in</p><p>44.0 mm</p> |
+| <p>70 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1662/">REV-41-1662</a></p> | <p>2.27 in</p><p>57.6 mm</p>  | <p>2.20 in</p><p>56.0 mm</p> |
+| <p>86 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1661/">REV-41-1661</a></p> | <p>2.77 in</p><p>70.3 mm</p>  | <p>2.71 in</p><p>68.8 mm</p> |
 
-The **Motion Interface Pattern** is a circular M3 hole pattern on a 16mm diameter that interfaces with certain REV Brackets and the UltraPlanetary 5mm Hex Output ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
+**Шаблон интерфейса движения** представляет собой круглую схему отверстий M3 диаметром 16 мм, которая взаимодействует с некоторыми кронштейнами REV и шестигранным выходом UltraPlanetary 5 мм. ([REV-41-1604](https://www.revrobotics.com/rev-41-1604/)).
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2F2v8hwJP7kNlmU3d9Rlea%2Fgitbook%20vector%20redo.png?alt=media&#x26;token=adca9bcf-f59a-4713-a2e7-de462d3cfbb5" alt=""><figcaption></figcaption></figure>
 
-The 12 Tooth and 28 Tooth Metal Gears do not have a motion pattern due to size constraints. They are also made from sintered steel rather than aluminum. However, they share the same 0.8 module as the other metal gears. The table below provides the outer diameter and pitch diameter of these gears.&#x20;
+Металлические шестерни с 12 зубьями и 28 зубьями не имеют схемы движения из-за ограничений по размеру. Они также сделаны из спеченной стали, а не из алюминия. Однако они имеют тот же модуль 0,8, что и другие металлические шестерни. В приведенной ниже таблице указаны наружный диаметр и средний диаметр этих шестерен.&#x20;
 
 |                                                                                               | Outside Diameter A           | Pitch Diameter B            |
 | --------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------- |
-| <p>12 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1666/">REV-41-1666</a></p> | <p>0.44 in</p><p>11.2 mm</p> | <p>0.38 in</p><p>9.6 mm</p> |
-| <p>28 Tooth Gear</p><p><a href="https://www.revrobotics.com/rev-41-1665/">REV-41-1665</a></p> | <p>0.95 in</p><p>24.0 mm</p> | <p>0.88 in</p><p>35.2 m</p> |
+| <p>12 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1666/">REV-41-1666</a></p> | <p>0.44 in</p><p>11.2 mm</p> | <p>0.38 in</p><p>9.6 mm</p> |
+| <p>28 зубчатая передача</p><p><a href="https://www.revrobotics.com/rev-41-1665/">REV-41-1665</a></p> | <p>0.95 in</p><p>24.0 mm</p> | <p>0.88 in</p><p>35.2 m</p> |
 
 {% hint style="info" %}
-The 12 Tooth Pinion Gear ([REV-41-1660](https://www.revrobotics.com/rev-41-1660/)) while sharing the 0.8 module differs from the other metal gears significantly. See the [drawing](https://www.revrobotics.com/content/docs/REV-41-1660-DR.pdf) for relevant information for the 12 Tooth Pinion Gear.
+Шестерня с 12 зубьями ([REV-41-1660](https://www.revrobotics.com/rev-41-1660/)) при совместном использовании модуля 0,8 значительно отличается от других металлических шестерен. См. [чертеж](https://www.revrobotics.com/content/docs/REV-41-1660-DR.pdf) для получения соответствующей информации о шестерне с 12 зубьями.
 {% endhint %}
