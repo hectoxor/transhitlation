@@ -29,7 +29,6 @@
 | ----------------------------- | ---------------------------- |
 | **Continuous Mode (C)**       | Sweeping direction and speed |
 | **Servo Mode (S)**            | Sweeping between limits      |
-{% endtab %}
 
 ## Режимы работы&#x20;
 
