@@ -1,6 +1,27 @@
-# Extrusion Gear Drivetrain
+# Зубчатая передача Экстружиона
 
-This section outlines the steps required to build a six-wheel, extrusion-based gear drivetrain using parts from the FTC Starter Kit V3 ([REV-45-1883](https://www.revrobotics.com/rev-45-1883/)). This design is a good starting point. However, modification maybe required to address the specific needs of the robot being designed. This design is flexible, allowing for different wheel types depending on the overall requirements of the drive train.&#x20;
+В этом разделе описаны шаги, необходимые для создания шестиколесной трансмиссии на основе экструзии с использованием деталей из стартового набора FTC Starter Kit V3 ([REV-45-1883](https://www.revrobotics.com/rev-45-1883/))). Эта конструкция является хорошей отправной точкой. Однако может потребоваться модификация для удовлетворения конкретных потребностей проектируемого робота. Данная конструкция является гибкой и позволяет использовать различные типы колес в зависимости от общих требований к трансмиссии.​Сборка этой трансмиссии разбита на несколько секций. Это позволяет команде людей работать над различными задачами, чтобы быстрее завершить сборку. В начале каждого раздела указано, какие детали и в каком количестве необходимы для выполнения шагов этого раздела. Список необходимых материалов для всех разделов приведен ниже.![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MIKNsVGc\_5g6zjfCBni%2F-MILMxXwqKRVpemCKtBF%2FAGD-\_Default.svg?alt=media\&token=f299f1e0-5389-43d5-b384-bd387c7e24f4)
+
+#### Параметры Комплекта: <a href="#parametry-komplekta" id="parametry-komplekta"></a>
+
+Extrusion Gear Drivetrain собирается из следующих комплектов:**Стартовый набор FTC Starter Kit V3 Base**
+
+| Номер детали                                              | Описание           | QTY. |
+| --------------------------------------------------------- | ------------------ | ---- |
+| ​[REV-45-1883](https://www.revrobotics.com/rev-45-1883/)​ | FTC Starter Kit V3 | 1    |
+
+**Стартовый набор FTC Starter Kit V2**
+
+| Номер детали                                              | Описание                    | QTY. |
+| --------------------------------------------------------- | --------------------------- | ---- |
+| ​[REV-45-1270](https://www.revrobotics.com/rev-45-1270/)​ | FTC Starter Kit V2          | 1    |
+| ​[REV-45-1884](https://www.revrobotics.com/rev-45-1884/)​ | Пакет обновлений с V2 до V3 | 1    |
+
+#### Полная спецификация материалов: <a href="#polnaya-specifikaciya-materialov" id="polnaya-specifikaciya-materialov"></a>
+
+| Номер Детали                                              | Описание          | QTY. |
+| --------------------------------------------------------- | ----------------- | ---- |
+| ​[REV-41-1190](https://www.revrobotics.com/rev-41-1190/)​ | 90 ММ ОМНИ-КОЛЕСО | 2    |
 
 The assembly of this drivetrain is broken into a few sections. This allows for a team of people to work on different tasks to complete the build quicker. Each section begins with what parts and the quantity of parts needed to complete the steps in that section. A list of required materials for all sections is listed below.
 
