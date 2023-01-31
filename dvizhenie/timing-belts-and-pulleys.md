@@ -18,7 +18,7 @@
 
 Все шкивы, кроме 12-зубого ([REV-41-1668](https://www.revrobotics.com/rev-41-1668/)), поставляются с двумя концами и вставкой для регулировки ширины шкива по мере необходимости для привода нескольких ремней.&#x20;
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9K18LZVdxadMkT5yRD%2F-M9KTgm-_wjrY9N9AmWr%2Fimage. png?alt=media&#x26;token=32d28a14-aac3-4210-bf26-dcdccefcf28f" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M9K18LZVdxadMkT5yRD%2F-M9KTgm-_wjrY9N9AmWr%2Fimage.png?alt=media&#x26;token=32d28a14-aac3-4210-bf26-dcdccefcf28f" alt=""><figcaption></figcaption></figure>
 
 ## Установка ремня&#x20;
 
