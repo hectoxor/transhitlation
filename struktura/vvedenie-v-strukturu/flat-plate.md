@@ -1,27 +1,27 @@
 ---
-description: Flat Plate Basics
+описание: Основы плоской плиты
 ---
 
 # Flat Plate
 
-[REV 45mm Flat Plate](https://www.revrobotics.com/competition/ftc/structure/channel/) is a 45mm wide, bendable metal featuring the Extended Motion Pattern. This product comes in various lengths. The Extended Motion Pattern supports[ M3 hardware](https://www.revrobotics.com/ftc/hardware/fasteners/) for attaching brackets, extrusion, and channel.
+[REV 45mm Flat Plate](https://www.revrobotics.com/competition/ftc/structure/channel/) - это гнущийся металл шириной 45 мм, выполненный по схеме Extended Motion Pattern. Этот продукт поставляется различной длины. Расширенная схема движения поддерживает[ метизы M3](https://www.revrobotics.com/ftc/hardware/fasteners/) для крепления кронштейнов, экструзии и швеллеров.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MBkHxh52O4mMCVSgPrO%2F-MBkI65d8NPzqk3K4vAI%2FFlat%20Plate%20Pinout.png?alt=media&#x26;token=5ec671f3-c63f-45ee-a555-8b67723ade07" alt=""><figcaption></figcaption></figure>
 
-### Product Specs
+### Характеристики продукта
 
-* Material: 5052 Aluminum
-* Length: [Various Lengths ](https://www.revrobotics.com/competition/ftc/structure/channel/)
-* Width: 45mm
+* Материал: 5052 алюминий
+* Длина: [разная длина] (https://www.revrobotics.com/competition/ftc/structure/channel/)
+* Ширина: 45 мм
 
-### When to use?
+### Когда использовать?
 
-The alloy of aluminum used in the flat plate makes it more malleable than other structure pieces in the 15mm Build System. Utilize the flat plate to create curved aspects for your robot like a shooter hood, an intake, or a bumper.&#x20;
+Сплав алюминия, из которого изготовлена плоская пластина, делает ее более податливой, чем другие детали конструкции 15-мм Build System. Используйте плоскую пластину для создания изогнутых элементов вашего робота, таких как капот стрелка, воздухозаборник или бампер.&#x20;
 
-### How to Use?
+### Как использовать?
 
-Step 1: Approximate the diameter of the curve you want.
+Шаг 1: Определите диаметр желаемой кривой.
 
-Step 2: Find an object, like a can, that is close to the diameter you need.&#x20;
+Шаг 2: Найдите предмет, например банку, близкий к нужному диаметру.&#x20;
 
-Step 3: Adjust the flat plate around the object with your hands or hand tools until you reach your desired curve.&#x20;
+Шаг 3: Отрегулируйте плоскую пластину вокруг объекта руками или ручными инструментами, пока не достигнете желаемой кривой.&#x20;
