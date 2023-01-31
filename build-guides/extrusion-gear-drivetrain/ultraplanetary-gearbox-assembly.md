@@ -22,11 +22,11 @@
 
 ### &#x20;<a href="#internal-chassis-frame-assembly" id="internal-chassis-frame-assembly"></a>
 
-### ULTRAPLANETARY <a href="#internal-chassis-frame-assembly" id="internal-chassis-frame-assembly"></a>
+### Ultraplanetary <a href="#internal-chassis-frame-assembly" id="internal-chassis-frame-assembly"></a>
 
 ### В стартовый набор FTC входят два комплекта ультрапланетарных редукторов с моторами HD Hex. Это начальный этап использования ультрапланетарной системы REV. Имеется три UltraPlanetary Cartridges, поддерживающие семь различных конечных передач в диапазоне от номинального значения 3:1 до 60:1. Это позволяет получить нужное количество крутящего момента для конкретного применения. На двигателе уже напрессована шестерня, что облегчает сборку коробки передач.Приступая к работе с этой трансмиссией, рекомендуется использовать номинальное передаточное число 20:1. Для этого используются картридж UltraPlanetary 5:1 и картридж UltraPlanetary 4:1. Более подробную информацию обо всех вариантах передаточного числа, номинальных нагрузках и многом другом можно найти в руководстве пользователя UltraPlanetary Gearbox на сайте revrobotics.com. <a href="#internal-chassis-frame-assembly" id="internal-chassis-frame-assembly"></a>
 
-#### НЕОБХОДИМЫЕ ДЕТАЛИ ДЛЯ СБОРКИ ULTRAPLANETARY <a href="#neobkhodimye-detali-dlya-sborki-ultraplanetary" id="neobkhodimye-detali-dlya-sborki-ultraplanetary"></a>
+### Необходимые детали для сборки Ultraplanetary <a href="#internal-chassis-frame-assembly" id="internal-chassis-frame-assembly"></a>
 
 | **НОМЕР ДЕТАЛИ**                                                                                                                                                                                         | **ОПИСАНИЕ**                                                               | **QTY.** |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |

@@ -85,7 +85,7 @@
 * [Зубчатая передача Extrusion](build-guides/extrusion-gear-drivetrain/README.md)
   * [Кронштейны для предварительной загрузки](build-guides/extrusion-gear-drivetrain/pre-loading-brackets.md)
   * [Сборка Колесо Omni](build-guides/extrusion-gear-drivetrain/omni-wheel-assembly.md)
-  * [Колесо средней рукоятки в сборе](build-guides/extrusion-gear-drivetrain/middle-grip-wheel-assembly.md)
+  * [Сборка Колеса средней рукоятки](build-guides/extrusion-gear-drivetrain/middle-grip-wheel-assembly.md)
   * [Сборка Колесо переднего сцепления](build-guides/extrusion-gear-drivetrain/front-grip-wheel-assembly.md)
   * [Сборка Ведомой шестерни](build-guides/extrusion-gear-drivetrain/gear-idler-assembly.md)
   * [Внутренняя сборка рамы шасси](build-guides/extrusion-gear-drivetrain/ultraplanetary-gearbox-assembly.md)
