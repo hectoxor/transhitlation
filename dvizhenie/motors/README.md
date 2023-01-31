@@ -8,7 +8,7 @@
 
 #### Элементы щеточного двигателя постоянного тока
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlMn7b3u0xtE-Zr%2F1.png?generation=1590609462403887&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlMn7b3u0xtE-Zr%2F1.png?generation=1590609462403887&#x26;alt=media"alt=""><figcaption></figcaption></figure>.
 
 Щеточные двигатели постоянного тока без редуктора могут иметь КПД \~80%, то есть, если двигатель потребляет 60 Вт мощности, то \~48 Вт будет превращено в механическую энергию, а \~12 Вт - в тепловую. После добавления коробки передач общий КПД системы снижается.
 
@@ -42,7 +42,7 @@
 Ключевые показатели, определенные выше, взаимосвязаны. Потратьте немного времени на ознакомление с определениями и тем, как они связаны между собой.
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8MjbITl7U1Z3GF12lg%2Fimage. png?alt=media&#x26;token=23cc8cf8-3552-45fe-96fe-a2fd6d91e5cc" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8MjbITl7U1Z3GF12lg%2Fimage.png?alt=media&#x26;token=23cc8cf8-3552-45fe-96fe-a2fd6d91e5cc"alt=""><figcaption></figcaption></figure>
 
 График производительности щеточного двигателя постоянного тока может быть использован для оценки производительности двигателя. В большинстве случаев ампераж, единица измерения тока, является самым простым значением для поиска, поскольку он может быть сообщен концентратором управления REV ([REV-31-1595](https://www.revrobotics.com/rev-31-1595/)) и концентратором расширения ([REV-31-1153](https://www.revrobotics.com/rev-31-1153/)).
 
@@ -57,11 +57,11 @@
 Двигатель Core Hex может непрерывно работать около 4 часов до перегрева при нагрузке, близкой к максимальному крутящему моменту.
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxSTCiBXSImLUpgg3a%2F-MkxTx7rWGPS61t1vhRb%2Fwaste%20power%20chart%20-%20motor%20guide%20preventing%20premature%20motor%20failure. png?alt=media&#x26;token=8ffd06bb-070e-4bce-b30a-46f7074f0663" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxSTCiBXSImLUpgg3a%2F-MkxTx7rWGPS61t1vhRb%2Fwaste%20power%20chart%20-%20motor%20guide%20preventing%20premature%20motor%20failure.png?alt=media&#x26;token=8ffd06bb-070e-4bce-b30a-46f7074f0663"alt=""><figcaption></figcaption></figure>
 
 * ** Плохо закрепленный выходной вал**, большинство выходных валов двигателей не рассчитаны на большие силы тяги или силы, нормальные к валу. Когда ожидается нагрузка в этих направлениях, необходимо использовать подшипники для поддержки оси.
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlSbdgM5CBTcLsw%2F7.png?generation=1590609462320338&#x26;alt=media" alt=""><figcaption></figcaption></figure>.
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlSbdgM5CBTcLsw%2F7.png?generation=1590609462320338&#x26;alt=media"alt=""><figcaption></figcaption></figure>.
 
 {% hint style="info" %}
 Чтобы узнать больше о том, как правильно поддерживать движение, посетите_ [_поддержка движения_](broken-reference) _page_.
@@ -75,6 +75,6 @@
 Более подробную информацию о энкодере см. в Руководстве по системе управления.
 {% endhint %}
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8N2tQzyjYft6IXAWR3%2FScreenshot%20(4). png?alt=media&#x26;token=bed0b70d-86d8-4ffa-8a99-d94f8f7053ef" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8MarlMx5meMXBAcMX_%2F-M8N2tQzyjYft6IXAWR3%2FScreenshot%20(4).png?alt=media&#x26;token=bed0b70d-86d8-4ffa-8a99-d94f8f7053ef"alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlWc2lieDE0X1Fg%2F11.png?generation=1590609462333072&#x26;alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8MarlMx5meMXBAcMX_%2F-M8MhYlWc2lieDE0X1Fg%2F11.png?generation=1590609462333072&#x26;alt=media"alt=""><figcaption></figcaption></figure>
