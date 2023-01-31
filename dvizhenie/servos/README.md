@@ -1,20 +1,20 @@
 ---
-description: Servo Basics
+description: Основы сервоприводов
 ---
 
-# Servos
+# Сервоприводы
 
-Servo motors are a specialized kind of motor which can be controlled to move to a specific angle instead of continuously rotating like a DC motor. Instead of a hex output shaft like the DC motor, servos have an output spline. A **spline** is a specific groove pattern cut into the shaft which allows the rotation of the servo motor to be transmitted to the attached Aluminum Servo Horn ([REV-41-1363](https://www.revrobotics.com/rev-41-1363/)) or [Servo Adapter](https://www.revrobotics.com/ftc/motion/wheels-hubs-adapters/). Splines are like keys, so only matched types will fit together. The REV Robotics Servos all use a 25T spline pattern. If the gears or spline of the REV Robotics Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) become damaged, they are replaceable using a Replacement Gear Set ([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)).&#x20;
+Серводвигатели - это специализированный вид двигателей, которыми можно управлять для перемещения на определенный угол, а не для непрерывного вращения, как двигателями постоянного тока. Вместо шестигранного выходного вала, как у двигателя постоянного тока, сервоприводы имеют выходной шлиц. Шлиц - это специальная канавка, вырезанная на валу, которая позволяет передавать вращение серводвигателя на прикрепленный алюминиевый сервопривод ([REV-41-1363](https://www.revrobotics.com/rev-41-1363/)) или [адаптер для серво](https://www.revrobotics.com/ftc/motion/wheels-hubs-adapters/).Шлицы подобны ключам, поэтому только подходящие типы подходят друг к другу. Все сервоприводы REV Robotics используют шлицы 25T. Если шестерни или шлицы сервопривода REV Robotics Smart Robot Servo ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/))если они повреждены, их можно заменить с помощью сменного комплекта шестерен([REV-41-1168](https://www.revrobotics.com/rev-41-1168/)).&#x20;
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH9K1InCLC1ZxIkdPJt31%2Fuploads%2FQQWfPA2jvlDUhJOiFNuW%2FREV-41-1097%20SRS%20drawing.png?alt=media&#x26;token=f0e899ab-11df-4aa2-bb64-7eb02273adef" alt=""><figcaption></figcaption></figure>
 
-Common servo motors take a programmed input signal range and map that to an angular range. For example, for a servo with a 270° range, if the input range was from 0 to 1 then a signal input of 0 would cause the servo to turn to point -135°. For a signal input of 1, the servo would turn to +135°. Inputs between the minimum and maximum have corresponding angles evenly distributed between the minimum and maximum servo angle.
+Обычные серводвигатели принимают запрограммированный диапазон входного сигнала и преобразуют его в угловой диапазон. Например, для сервопривода с диапазоном 270°, если диапазон входного сигнала от 0 до 1, то при подаче сигнала 0 сервопривод повернется в точку -135°. При подаче сигнала 1 сервопривод повернется на +135°. Входы между минимальным и максимальным значением имеют соответствующие углы, равномерно распределенные между минимальным и максимальным углом сервопривода.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MB_vrFI_mJbhAOGXIO5%2F-MB_yzhf7dnGkYfx6zkp%2FServo_270_Range_Full_Green-01.png?alt=media&#x26;token=db791fac-0f86-42d8-9651-1c0e42ae87ad" alt=""><figcaption></figcaption></figure>
 
-## Servo Adapters
+### Серво адаптеры
 
-REV Robotics Servo Adapters fit 25T spline servos like the REV Robotics Smart Robot Servo. In addition to the variety pack of generic servo horns which come with the Smart Robot Servo, there are four other custom servo adapters which make using servos with the REV 15mm Building System easy.
+Сервоадаптеры REV Robotics подходят для сервоприводов со шлицем 25T, таких как REV Robotics Smart Robot Servo. В дополнение к разнообразным рожкам для сервоприводов, которые поставляются с сервоприводом Smart Robot Servo, есть еще четыре пользовательских сервоадаптера, которые упрощают использование сервоприводов с REV 15mm Building System.
 
 **Servo Gear Adapters** convert a 25T servo into 15 tooth Delrin gear which is compatible with the other REV Robotics Plastic Gears.&#x20;
 

@@ -32,7 +32,7 @@
 * [Motors](dvizhenie/motors/README.md)
   * [HD Hex Motor](dvizhenie/motors/hd-hex-motor.md)
   * [Core Hex Motor](dvizhenie/motors/core-hex-motor.md)
-* [Servos](dvizhenie/servos/README.md)
+* [Сервоприводы](dvizhenie/servos/README.md)
   * [Smart Robot Servo](dvizhenie/servos/smart-robot-servo/README.md)
     * [SRS Gear Replacement](dvizhenie/servos/smart-robot-servo/srs-gear-replacement.md)
   * [SRS Programmer](dvizhenie/servos/srs-programmer.md)
