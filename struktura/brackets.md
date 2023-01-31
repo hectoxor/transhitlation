@@ -30,19 +30,19 @@
 _As bracket use cases vary, so do the elements of the brackets. Generally speaking, all brackets have an 8mm pitch, but not all brackets have the Motion Pattern._
 {% endhint %}
 
-#### Plastic Brackets VS Metal Brackets <a href="#plastic-brackets-vs-metal-brackets" id="plastic-brackets-vs-metal-brackets"></a>
+**Пластиковые кронштейны VS металлические кронштейны**
 
-The image and definitions in the introduction above use the 15mm Motion Bracket ([REV-41-1303](https://www.revrobotics.com/rev-41-1303/)), which is a plastic bracket, as an example. The table below outlines the basic differences between the plastic and metal brackets.
+&#x20;Изображение и определения во введении выше используют в качестве примера 15-мм кронштейн Motion Bracket (REV-41-1303), который является пластиковым кронштейном. В таблице ниже приведены основные различия между пластиковыми и металлическими кронштейнами.
 
-| ​              | Plastic Brackets | Metal Brackets |
-| -------------- | ---------------- | -------------- |
-| Thickness      | 3mm              | 2mm            |
-| Alignment Ribs | Yes              | No             |
-| Material       | Nylon (PA66)     | 6061 Aluminum  |
+| ​                  | Пластиковые скобы | Металлические скобы |
+| ------------------ | ----------------- | ------------------- |
+| Толщина            | 3mm               | 2mm                 |
+| Ребра выравнивания | Yes               | No                  |
+| Материал           | Nylon (PA66)      | 6061 Aluminum       |
 
 ## Actuator Brackets
 
-The actuator brackets all have an 8mm pitch for mounting to [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) or [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/). Шаблон интерфейса меняется в зависимости от конкретного кронштейна. Например, кронштейн Metal Bent HD Hex Motor Bracket ([REV-41-1487](https://www.revrobotics.com/rev-41-1487/)) имеет другой интерфейс, чем кронштейн Metal Bent Planetary Motor Bracket ([REV-41-1563](https://www.revrobotics.com/rev-41-1563/)).
+Все кронштейны привода имеют шаг 8 мм для монтажа на [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) или [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/). Шаблон интерфейса меняется в зависимости от конкретного кронштейна. Например, кронштейн Metal Bent HD Hex Motor Bracket ([REV-41-1487](https://www.revrobotics.com/rev-41-1487/)) имеет другой интерфейс, чем кронштейн Metal Bent Planetary Motor Bracket ([REV-41-1563](https://www.revrobotics.com/rev-41-1563/)).
 
 Большинство монтажных кронштейнов приводов - металлические, без пластиковой альтернативы. В системе REV 15mm Build System в дополнение к металлическим кронштейнам сервоприводов имеется пластиковый кронштейн сервопривода ([REV-41-1319](https://www.revrobotics.com/rev-41-1319/)).
 
