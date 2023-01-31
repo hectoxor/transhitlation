@@ -2,12 +2,12 @@
 
 ## Introduction to Resetting the Chain Pin
 
-This section of the guide details one of two ways to utilize the #25 Chain Tool ([REV-41-1442](https://www.revrobotics.com/rev-41-1442/)), resetting the chain pin. The included 3mm Allen Wrench works on all three screws of the tool.
+В этом разделе руководства описывается один из двух способов использования инструмента #25 Chain Tool ([REV-41-1442](https://www.revrobotics.com/rev-41-1442/)) для переустановки штифта цепи. Входящий в комплект шестигранный ключ 3 мм работает со всеми тремя винтами инструмента.
 
-Follow the steps below to see how to use the chain tool to reset the chain pin on the #25 Chain ([REV-41-1365](https://www.revrobotics.com/rev-41-1365/)).
+Следуйте приведенным ниже инструкциям, чтобы увидеть, как использовать инструмент для цепи, чтобы сбросить штифт цепи на #25 Chain ([REV-41-1365](https://www.revrobotics.com/rev-41-1365/)).
 
 {% hint style="info" %}
-_If you don't remember the names for the different chain tool screws reference back to the_ [_chain tool breakdown image_](broken-reference/)\_\_
+Если вы не помните названия различных винтов цепного инструмента, обратитесь к [_изображению поломки цепного инструмента_](broken-reference/)\_\_\_.
 {% endhint %}
 
 ### Resetting the Chain Steps
