@@ -4,7 +4,7 @@
 
 Сборка этого робота разбита на несколько секций. Это позволяет команде людей работать над разными задачами, чтобы быстрее завершить сборку. Каждый раздел начинается с того, какие детали и в каком количестве необходимы для выполнения шагов в этом разделе. Список необходимых материалов для всех разделов приведен ниже.
 
-![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MDKjyl9wVWKLR38B7z5%2F-MDKm\_qtiA1plcDP9wj4 %2FSKV3%20-%20Class%20Bot\_Complete.svg?alt=media\&token=ffce86fd-2bd7-47a7-9ab5-81e69a7602af)
+![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MDKjyl9wVWKLR38B7z5%2F-MDKm\_qtiA1plcDP9wj4%2FSKV3%20-%20Class%20Bot\_Complete.svg?alt=media\&token=ffce86fd-2bd7-47a7-9ab5-81e69a7602af)
 
 ### Варианты набора
 
