@@ -66,7 +66,7 @@
   * [Сборка коробки передач UltraPlanetary](build-guides/transmissiya-mecanum-v2/sborka-korobki-peredach-ultraplanetary.md)
   * [Сборка Приводной рельсы](build-guides/transmissiya-mecanum-v2/sborka-privodnoi-relsy.md)
   * [Финальная сборка](build-guides/transmissiya-mecanum-v2/finalnaya-sborka.md)
-  * [Mecanum Wheel Setup and Behavior](build-guides/transmissiya-mecanum-v2/mecanum-wheel-setup-and-behavior.md)
+  * [Настройка и поведение колес Mecanum](build-guides/transmissiya-mecanum-v2/mecanum-wheel-setup-and-behavior.md)
 * [Комплект трансмиссии Mecanum](build-guides/komplekt-transmissii-mecanum/README.md)
   * [Сбор ультрапланетарного редуктора](build-guides/komplekt-transmissii-mecanum/sbor-ultraplanetarnogo-reduktora.md)
   * [Сборка приводной рейки](build-guides/komplekt-transmissii-mecanum/sborka-privodnoi-reiki.md)
