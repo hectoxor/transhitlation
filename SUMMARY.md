@@ -87,7 +87,7 @@
   * [Колесо Omni в сборе](build-guides/extrusion-gear-drivetrain/omni-wheel-assembly.md)
   * [Колесо средней рукоятки в сборе](build-guides/extrusion-gear-drivetrain/middle-grip-wheel-assembly.md)
   * [Колесо переднего сцепления в сборе](build-guides/extrusion-gear-drivetrain/front-grip-wheel-assembly.md)
-  * [Ведомая шестерня в сборе](build-guides/extrusion-gear-drivetrain/gear-idler-assembly.md)
+  * [Сборка Ведомой шестерни](build-guides/extrusion-gear-drivetrain/gear-idler-assembly.md)
   * [Внутренняя сборка рамы шасси](build-guides/extrusion-gear-drivetrain/ultraplanetary-gearbox-assembly.md)
   * [Финальная Сборка](build-guides/extrusion-gear-drivetrain/final-assembly.md)
 * [Class Bot](build-guides/class-bot/README.md)
