@@ -24,7 +24,7 @@
 | <img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F15mm%2F-M8HeUvYNA-VVA3OyqfO%2F-M8HfLA7JR_BOytQTH6t%2F5.jpeg?generation=1590524995329447&#x26;alt=media" alt="" data-size="original"> | <p><strong>Step 4</strong></p><p>Теперь, когда цепь на месте, ее можно сломать. Поворачивайте шестигранный ключ до тех пор, пока штифт не будет полностью извлечен из цепи. Убедитесь, что у вас под рукой есть ведущее звено (REV-41-1366). У вас должно быть по одному пустому звену с каждой стороны; два звена не подойдут. На рисунке показан пример выполнения этого шага.</p> |
 
 {% hint style="warning" %}
-Remove the cup point set screw before breaking the chain. This will allow for the pin to completely remove itself from the chain.
+Перед разрывом цепи выкрутите установочный винт точки чашки. Это позволит штифту полностью выйти из цепи.
 {% endhint %}
 
 | Images                                                                                                                                                                                     | Steps                                                                                                                                                                                                                             |
