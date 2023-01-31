@@ -1,6 +1,6 @@
-# Using Master Links
+# инструмент для цепей
 
-## Introduction to Master Links  <a href="#introduction-to-master-links" id="introduction-to-master-links"></a>
+## Вступление  <a href="#introduction-to-master-links" id="introduction-to-master-links"></a>
 
 
 
