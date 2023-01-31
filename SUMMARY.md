@@ -3,15 +3,15 @@
 ## Структура
 
 * [Введение в Структуру](README.md)
-  * [15mm Extrusion](struktura/vvedenie-v-strukturu/15mm-extrusion.md)
-  * [15mm x 30mm Extrusion](struktura/vvedenie-v-strukturu/15mm-x-30mm-extrusion.md)
-  * [15mm x 45mm C Channel](struktura/vvedenie-v-strukturu/15mm-x-45mm-c-channel.md)
-  * [45mm x 45mm U Channel](struktura/vvedenie-v-strukturu/45mm-x-45mm-u-channel.md)
+  * [15мм Extrusion](struktura/vvedenie-v-strukturu/15mm-extrusion.md)
+  * [15мм x 30мм Extrusion](struktura/vvedenie-v-strukturu/15mm-x-30mm-extrusion.md)
+  * [15мм x 45мм C Channel](struktura/vvedenie-v-strukturu/15mm-x-45mm-c-channel.md)
+  * [45мм x 45мм U Channel](struktura/vvedenie-v-strukturu/45mm-x-45mm-u-channel.md)
   * [Плоская пластина](struktura/vvedenie-v-strukturu/flat-plate.md)
   * [Плоское крепление](struktura/vvedenie-v-strukturu/ploskoe-kreplenie.md)
   * [L-образное крепление](struktura/vvedenie-v-strukturu/l-obraznoe-kreplenie.md)
 * [Brackets](struktura/brackets.md)
-* [Corrugated Plastic Sheets](struktura/corrugated-plastic-sheets.md)
+* [Гофрированные пластиковые пластины](struktura/corrugated-plastic-sheets.md)
 * [Оборудование M3](struktura/oborudovanie-m3.md)
 
 ## Движение

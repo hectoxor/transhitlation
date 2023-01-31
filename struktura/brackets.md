@@ -2,13 +2,15 @@
 описание: Кронштейны Основы
 ---
 
-# Кронштейны
+# Brackets
 
-Существует множество классификаций, в которые могут попасть кронштейны, но в системе REV DUO Build System есть две основные группы кронштейнов: **двигательные** и **строительные**. Основной отличительной особенностью **двигательных кронштейнов** является 9-мм посадочное место под подшипник для поддержки [Hex Shafts and Bearings] (https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/). **Конструкционные кронштейны** - это, по сути, любой кронштейн в системе REV DUO Build System, который не имеет посадочного места под подшипник. Поскольку термин "строительный кронштейн" охватывает широкий спектр продукции REV, его можно разделить на **структурные кронштейны** и **актуаторные кронштейны**.
+Существует множество классификаций, в которые могут попасть кронштейны, но в системе REV DUO Build System есть две основные группы кронштейнов: **двигательные** и **строительные**. Основной отличительной особенностью **двигательных кронштейнов** является 9-мм посадочное место под подшипник для поддержки [Hex Shafts and Bearings](https://www.revrobotics.com/ftc/motion/bearings-linear-slides-pillow-blocks/).&#x20;
+
+**Конструкционные кронштейны** - это, по сути, любой кронштейн в системе REV DUO Build System, который не имеет посадочного места под подшипник. Поскольку термин "строительный кронштейн" охватывает широкий спектр продукции REV, его можно разделить на **структурные кронштейны** и **актуаторные кронштейны**.
 
 **Строительные кронштейны** служат в качестве соединителей между структурными компонентами. Например, именно такие кронштейны вы захотите использовать при соединении элементов [Экструзия](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) с [Канал](https://www.revrobotics.com/competition/ftc/structure/channel/). С другой стороны, кронштейны **Актуаторов** предназначены для крепления и поддержки двигателей и сервоприводов.
 
-Еще один ключевой момент различия кронштейнов в системе REV DUO Build System заключается в том, что имеются как [металлические](https://www.revrobotics.com/ftc/structure/15mm-metal-brackets/), так и [пластиковые](https://www.revrobotics.com/ftc/structure/15mm-plastic-brackets/) кронштейны. Многие кронштейны, например 15-мм 90-градусный кронштейн ([REV-41-1480](https://www.revrobotics.com/rev-41-1480/))([REV-41-1305](https://www.revrobotics.com/rev-41-1305/)), поставляются в металлической и пластиковой версии. Несмотря на то, что металлические и пластиковые кронштейны частично совпадают, между этими двумя типами кронштейнов есть и ключевые различия.
+Еще один ключевой момент различия кронштейнов в системе REV DUO Build System заключается в том, что имеются как [металлические](https://www.revrobotics.com/ftc/structure/15mm-metal-brackets/), так и [пластиковые](https://www.revrobotics.com/ftc/structure/15mm-plastic-brackets/) кронштейны. Многие кронштейны, например 15-мм 90-градусный кронштейн ([REV-41-1480](https://www.revrobotics.com/rev-41-1480/)) ([REV-41-1305](https://www.revrobotics.com/rev-41-1305/)), поставляются в металлической и пластиковой версии. Несмотря на то, что металлические и пластиковые кронштейны частично совпадают, между этими двумя типами кронштейнов есть и ключевые различия.
 
 Чтобы узнать больше о скобках, прочтите этот раздел.
 
@@ -32,17 +34,17 @@ _As bracket use cases vary, so do the elements of the brackets. Generally speaki
 
 The image and definitions in the introduction above use the 15mm Motion Bracket ([REV-41-1303](https://www.revrobotics.com/rev-41-1303/)), which is a plastic bracket, as an example. The table below outlines the basic differences between the plastic and metal brackets.
 
-| ​ | Plastic Brackets | Metal Brackets |
+| ​              | Plastic Brackets | Metal Brackets |
 | -------------- | ---------------- | -------------- |
-| Thickness | 3mm | 2mm |
-| Alignment Ribs | Yes | No |
-| Material | Nylon (PA66) | 6061 Aluminum |
+| Thickness      | 3mm              | 2mm            |
+| Alignment Ribs | Yes              | No             |
+| Material       | Nylon (PA66)     | 6061 Aluminum  |
 
-## Actuator Brackets&#x20;
+## Actuator Brackets
 
 The actuator brackets all have an 8mm pitch for mounting to [Extrusion](https://www.revrobotics.com/ftc/structure/15mm-extrusion/) or [Channel](https://www.revrobotics.com/competition/ftc/structure/channel/). Шаблон интерфейса меняется в зависимости от конкретного кронштейна. Например, кронштейн Metal Bent HD Hex Motor Bracket ([REV-41-1487](https://www.revrobotics.com/rev-41-1487/)) имеет другой интерфейс, чем кронштейн Metal Bent Planetary Motor Bracket ([REV-41-1563](https://www.revrobotics.com/rev-41-1563/)).
 
-Большинство монтажных кронштейнов приводов - металлические, без пластиковой альтернативы. В системе REV 15mm Build System в дополнение к металлическим кронштейнам сервоприводов имеется пластиковый кронштейн сервопривода ([REV-41-1319](https://www.revrobotics.com/rev-41-1319/)).&#x20;
+Большинство монтажных кронштейнов приводов - металлические, без пластиковой альтернативы. В системе REV 15mm Build System в дополнение к металлическим кронштейнам сервоприводов имеется пластиковый кронштейн сервопривода ([REV-41-1319](https://www.revrobotics.com/rev-41-1319/)).
 
 Также важно отметить, что Core Hex Motor ([REV-41-1300](https://www.revrobotics.com/rev-41-1300/)) имеет Motion Interface Pattern и может быть установлен на любой кронштейн с Motion Pattern.
 
@@ -54,7 +56,7 @@ The actuator brackets all have an 8mm pitch for mounting to [Extrusion](https://
 
 ![](https://2589213514-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MkxKlv-8JYA7Mk5JlqC%2F-MkxMPef0rwx5UUkuApz%2FREV-41-1318-bracket%20use%20cases.png?alt=media\&token=3df0cdab-0f9b-4988-962c-d0f3e5879caa)
 
-### The Indexable Motion Bracket&#x20;
+### The Indexable Motion Bracket
 
 Индексируемый кронштейн движения ([REV-41-1313](https://www.revrobotics.com/rev-41-1313/)) - это специализированная версия кронштейна движения. Этот кронштейн состоит из двух частей: меньшая часть имеет выравнивающие ребра и устанавливается на экструзию, а большая часть имеет шаблон интерфейса перемещения и посадочное место под подшипник. На внутренней стороне, в месте соединения этих кронштейнов, имеется мелкий зубчатый узор, который входит в зацепление, когда они соединены болтами, чтобы зафиксировать смещение вала. Чтобы отрегулировать смещение, ослабьте винты и отрегулируйте по мере необходимости. Затяните винты, чтобы зубья полностью вошли в зацепление и зафиксировали кронштейн.
 
