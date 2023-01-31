@@ -4,89 +4,91 @@ description: SRS Basics
 
 # Smart Robot Servo
 
-The REV Robotics Smart Robot Servo (SRS) ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) is a configurable metal-geared servo that takes the guesswork out of aligning and adjusting servo based mechanisms. One SRS can be used as a standard angular servo, a custom angular servo, and a continuous rotation servo by simply changing its settings.
+REV Robotics Smart Robot Servo (SRS) ([REV-41-1097](https://www.revrobotics.com/rev-41-1097/)) это конфигурируемый сервопривод с металлическими зубчатыми колесами, который устраняет необходимость в выравнивании и регулировке механизмов на основе сервопривода. Один SRS может использоваться как стандартный угловой сервопривод, пользовательский угловой сервопривод и сервопривод непрерывного вращения путем простого изменения настроек.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M95GquH9Q5xxbGh4P4K%2F-M95GvywvJjRnMyKX-5f%2FAA_Smart_Robot_Servo_Single.png?alt=media&#x26;token=719199e1-3ba3-4319-b564-a2521792bcde" alt=""><figcaption></figcaption></figure>
 
-### Product Specifications&#x20;
+### Технические характеристики продукта&#x20;
 
-The REV Robotics Smart Robot Servo includes the following features:
+REV Robotics Smart Robot Servo включает в себя следующие функции:
 
-* Default operation
-  * 270° motion over full input pulse range
-* Metal gears
-* Smart features
-  * Programmable with REV SRS Programmer ([REV-31-1108](https://www.revrobotics.com/rev-31-1108/))
-  * Servo Limit Mode
-    * Set right and left angular limits
-    * SRS will not move past limits
-  * Continuous Mode
-    * SRS spins continuously
-    * Speed and direction set by input pulse
+* Работа по умолчанию
+  * Движение на 270° при полном диапазоне входных импульсов
+*   Металлические шестерни
 
-#### Mechanical Specifications&#x20;
 
-|                           |                          |
-| ------------------------- | ------------------------ |
-| **Stall torque (at 6V)**  | 13.5 kg-cm / 187.8 oz-in |
-| **Speed (at 6V)**         | 0.13s/60º                |
-| **Maximum angular range** | 270º                     |
-| **Gear Material**         | Brass                    |
-| **Spline Type**           | 25T                      |
-| **Dimensions**            | 40.2mm x 20.0mm x 38.0mm |
-| **Weight**                | 2.05oz.                  |
+* Интеллектуальные функции
+  * Программируется с помощью программатора REV SRS([REV-31-1108](https://www.revrobotics.com/rev-31-1108/))
+  * Предельный режим сервопривода
+    * Установка правого и левого угловых пределов
+      * SRS не будет двигаться дальше пределов
+* Непрерывный режим
+  * SRS вращается непрерывно
+  * Скорость и направление задаются входным импульсом
 
-#### Electrical Specifications
+### Механические характеристики&#x20;
 
-|                           | Min  | Nominal  | Max  |
-| ------------------------- | ---- | -------- | ---- |
-| **Voltage Rating**        | 4.8V | 6.0V     | 7.4V |
-| **Stall Current (at 6V)** |      |          | 2.0A |
+|                                            |                          |
+| ------------------------------------------ | ------------------------ |
+| **Крутящий момент при остановке (при 6V)** | 13.5 kg-cm / 187.8 oz-in |
+| **Скорость (при 6V)**                      | 0.13s/60º                |
+| Максимальный угловой диапазон              | 270º                     |
+| **Материал шестерни**                      | Brass                    |
+| **Тип шлица**                              | 25T                      |
+| Размеры                                    | 40.2mm x 20.0mm x 38.0mm |
+| **Вес**                                    | 2.05oz.                  |
 
-Input Pulse:
+### Электрические характеристики
 
-* Min: 500μs
-* Center: 1500μs&#x20;
-* Max:  2500μs
+|                            | Min  | Nominal  | Max  |
+| -------------------------- | ---- | -------- | ---- |
+| **Номинальное напряжение** | 4.8V | 6.0V     | 7.4V |
+| **Ток задержки (at 6V)**   |      |          | 2.0A |
 
-### Kit Contents&#x20;
+Входной импульс:
 
-The REV Robotics SRS comes with the following:
+* Мин: 500 мкс
+* Центр: 1500 мкс
+* Макс: 2500 мкс
+
+### Содержание набора:&#x20;
+
+В комплект поставки REV Robotics SRS входит следующее:
 
 * REV Smart Robot Servo
-* Servo horn (arm) assortment
-* Servo horn mounting hardware
+* Ассортимент рожков сервопривода (рычагов)
+* Крепеж для монтажа серворуля
 
 {% hint style="info" %}
-_Is a servo the right actuator for your mechanism? See the_ [_Choosing an Actuator_](broken-reference) _section to learn more._
+Является ли сервопривод подходящим приводом для вашего механизма? См. __ Раздел "[Выбор привода](../../vybor-privoda.md)", чтобы узнать больше_._
 {% endhint %}
 
-## Operating Modes
+## Режимы работы
 
-Out of the box, the SRS operates as a 270° servo. However, the REV SRS Programmer can reconfigure the SRS to set angular limits or switch it into a continuous rotation mode.
+Из коробки SRS работает как сервопривод с углом поворота 270°. Однако программатор REV SRS может перенастроить SRS, чтобы установить угловые ограничения или переключить его в режим непрерывного вращения.
 
 {% hint style="info" %}
-_For more information on how to use the SRS programmer to change the servo modes see the_[ _SRS Programmer_ ](broken-reference)_section_
+Для получения дополнительной информации о том, как использовать программатор SRS для изменения режимов сервопривода, см. раздел [Программатор SRS](../srs-programmer.md)
 {% endhint %}
 
-### Default Operation&#x20;
+### Обычный режим&#x20;
 
-The default range for the SRS is 270°. This range is mapped to an input pulse range of 500μs to 2500μs with 1500μs as the center point. The image below describes the pulse-to-angle relationship.
+Диапазон по умолчанию для SRS составляет 270°. Этот диапазон сопоставлен с диапазоном входных импульсов от 500 мкс до 2500 мкс с 1500 мкс в качестве центральной точки. На рисунке ниже описана зависимость импульса от угла.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MB_vrFI_mJbhAOGXIO5%2F-MB_yzhf7dnGkYfx6zkp%2FServo_270_Range_Full_Green-01.png?alt=media&#x26;token=db791fac-0f86-42d8-9651-1c0e42ae87ad" alt=""><figcaption></figcaption></figure>
 
-### Continuous Rotation&#x20;
+### Непрерывное вращение&#x20;
 
-The SRS can be configured with the SRS Programmer to operate in a continuous rotation mode. In this mode, the same input pulse range is mapped to direction and speed. The table below lists the pulse mapping for direction and speed.
+SRS может быть настроен с помощью программатора SRS для работы в режиме непрерывного вращения. В этом режиме один и тот же диапазон входных импульсов сопоставляется с направлением и скоростью. В приведенной ниже таблице перечислено отображение импульсов для направления и скорости.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-M8WQp_aU3jlfmzyZA5V%2F-M8WUtfWcre4DktYBnv0%2FScreenshot%20(13).png?alt=media&#x26;token=0483c54f-8ec2-4be0-a3e8-b5dd3374655a" alt=""><figcaption></figcaption></figure>
 
-### Angular Limits&#x20;
+### Угловые пределы
 
-The SRS can be easily configured with the SRS Programmer to limit right and left motion at two user-defined angles. Input pulses that occur past the limits will be ignored and the SRS will hold the limit angle. Any two angles can be set as limits as long as the left limit is left of the center dead band and the right limit is to the right of the center dead band. The table below shows the valid regions for left and right limits.
+SRS может быть легко настроена с помощью программатора SRS для ограничения движения вправо и влево под двумя заданными пользователем углами. Входные импульсы, проходящие мимо пределов, будут игнорироваться, и SRS будет удерживать предельный угол. Любые два угла могут быть установлены в качестве предельных при условии, что левый предел находится слева от центральной мертвой зоны, а правый - справа от центральной мертвой зоны. В таблице ниже показаны допустимые области для левого и правого пределов.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MB_vrFI_mJbhAOGXIO5%2F-MB_z21vt7t6VYO6gk0T%2FServo_270_Range_Limit_Too_Close.png?alt=media&#x26;token=05207ceb-7734-400f-9423-eed9fd439aab" alt=""><figcaption></figcaption></figure>
 
-Once valid limits are programmed, the SRS will ignore any pulses that exceed the limits and hold the limit angle. For example, the image below exhibits what would happen if a left limit of -30° and a right limit of +60° was set.
+После программирования допустимых пределов SRS будет игнорировать любые импульсы, превышающие пределы, и удерживать предельный угол. Например, на рисунке ниже показано, что произойдет, если установить левый предел -30° и правый предел +60°.
 
 <figure><img src="https://2589213514-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-M5yw0n8IneF5-9ybLjT%2F-MB_vrFI_mJbhAOGXIO5%2F-MB_z3iQG92g4sFKXPuk%2FServo_Full_270_Range_And_Limits-01.png?alt=media&#x26;token=b86e324d-b901-48dc-af88-fca499bb04f7" alt=""><figcaption></figcaption></figure>
