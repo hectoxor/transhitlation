@@ -104,4 +104,4 @@
   * [Колеса в сборе](build-guides/class-bot-v2/wheel-assemblies.md)
   * [Узлы рукоятки](build-guides/class-bot-v2/arm-gear-assemblies.md)
   * [Сборки рук](build-guides/class-bot-v2/arm-assemblies.md)
-  * [Окончательная сборкаled](build-guides/class-bot-v2/final-assembly.md)
+  * [Окончательная сборка](build-guides/class-bot-v2/final-assembly.md)
