@@ -112,3 +112,8 @@
   * [Узлы рукоятки](build-guides/class-bot-v2/arm-gear-assemblies.md)
   * [Сборки рук](build-guides/class-bot-v2/arm-assemblies.md)
   * [Окончательная сборка](build-guides/class-bot-v2/final-assembly.md)
+
+## Элеткроника и программирование
+
+* [REV Control System](https://app.gitbook.com/o/YVRlgEE8wQREEYYeolkQ/s/6CrPV6HD1yGfWKKg5v6k/)
+* [Сенсоры](https://app.gitbook.com/s/6CrPV6HD1yGfWKKg5v6k/sensors)
