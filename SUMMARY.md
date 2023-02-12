@@ -41,6 +41,13 @@
   * [SRS Programmer](dvizhenie/servos/srs-programmer.md)
   * [Силовой модуль сервопривода](dvizhenie/servos/servo-power-module.md)
 
+## Советы и Техники
+
+* [Советы и рекомендации по сборке](sovety-i-tekhniki/sovety-i-rekomendacii-po-sborke.md)
+* [Поддержка движущихся узлов](sovety-i-tekhniki/podderzhka-dvizhushikhsya-uzlov.md)
+* [Ограничение движения](sovety-i-tekhniki/ogranichenie-dvizheniya.md)
+* [Совместимость](sovety-i-tekhniki/sovmestimost.md)
+
 ## Build Guides
 
 * [Набор Системы Линейного Перемещения](build-guides/nabor-sistemy-lineinogo-peremesheniya/README.md)
