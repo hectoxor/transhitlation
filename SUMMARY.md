@@ -26,6 +26,7 @@
   * [Инструменты для цепей](dvizhenie/sprokety-i-cepi/chain-tool/README.md)
     * [инструмент для цепей](dvizhenie/sprokety-i-cepi/chain-tool/using-master-links.md)
     * [Сброс цепного штифта](dvizhenie/sprokety-i-cepi/chain-tool/resetting-the-chain-pin.md)
+* [Ремни ГРМ и шкивы](dvizhenie/timing-belts-and-pulleys.md)
 * [Шестерни](dvizhenie/gears/README.md)
   * [Продвинутые шестерни](dvizhenie/gears/advanced-gears.md)
 * [Колеса](dvizhenie/kolesa.md)
@@ -39,7 +40,6 @@
     * [Замена шестерни SRS](dvizhenie/servos/smart-robot-servo/srs-gear-replacement.md)
   * [SRS Programmer](dvizhenie/servos/srs-programmer.md)
   * [Силовой модуль сервопривода](dvizhenie/servos/servo-power-module.md)
-* [Ремни ГРМ и шкивы](dvizhenie/timing-belts-and-pulleys.md)
 
 ## Build Guides
 
